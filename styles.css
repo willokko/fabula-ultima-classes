@@ -1,0 +1,169 @@
+/* Custom Fonts */
+.font-cinzel {
+    font-family: 'Cinzel', serif;
+}
+
+.font-inter {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(15, 23, 42, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(168, 85, 247, 0.5);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(168, 85, 247, 0.7);
+}
+
+/* Card Hover Effects */
+.class-card {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+}
+
+.class-card:hover {
+    transform: translateY(-8px);
+}
+
+.class-card:hover .card-image {
+    transform: scale(1.1);
+}
+
+.card-image {
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Modal Animations */
+#modal.show {
+    opacity: 1;
+}
+
+#modal.show #modal-content {
+    transform: scale(1);
+}
+
+/* Skill Card Styles */
+.skill-card {
+    transition: all 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateX(4px);
+    background: rgba(168, 85, 247, 0.15);
+}
+
+/* Gradient Text Animation */
+@keyframes gradient-shift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+h1 {
+    background-size: 200% 200%;
+    animation: gradient-shift 3s ease infinite;
+}
+
+/* Loading Animation */
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+    .class-card:hover {
+        transform: translateY(-4px);
+    }
+}
+
+/* Card Glow Effect */
+.class-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 1rem;
+    padding: 2px;
+    background: linear-gradient(135deg, rgba(168, 85, 247, 0.5), rgba(236, 72, 153, 0.5));
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.class-card:hover::before {
+    opacity: 1;
+}
+
+/* Smooth transitions for dynamic content */
+.fade-in {
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Badge styles */
+.skill-level-badge {
+    background: linear-gradient(135deg, rgba(168, 85, 247, 0.3), rgba(236, 72, 153, 0.3));
+    backdrop-filter: blur(10px);
+}
+
+/* Modal Sticky Image */
+@media (min-width: 1024px) {
+    #modal-content .lg\:sticky {
+        position: sticky;
+        top: 0;
+    }
+    
+    #modal-image {
+        min-height: 90vh;
+        object-fit: cover;
+    }
+}
+
+/* Custom scrollbar for modal content */
+#modal-content .overflow-y-auto::-webkit-scrollbar {
+    width: 8px;
+}
+
+#modal-content .overflow-y-auto::-webkit-scrollbar-track {
+    background: rgba(15, 23, 42, 0.3);
+    border-radius: 4px;
+}
+
+#modal-content .overflow-y-auto::-webkit-scrollbar-thumb {
+    background: rgba(168, 85, 247, 0.6);
+    border-radius: 4px;
+}
+
+#modal-content .overflow-y-auto::-webkit-scrollbar-thumb:hover {
+    background: rgba(168, 85, 247, 0.8);
+}

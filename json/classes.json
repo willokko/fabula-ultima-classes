@@ -1,0 +1,54 @@
+{
+    "classes": [
+        {
+            "nome": "Arcanista",
+            "icon": "icons/116.png",
+            "imagem": "img/114.png",
+            "livro": "principal",
+            "resumo": "Arcanistas podem cair em um transe profundo e projetar temporariamente uma porção considerável de sua alma para fora do corpo, dando-lhe forma física. Envolvido por esta mortalha mágica, o Arcanista ganha uma variedade de habilidades sobrenaturais; diz-se que essas formas invocadas são manifestações das almas ancestrais pertencentes a entidades míticas lendárias, conhecidas como os Arcana. Em alguns mundos, os Arcana são até mesmo adorados como divindades.",
+            "beneficio_gratis": "+5 MP",
+            "skills": [
+                {
+                    "nome": "ARCANE CIRCLE",
+                    "sl": 4,
+                    "descricao": "Após você dispensar voluntariamente um Arcanum no seu turno durante um conflito (veja a próxima página), se aquele Arcanum não tiver sido invocado neste mesmo turno e você tiver uma arma arcana equipada, você pode imediatamente realizar a ação Conjurar (Spell) gratuitamente. A magia que você conjurar desta forma deve ter um custo total de Pontos de Mente (MP) de 【SL × 5】 ou inferior (você ainda deve pagar o custo de PM da magia)."
+                },
+                {
+                    "nome": "ARCANE REGENERATION",
+                    "sl": 2,
+                    "descricao": "Quando você invoca um Arcanum, você imediatamente recupera 【SL × 5】 Pontos de Vida (HP)."
+                },
+                {
+                    "nome": "BIND AND SUMMON",
+                    "sl": 0,
+                    "descricao": "Você pode vincular Arcana à sua alma e invocá-los posteriormente. O Mestre de Jogo lhe dirá os detalhes de cada processo de vinculação quando você encontrar o Arcanum em questão pela primeira vez. Você pode usar uma ação e gastar 40 Pontos de Mente (MP) para invocar um Arcanum que você vinculou: os detalhes deste processo são explicados na próxima página. Se você pegar esta Habilidade na criação de personagem, você começa o jogo com um Arcanum de sua escolha já vinculado a você, escolhido da lista nas páginas seguintes. Fora isso, você só pode obter novos Arcana através de exploração e progressão na história."
+                },
+                {
+                    "nome": "EMERGENCY ARCANIUM",
+                    "sl": 6,
+                    "descricao": "Enquanto você estiver em Crise (Crisis), o custo para invocar seus Arcana é reduzido em 【SL × 5】 Pontos de Mente (MP)."
+                },
+                {
+                    "nome": "RITUAL ARCANISM",
+                    "sl": 0,
+                    "descricao": "Você pode realizar Rituais da disciplina de Arcanismo (Arcanism), desde que seus efeitos estejam dentro dos domínios de um ou mais Arcana que você vinculou (veja as próximas páginas). Rituais de Arcanismo usam 【VON + VON】 para o Teste de Magia (Magic Check)."
+                }
+            ]
+        },
+        {
+            "nome": "Chimerist",
+            "icon": "icons/127.png",
+            "imagem": "img/126.png",
+            "livro": "principal",
+            "resumo": "Quimeristas extraem seu poder das almas dos monstros e bestas que encontram.\nAo manipular sua energia selvagem interior, esses magos podem imitar as habilidades mágicas de monstros e alcançaram uma compreensão sobrenatural de criaturas ferozes.\nQuimeristas frequentemente dependem de sua resistência e proeza física, além da magia; eles são frequentemente vistos viajando pelo mundo em busca de criaturas raras e encantadas.",
+            "beneficio_gratis": "+5 MP e você tem acesso a rituais da disciplina de Ritualismo",
+            "skills": [
+                {
+                    "nome": "CONSUME",
+                    "sl": 5,
+                    "descricao": "Após você causar dano a uma ou mais criaturas com uma magia, se você tiver uma arma arcana, adaga ou mangual equipada, você recupera 【SL × 2】 Pontos de Mente (MP)."
+                }
+            ]
+        }
+    ]
+}
