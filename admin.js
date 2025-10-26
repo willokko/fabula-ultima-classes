@@ -152,11 +152,19 @@ function showToast() {
     }, 3000);
 }
 
+// Set default paths for icon and image inputs
+function setDefaultPaths() {
+    iconInput.value = 'icons/.png';
+    imagemInput.value = 'img/.png';
+    livroInput.value = 'principal';
+}
+
 // Reset form
 function resetForm() {
     form.reset();
     skillsContainer.innerHTML = '';
     skillIdCounter = 0;
+    setDefaultPaths();
     updateJsonPreview();
 }
 
@@ -195,5 +203,6 @@ resetFormBtn.addEventListener('click', resetForm);
 // Initialize with one skill
 document.addEventListener('DOMContentLoaded', () => {
     addSkill();
+    setDefaultPaths();
     updateJsonPreview();
 });

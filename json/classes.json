@@ -41,14 +41,209 @@
             "imagem": "img/126.png",
             "livro": "principal",
             "resumo": "Quimeristas extraem seu poder das almas dos monstros e bestas que encontram.\nAo manipular sua energia selvagem interior, esses magos podem imitar as habilidades mágicas de monstros e alcançaram uma compreensão sobrenatural de criaturas ferozes.\nQuimeristas frequentemente dependem de sua resistência e proeza física, além da magia; eles são frequentemente vistos viajando pelo mundo em busca de criaturas raras e encantadas.",
-            "beneficio_gratis": "+5 MP e você tem acesso a rituais da disciplina de Ritualismo",
+            "beneficio_gratis": "+5 MP & Acesso a rituais da disciplina de Ritualismo",
             "skills": [
                 {
                     "nome": "CONSUME",
                     "sl": 5,
                     "descricao": "Após você causar dano a uma ou mais criaturas com uma magia, se você tiver uma arma arcana, adaga ou mangual equipada, você recupera 【SL × 2】 Pontos de Mente (MP)."
+                },
+                {
+                    "nome": "FERAL SPEECH",
+                    "sl": 0,
+                    "descricao": "Você pode se comunicar com criaturas das Espécies besta (beast), monstro (monster) e planta (plant)."
+                },
+                {
+                    "nome": "PATHOGENESIS",
+                    "sl": 0,
+                    "descricao": "Quando você causa dano a uma ou mais criaturas com uma de suas magias de Quimerista (Chimerist spells), cada uma daquelas criaturas que compartilhar sua Espécie com a criatura da qual você aprendeu originalmente aquela magia sofre envenenado (poisoned)."
+                },
+                {
+                    "nome": "RITUAL CHIMERIST",
+                    "sl": 0,
+                    "descricao": "Você pode realizar Rituais cujos efeitos estejam dentro da disciplina de Quimerismo (Chimerism). Quando você adquire esta Habilidade, escolha 【INT + VON】 ou 【FOR + VON】. De agora em diante, seus Rituais de Quimerismo usarão os Atributos escolhidos para o Teste de Magia (Magic Check)."
+                },
+                {
+                    "nome": "SPELL MIMIC",
+                    "sl": 10,
+                    "descricao": "Quando você vê uma criatura pertencente às Espécies besta (beast), monstro (monster) ou planta (plant) conjurar uma magia, você pode imediatamente escolher aprender aquela magia como uma magia de Quimerista (Chimerist spell) sua: se o fizer, registre a Espécie da criatura da qual você a aprendeu. Quando você adquire esta Habilidade pela primeira vez, escolha 【INT + VON】 ou 【FOR + VON】. De agora em diante, suas magias de Quimerista ofensivas (rr) usarão os Atributos escolhidos para o Teste de Magia (Magic Check), independentemente dos Atributos usados pela criatura da qual você aprendeu a magia. Você pode ter até 【SL + 2】 magias de Quimerista diferentes memorizadas desta forma. Se você quiser memorizar uma nova magia de Quimerista, mas já estiver no seu limite, você deve esquecer uma de suas magias antigas e substituí-la pela nova magia."
                 }
             ]
+        },
+        {
+    "nome": "Darkblade",
+    "icon": "icons/129.png",
+    "imagem": "img/128.png",
+    "livro": "principal",
+    "resumo": "Darkblades são guerreiros sombrios e poderosos que escondem um passado doloroso. Devido a experiências trágicas no campo de batalha ou na vida pessoal, suas almas desenvolveram uma afinidade pela dor e pela energia das sombras.\nUm herói improvável, para dizer o mínimo, um Darkblade pode agora sacrificar sua força vital para desferir ataques poderosos e é capaz de extrair resolução, poder e até mesmo conhecimento do sofrimento que experiencia.",
+    "beneficio_gratis": "+5HP & capacidade de equipar martial melee weapons e martial armor",
+    "skills": [
+        {
+            "nome": "AGONY",
+            "sl": 5,
+            "descricao": "Após você causar dano a uma ou mais criaturas, se você tiver um Vínculo (Bond) com pelo menos uma daquelas criaturas, você pode recuperar 【SL × 2】 Pontos de Vida (HP) e 【SL × 2】 Pontos de Mente (MP)."
+        },
+        {
+            "nome": "DARKBLOOD",
+            "sl": 0,
+            "descricao": "Enquanto você estiver em Crise (Crisis), você tem Resistência a dano de escuridão e dano de veneno."
+        },
+        {
+            "nome": "HEART OF DARKNESS",
+            "sl": 0,
+            "descricao": "Uma vez por cena, ao entrar em Crise (Crisis), você pode escolher uma criatura específica que possa ver e com a qual não tenha um Vínculo (Bond). Se o fizer, crie um Vínculo de ódio com aquela criatura."
+        },
+        {
+            "nome": "PAINFUL LESSON",
+            "sl": 3,
+            "descricao": "Após outra criatura fazer você perder Pontos de Vida (com um ataque, uma magia ou qualquer outro método), você pode imediatamente realizar a ação Estudar (Study) naquela criatura (veja página 74) gratuitamente. Se o fizer, ganhe um bônus igual a 【SL】 no seu Teste (Check). Lembre-se, você só pode estudar o mesmo aspecto de uma criatura uma única vez."
+        },
+        {
+            "nome": "SHADOW STRIKE",
+            "sl": 5,
+            "descricao": "Você aprendeu a canalizar sua força vital em seus ataques. Você pode usar uma ação para realizar um Ataque Sombrio: role seu dado de Força (Might) atual e perca uma quantidade de Pontos de Vida igual a 【o número rolado no seu dado de Força】. Se isso não reduziu seus Pontos de Vida a 0, você pode realizar um ataque gratuito com uma arma que você tenha equipada: se este ataque atingir um ou mais alvos, ele causa dano extra igual a 【SL + o número rolado no seu dado de Força】. No entanto, todo o dano causado por este ataque se torna de escuridão e seu tipo de dano não pode ser alterado."
         }
+    ]
+},
+{
+    "nome": "Elementalista",
+    "icon": "icons/131.png",
+    "imagem": "img/130.png",
+    "livro": "principal",
+    "resumo": "Um Elementalista aprendeu a canalizar as almas que fluem dentro dos elementos básicos da criação: Ar, Terra, Fogo e Água. Alguns deles desenvolvem feitiços complexos para conter as poderosas energias da natureza; outros buscam sua proteção em harmonia e comunhão.\nA magia elemental pode ser altamente destrutiva, causando dano e infligindo efeitos de status negativos. Devido a isso, há muitos que cobiçariam as habilidades de um Elementalista... muitas vezes para propósitos nefastos.",
+    "beneficio_gratis": "+5MP & Acesso a rituais da disciplina de Ritualismo",
+    "skills": [
+        {
+            "nome": "CATACLYSM",
+            "sl": 3,
+            "descricao": "Quando você conjura uma magia instantânea (instantaneous spell), se você tiver uma arma arcana equipada, você pode aumentar o custo total de PM da magia em até 【SL × 10】 Pontos de Mente. Se o fizer e a magia causar dano a uma ou mais criaturas, ela causará 5 de dano extra a cada criatura para cada 10 Pontos de Mente pelos quais você aumentou seu custo total de PM."
+        },
+        {
+            "nome": "ELEMENTAL MAGIC",
+            "sl": 10,
+            "descricao": "Cada vez que você adquire esta Habilidade, aprenda uma magia de Elementalista (Elementalist spell) (veja as próximas duas páginas). Magias de Elementalista ofensivas (rr) usam 【INT + VON】 para o Teste de Magia (Magic Check)."
+        },
+        {
+            "nome": "MAGICAL ARTILLERY",
+            "sl": 3,
+            "descricao": "Quando você conjura uma magia ofensiva (rr), se você tiver uma arma arcana equipada, você ganha um bônus no seu Teste de Magia (Magic Check) igual a 【SL × 2】."
+        },
+        {
+            "nome": "RITUAL ELEMENTALISM",
+            "sl": 0,
+            "descricao": "Você pode realizar Rituais cujos efeitos estejam dentro da disciplina de Elementalismo (Elementalism). Rituais de Elementalismo usam 【INT + VON】 para o Teste de Magia (Magic Check)."
+        },
+        {
+            "nome": "SPELLBLADE",
+            "sl": 4,
+            "descricao": "Quando você conjura uma magia ofensiva (rr) que tenha como alvo uma única criatura, se a magia tiver um custo total de Pontos de Mente de 【SL × 10】 ou inferior e você tiver uma ou mais armas do tipo arco (bow), combate desarmado (brawling), adaga (dagger), mangual (flail), lança (spear) ou espada (sword) equipadas, você pode escolher uma dessas armas. Se o fizer, seu Teste de Magia (Magic Check) para a magia usará a fórmula do Teste de Precisão (Accuracy Check) da arma escolhida; por exemplo, o Teste de Magia para uma magia de Elementalista conjurada através de uma espada de bronze (página 131) será 【DES + FOR】+1 em vez de 【INT + VON】."
+        }
+    ]
+},
+{
+    "nome": "Entropist",
+    "icon": "icons/133.png",
+    "imagem": "img/132.png",
+    "livro": "principal",
+    "resumo": "Muito acima das estrelas, onde suas luzes não brilham, existe um vazio sem fundo onde a vida e as almas definham e se transformam de maneiras insondáveis.\nEste reino é uma não-realidade, uma expansão infinita de caos imune às leis do tempo, espaço e probabilidade.\nEntropistas referem-se a este reino como o Cosmos, os Céus, ou simplesmente como a Dama Sorte: eles estão entre os poucos dotados da habilidade de canalizar suas energias que dobram a realidade.",
+    "beneficio_gratis": "+5MP & Acesso a rituais da disciplina de Ritualismo",
+    "skills": [
+        {
+            "nome": "ABSORB MP",
+            "sl": 5,
+            "descricao": "Após você sofrer dano, você pode imediatamente recuperar 【SL × 2】 Pontos de Mente (MP)."
+        },
+        {
+            "nome": "ENTROPIC MAGIC",
+            "sl": 10,
+            "descricao": "Cada vez que você adquire esta Habilidade, aprenda uma magia de Entropista (Entropist spell) (veja as próximas duas páginas). Magias de Entropista ofensivas (rr) usam 【INT + VON】 para o Teste de Magia (Magic Check)."
+        },
+        {
+            "nome": "LUCKY SEVEN",
+            "sl": 0,
+            "descricao": "Você tem um número da sorte; no início de cada sessão, esse número é 7. Uma vez por cena, após você realizar um Teste (Check), você pode substituir o valor mostrado em um dos dados que você rolou pelo seu número da sorte (mesmo que isso resulte em um Resultado impossível, como um valor 7 em um d6). Se o fizer, o valor substituído se torna seu novo número da sorte."
+        },
+        {
+            "nome": "RITUAL ENTROPIMS",
+            "sl": 0,
+            "descricao": "Você pode realizar Rituais cujos efeitos estejam dentro da disciplina de Entropismo (Entropism). Rituais de Entropismo usam 【INT + VON】 para o Teste de Magia (Magic Check)."
+        },
+        {
+            "nome": "STOLEN TIME",
+            "sl": 4,
+            "descricao": "Durante um conflito, você pode usar uma ação para interferir no fluxo do tempo gastando até 【SL × 5】 Pontos de Mente (MP). Para cada 5 Pontos de Mente que você gastar desta forma, escolha uma opção: uma criatura que você possa ver sofre lento (slow); ou uma criatura que você possa ver se recupera de lento; ou uma criatura que você possa ver pode imediatamente realizar a ação Equipamento (Equipment) gratuitamente; ou escolha um aliado que você possa ver que ainda não tenha agido durante esta rodada: esse aliado pode agir imediatamente após o seu turno durante esta rodada. Cada opção só pode ser escolhida uma vez por uso desta Habilidade."
+        }
+    ]
+},
+{
+    "nome": "Fury",
+    "icon": "icons/135.png",
+    "imagem": "img/134.png",
+    "livro": "principal",
+    "resumo": "Furies nunca sabem quando desistir. Na batalha e na vida, eles são enérgicos, determinados e muitas vezes inquietos. Quaisquer que sejam os ideais ou desejos que impulsionam suas ações, eles não pararão por nada e arriscarão tudo para alcançá-los.\nAlguns Furies passam por um treinamento rígido para controlar suas emoções; outros simplesmente veem a força como a solução para todos os problemas e estão constantemente à beira de deixar a raiva tomar conta deles.",
+    "beneficio_gratis": "+5HP & martial melee weapons e martial armor",
+    "skills": [
+        {
+            "nome": "ADRENALYNE",
+            "sl": 5,
+            "descricao": "Enquanto você estiver em Crise (Crisis), você causa 【SL × 2】 de dano extra (seja com ataques, magias, Arcana, itens ou qualquer outro método)."
+        },
+        {
+            "nome": "FRENZY",
+            "sl": 0,
+            "descricao": "Seus Testes de Precisão (Accuracy Checks) com armas do tipo combate desarmado (brawling), adaga (dagger), mangual (flail) e armas de arremesso (thrown) ativam um sucesso crítico se ambos os dados mostrarem o mesmo número (e o Teste não for uma falha crítica/fumble)."
+        },
+        {
+            "nome": "INDOMITABLE SPIRIT",
+            "sl": 4,
+            "descricao": "Quando você gasta um ou mais Pontos de Fabula (Fabula Points), você recebe um benefício adicional — escolha uma opção: você recupera 【SL × 5】 Pontos de Vida (HP); ou você recupera 【SL × 5】 Pontos de Mente (MP); ou você se recupera de um único efeito de status de sua escolha."
+        },
+        {
+            "nome": "PROVOKE",
+            "sl": 5,
+            "descricao": "Você pode usar uma ação e gastar 5 Pontos de Mente (MP) para realizar um Teste Oposto (Opposed Check) de 【FOR + VON】 contra uma criatura que você possa ver — descreva como você a provoca! Se você tiver sucesso, o alvo sofre enfurecido (enraged) e é compelido a focar a atenção em você (seus ataques e magias ofensivas devem incluir você entre os alvos, se possível). Esta compulsão termina se você cair inconsciente ou sair da cena, se a criatura não estiver mais enfurecida, ou se ela for provocada com sucesso por outra pessoa. Você ganha um bônus igual a 【SL】 nos seus Testes de 【FOR + VON】 para esta Habilidade."
+        },
+        {
+            "nome": "WITHSTAND",
+            "sl": 5,
+            "descricao": "Quando você realiza a ação Proteger (Guard), se você escolher não fornecer cobertura a outra criatura, você recupera Pontos de Vida iguais a 【SL, multiplicado pela maior força entre seus Vínculos (Bonds)】 e escolhe Força (Might) ou Vontade (Willpower): você trata o Atributo escolhido como se fosse um tamanho de dado maior (até um máximo de d12) até o final do seu próximo turno."
+        }
+    ]
+},
+{
+    "nome": "Guardian",
+    "icon": "icons/138.png",
+    "imagem": "img/136.png",
+    "livro": "principal",
+    "resumo": "Orgulhosos e altruístas, Guardiões são indivíduos que conhecem o valor da vida... e estão dispostos a se sacrificar por uma pessoa, nação ou ideal que juraram proteger. Eles são frequentemente indivíduos extraordinários e impressionantes, como soldados valentes ou veteranos marcados por mil batalhas.\nEmbora alguns Guardiões possam parecer barulhentos e espalhafatosos, muitos estão simplesmente mascarando a memória atormentada daqueles que falharam em proteger.",
+    "beneficio_gratis": "+5HP & martial armor e martial shields",
+    "skills": [
+        {
+            "nome": "BODYGUARD",
+            "sl": 0,
+            "descricao": "Se você realizar a ação Proteger (Guard) e escolher fornecer cobertura a outra criatura, aquela criatura ganha Resistência a todos os tipos de dano até o início do seu próximo turno."
+        },
+        {
+            "nome": "DEFENSIVE MASTERY",
+            "sl": 5,
+            "descricao": "Enquanto você tiver um escudo (shield) ou uma armadura marcial (martial armor) equipada, todo dano que você sofrer é reduzido e【SL】 (aplicado antes das Afinidades de dano)."
+        },
+        {
+            "nome": "DUAL SHIELDBEARER",
+            "sl": 0,
+            "descricao": "Você agora pode equipar um escudo no espaço da sua mão principal (main hand). Enquanto você tiver dois escudos equipados, você ganha os benefícios de ambos os itens e pode tratá-los como a seguinte arma combinada de combate desarmado (brawling) corpo a corpo de duas mãos:\nARMA\t| PRECISÃO |\tDANO\nEscudos Gêmeos (Twin Shields)\t【MIG + MIG】\t【HR + 5】físico\n\nCausa dano extra igual ao seu 【SL】 em Maestria Defensiva (acima)."
+        },
+        {
+            "nome": "FORTRESS",
+            "sl": 5,
+            "descricao": "Aumenta permanentemente seus Pontos de Vida (HP) máximos em 【SL × 3】."
+        },
+        {
+            "nome": "PROTECT",
+            "sl": 0,
+            "descricao": "Quando outra criatura for ameaçada por um ataque, magia ou outro perigo, você pode tomar o lugar dela (quaisquer Testes (Checks) que façam parte do perigo serão realizados contra você; você pode declarar o uso desta Habilidade antes ou depois dos Testes terem sido feitos). Se o perigo já afetava você, ele o afeta duas vezes (resolva ambas as instâncias separadamente); você também não pode proteger múltiplas criaturas do mesmo perigo. Se você usar esta Habilidade durante um conflito, não poderá usá-la novamente até o início do seu próximo turno."
+        }
+    ]
+}
     ]
 }

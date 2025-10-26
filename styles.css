@@ -41,6 +41,12 @@
 
 .card-image {
     transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    object-position: top;
+}
+
+/* Ensure modal image focuses top as well */
+#modal-image {
+    object-position: top;
 }
 
 /* Modal Animations */
@@ -146,6 +152,7 @@ h1 {
     #modal-image {
         min-height: 90vh;
         object-fit: cover;
+        object-position: top;
     }
 }
 
