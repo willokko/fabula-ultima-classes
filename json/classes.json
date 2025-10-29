@@ -244,6 +244,286 @@
             "descricao": "Quando outra criatura for ameaçada por um ataque, magia ou outro perigo, você pode tomar o lugar dela (quaisquer Testes (Checks) que façam parte do perigo serão realizados contra você; você pode declarar o uso desta Habilidade antes ou depois dos Testes terem sido feitos). Se o perigo já afetava você, ele o afeta duas vezes (resolva ambas as instâncias separadamente); você também não pode proteger múltiplas criaturas do mesmo perigo. Se você usar esta Habilidade durante um conflito, não poderá usá-la novamente até o início do seu próximo turno."
         }
     ]
+},
+{
+    "nome": "Loremaster",
+    "icon": "icons/140.png",
+    "imagem": "img/139.png",
+    "livro": "principal",
+    "resumo": "Loremasters são conhecidos por sua curiosidade insaciável e apetite pela descoberta. Eles acreditam firmemente que conhecimento equivale a poder e muitas vezes trocariam todo o ouro do mundo por uma chance de resolver um bom mistério.\nInfelizmente, a maioria dos Loremasters tende a ser distante e facilmente distraída, raramente se preocupando com assuntos \"pragmáticos\"... a ponto de, às vezes, não perceberem as implicações mais sombrias de suas descobertas.",
+    "beneficio_gratis": "+5 MP",
+    "skills": [
+        {
+            "nome": "FLASH OF INSIGHT",
+            "sl": 3,
+            "descricao": "Quando você rola 13 ou mais em um Teste (Check) realizado para investigar uma criatura, item ou localização — isto inclui usar a ação Estudar (Study) durante um conflito — você pode fazer ao Mestre de Jogo (MJ) até 【SL】 perguntas sobre o alvo da sua investigação. Você pode fazer essas perguntas imediatamente ou guardá-las para mais tarde; sempre que você fizer uma dessas perguntas, o MJ responderá sinceramente e você descreverá o processo dedutivo do seu personagem. Esta Habilidade só pode ser usada uma vez na mesma criatura, item ou localização."
+        },
+        {
+            "nome": "FOCUSED",
+            "sl": 5,
+            "descricao": "Aumenta permanentemente seus Pontos de Mente (MP) máximos em 【SL × 3】. Quando você realiza um Teste Aberto (Open Check) usando 【INT + INT】, você ganha um bônus igual a 【SL】 nesse Teste (isto se aplica apenas a Testes Abertos)."
+        },
+        {
+            "nome": "KNOWLEDGE IS POWER",
+            "sl": 0,
+            "descricao": "Quando você realiza um Teste de Precisão (Accuracy Check), você pode substituir um dos dados de Atributo por Intuição (Insight) (como 【INT + INT】 para uma pistola ou 【INT + FOR】 para um machado de guerra)."
+        },
+        {
+            "nome": "QUICK ASSESSMENT",
+            "sl": 6,
+            "descricao": "No início de um conflito, você pode gastar até 【SL × 5】 Pontos de Mente (MP). Para cada 5 Pontos de Mente que você gastar desta forma, escolha uma opção: escolha uma criatura que você possa ver e o MJ revela uma de suas Características (Traits); ou nomeie um tipo de dano e escolha uma criatura que você possa ver, e o MJ revela a Afinidade (Affinity) daquela criatura àquele tipo de dano."
+        },
+        {
+            "nome": "TRAINED MEMORY",
+            "sl": 0,
+            "descricao": "Você pode se lembrar perfeitamente dos detalhes de qualquer cena que tenha visitado na última semana. Você pode \"voltar no tempo\" em sua mente para examinar e investigar tais cenas novamente — sua Habilidade Lampejo de Intuição (Flash of Insight) se aplicará a essas memórias também."
+        }
+    ]
+},
+{
+    "nome": "ORATOR",
+    "icon": "icons/142.png",
+    "imagem": "img/141.png",
+    "livro": "principal",
+    "resumo": "Alguns são graciosos e sempre sorridentes, outros são sutis e espirituosos: Oradores são tão bons em ler o coração de alguém quanto em reunir aliados para sua causa, às vezes involuntariamente.\nAs palavras de um Orador podem reacender espíritos ou mergulhar seus oponentes em desespero: ao longo dos séculos, os talentos de alguns Oradores levaram nações inteiras à ruína... e tantos outros concederam a reinos caídos a chance de ressurgir de suas próprias cinzas.",
+    "beneficio_gratis": "+5 MP",
+    "skills": [
+        {
+            "nome": "CONDEMN",
+            "sl": 4,
+            "descricao": "Você pode usar uma ação e gastar 5 Pontos de Mente (MP) para realizar um Teste Oposto (Opposed Check) de 【INT + VON】 contra uma criatura que possa ouvi-lo e entendê-lo — descreva suas acusações! Se você tiver sucesso, o alvo perde 【SL × 10】 Pontos de Mente e sofre atordoado (dazed) ou abalado (shaken) (à sua escolha). Você ganha um bônus equal a 【SL】 nos seus Testes de 【INT + VON】 para esta Habilidade."
+        },
+        {
+            "nome": "ENCOURAGE",
+            "sl": 6,
+            "descricao": "Durante um conflito, você pode usar uma ação e gastar 5 Pontos de Mente (MP) para escolher outra criatura que possa ouvi-lo e entendê-lo. Aquela criatura recupera 【SL × 5】 Pontos de Vida (HP) e escolhe Destreza (Dexterity), Intuição (Insight), Força (Might) ou Vontade (Willpower): ela trata o Atributo escolhido como se fosse um tamanho de dado maior (até um máximo de d12) até o início do seu próximo turno."
+        },
+        {
+            "nome": "MY TRUST IN YOU",
+            "sl": 2,
+            "descricao": "Após outro Personagem Jogador (Player Character) que seja capaz de ouvi-lo realizar um Teste (Check), você pode gastar 1 Ponto de Fabula (Fabula Point) e invocar uma de suas Características (Traits) ou Vínculos (Bonds) para permitir que role novamente os dados ou melhore o Resultado do Teste (seguindo as regras normais). Então, se você tiver um Vínculo (Bond) com aquele personagem, ele recupera 【SL × 10】 Pontos de Mente (MP)."
+        },
+        {
+            "nome": "PERSUASIVE",
+            "sl": 2,
+            "descricao": "Quando você realiza com sucesso um Teste (Check) para preencher ou apagar seções de um Relógio (Clock), se sua abordagem dependeu de charme, diplomacia, enganação ou intimidação, você pode gastar até 【SL × 20】 Pontos de Mente (MP). Se o fizer, preencha ou apague uma seção adicional daquele Relógio para cada 20 Pontos de Mente que você gastar desta forma."
+        },
+        {
+            "nome": "UNEXPECTED ALLY",
+            "sl": 0,
+            "descricao": "Você pode usar uma ação e gastar 1 Ponto de Fabula (Fabula Point) para escolher uma criatura não hostil capaz de ouvi-lo e entendê-lo. Se o fizer, aquela criatura se torna prestativa (helpful) a você, desde que você seja gentil e respeitoso com ela e seus pedidos sejam razoáveis."
+        }
+    ]
+},
+{
+    "nome": "ROGUE",
+    "icon": "icons/144.png",
+    "imagem": "img/143.png",
+    "livro": "principal",
+    "resumo": "Alguns são graciosos e sempre sorridentes, outros são sutis e espirituosos: Oradores são tão bons em ler o coração de alguém quanto em reunir aliados para sua causa, às vezes involuntariamente.\nSejam eles criminosos, rebeldes ou espiões, Rogues estão mais do que dispostos a jogar sujo para conseguir o que querem. Rogues são geralmente rápidos, espirituosos e elusivos: embora alguns deles sejam infames por se preocuparem principalmente com sua riqueza e lucro pessoal, muitos se veem como lutadores contra a injustiça, tirania ou exclusão social.\nTragicamente, é bastante comum que Rogues acabem sendo pintados como ameaças por aquelas mesmas pessoas pelas quais lutam.",
+    "beneficio_gratis": "+2 PI",
+    "skills": [
+        {
+            "nome": "CHEAP SHOT",
+            "sl": 5,
+            "descricao": "Quando você acerta uma criatura com um ataque, se o ataque mirou apenas aquela criatura e ela estiver sofrendo de um ou mais efeitos de status, você pode fazer com que ele cause dano extra igual a 【NH + o número de efeitos de status na criatura】."
+        },
+        {
+            "nome": "DODGE",
+            "sl": 3,
+            "descricao": "Quando você acerta uma criatura com um ataque, se o ataque mirou apenas aquela criatura e ela estiver sofrendo de um ou mais efeitos de status, você pode fazer com que ele cause dano extra igual a 【NH + o número de efeitos de status na criatura】."
+        },
+        {
+            "nome": "HIGH SPEED",
+            "sl": 3,
+            "descricao": "No início de um conflito, você pode gastar 10 Pontos de Mente. Se o fizer, escolha uma opção e aplique-a antes do início da primeira rodada: realizar um ataque gratuito com uma arma que você tenha equipada; ou realizar uma ação de Atrapalhar ou de Objetivo. Você também recebe um bônus igual a 【NH】 em todos os Testes que realizar como parte da opção escolhida."
+        },
+        {
+            "nome": "SEE YOU LATER",
+            "sl": 0,
+            "descricao": "Você pode usar uma ação e gastar 1 Ponto de Fabula para desaparecer da cena atual, reaparecendo quando quiser durante uma cena diferente em que outro Personagem de Jogador esteja presente. Descreva como você escapou e milagrosamente chegou aqui!"
+        },
+        {
+            "nome": "SOUL STEAL",
+            "sl": 5,
+            "descricao": "Você pode usar uma ação para realizar um Teste de 【DEX + WLP】 contra a Defesa Mágica de uma criatura que você possa ver. Se você tiver sucesso e o alvo for um soldado, você recupera 【NH】 Pontos de Inventário; se ele for um elite ou campeão, o Mestre lhe dá o tesouro da alma do alvo, um item com valor em zenit igual ou inferior a 【o nível do alvo multiplicado por 30, ou por 50 se for um Vilão】. Este tesouro da alma aparecerá em sua mochila; uma criatura só pode ser roubada com sucesso com esta Habilidade uma única vez. Você recebe um bônus igual a 【NH】 em seus Testes de 【DEX + WLP】 para esta Habilidade."
+        }
+    ]
+},
+{
+    "nome": "SHARPSHOOTER",
+    "icon": "icons/146.png",
+    "imagem": "img/145.png",
+    "livro": "principal",
+    "resumo": "A maioria dos Sharpshooters é excepcionalmente boa em lidar com ameaças a uma distância cuidadosamente calculada; outros são corajosos, habilidosos ou imprudentes o suficiente para enfrentar seus inimigos à queima-roupa.\nEmbora muitos desses atiradores habilidosos sejam soldados endurecidos pela batalha, alguns se voltaram para uma vida de pirataria, caça de recompensas ou banditismo. Alguns colocaram suas habilidades a serviço do povo, ou as usam para proteger um local sagrado ou proibido de intrusos.",
+    "beneficio_gratis": "+5 HP & martial ranged weapons e martial shields",
+    "skills": [
+        {
+            "nome": "BARRAGE",
+            "sl": 0,
+            "descricao": "Quando você realiza um ataque à distância, pode gastar 10 Pontos de Mente para escolher uma opção: o ataque ganha multi (2); ou você aumenta a propriedade multi do ataque em um, até um máximo de multi (3)."
+        },
+        {
+            "nome": "CROSSFIRE",
+            "sl": 0,
+            "descricao": "Depois que uma criatura que você possa ver realizar um ataque à distância, você pode gastar uma quantidade de Pontos de Mente igual ao Resultado total do Teste de Precisão dela para fazer com que o ataque falhe automaticamente contra todos os alvos. Você só pode usar esta Habilidade se tiver uma arma de ataque à distância equipada, e ela não tem efeito se o Teste de Precisão foi um sucesso crítico."
+        },
+        {
+            "nome": "HAWKEYE",
+            "sl": 5,
+            "descricao": "Quando você realiza a ação Proteger, se optar por não fornecer cobertura a outra criatura, pode escolher uma opção: o próximo ataque à distância que você realizar antes do fim da cena atual causará 【NH × 2】 de dano extra; ou você pode imediatamente realizar um ataque gratuito com um arco ou arma de fogo que tenha equipado, tratando sua Rolagem Alta (RA) como 0 ao calcular o dano causado por este ataque."
+        },
+        {
+            "nome": "RANGED WEAPON MASTER",
+            "sl": 4,
+            "descricao": "Você recebe um bônus igual a 【NH】 em todos os Testes de Precisão com armas de ataque à distância."
+        },
+        {
+            "nome": "WARNING SHOT",
+            "sl": 4,
+            "descricao": "Quando você acerta um ou mais alvos com um ataque à distância que causaria dano, você pode fazer com que o ataque não cause dano. Se o fizer, escolha uma opção: inflija abalado em cada alvo atingido pelo ataque; ou inflija lento em cada alvo atingido pelo ataque; ou cada alvo atingido pelo ataque perde 【NH × 10】 Pontos de Mente. Descreva sua manobra!"
+        }
+    ]
+},
+{
+    "nome": "Spiritist",
+    "icon": "icons/148.png",
+    "imagem": "img/147.png",
+    "livro": "principal",
+    "resumo": "Spiritists desenvolveram uma conexão poderosa com os aspectos brutos da alma: emoção, energia, vida e morte. Eles empunham um poder tanto milagroso quanto assustador, e são frequentemente afiliados a cultos ou religiões.\nVários mundos veem os poderes do Espiritismo como dons de uma divindade ou prova de que o coração de uma pessoa é puro; no entanto, não há prova definitiva de que essas habilidades venham de algo além de disciplina, empatia e foco.",
+    "beneficio_gratis": "+5MP & você consegue fazer rituais da disciplina de Ritualism",
+    "skills": [
+        {
+            "nome": "HEALING POWER",
+            "sl": 2,
+            "descricao": "Quando você lança uma magia que afeta um ou mais aliados, se tiver uma arma arcana equipada, você pode fazer com que cada um desses aliados recupere uma quantidade de Pontos de Vida igual a 【NH, multiplicado pelo número de Laços que você possui】. Esta cura é separada de qualquer cura causada pelos efeitos da magia."
+        },
+        {
+            "nome": "RITUAL SPIRITISM",
+            "sl": 0,
+            "descricao": "Você pode realizar Rituais cujos efeitos se enquadram na disciplina de Espiritismo. Rituais de Espiritismo usam 【INS + WLP】 para o Teste Mágico."
+        },
+        {
+            "nome": "SPIRITUAL MAGIC",
+            "sl": 10,
+            "descricao": "Cada vez que adquire esta Habilidade, você aprende uma magia de Espiritista (veja as próximas duas páginas). Magias de Espiritista ofensivas (rr) usam 【INS + WLP】 para o Teste Mágico."
+        },
+        {
+            "nome": "SUPPORT MAGIC",
+            "sl": 0,
+            "descricao": "Quando você lança uma magia que afeta um ou mais aliados, se tiver uma arma arcana equipada, pode escolher um desses aliados para com quem você tenha um Laço. Se o fizer, aquele aliado recebe um bônus no próximo Teste que realizar durante a cena atual; este bônus é igual à força do seu Laço com ele."
+        },
+        {
+            "nome": "VISMAGUS",
+            "sl": 0,
+            "descricao": "Quando você lança uma magia, se não tiver Pontos de Mente suficientes para pagar seu custo total, pode optar por gastar o dobro de Pontos de Vida. Você não pode usar esta Habilidade se isso o reduzir a 0 Pontos de Vida. Se uma magia lançada desta forma fosse fazer você recuperar Pontos de Vida, você não recupera Pontos de Vida (a magia funciona normally em qualquer outro alvo)."
+        }
+    ]
+},
+{
+    "nome": "Tinkerer",
+    "icon": "icons/152.png",
+    "imagem": "img/151.png",
+    "livro": "principal",
+    "resumo": "Tinkerers possuem engenhosidade excepcional e são conhecidos por suas invenções excêntricas e maravilhosas. Eles viajam o mundo em uma busca incessante por teorias perdidas e maquinários antigos, com os olhos brilhando sempre que testemunham as maravilhas da arquitetura e da engenharia.\nDe certa forma, Tinkerers poderiam ser vistos como os maiores sonhadores e rebeldes, desafiando as próprias regras da natureza e da sociedade em sua busca por um futuro melhor.",
+    "beneficio_gratis": "+2PI & voce consegue iniciar PROJETOS",
+    "skills": [
+        {
+            "nome": "EMERGENCY ITEM",
+            "sl": 0,
+            "descricao": "Uma vez por cena de conflito, se você estiver em Crise, pode realizar uma ação adicional em seu turno. Esta ação deve ser a ação de Inventário."
+        },
+        {
+            "nome": "GADGETS",
+            "sl": 5,
+            "descricao": "Quando adquire esta Habilidade pela primeira vez, escolha um tipo de engenhoca: alquimia, infusões ou magitec (veja as próximas quatro páginas). Você recebe seus benefícios básicos. Sempre que pegar esta Habilidade novamente, escolha uma opção: você recebe os benefícios básicos de um novo tipo de engenhoca; ou você recebe os benefícios avançados de um tipo de engenhoca cujos benefícios básicos já obteve; ou você recebe os benefícios superiores de um tipo de engenhoca cujos benefícios avançados já obteve."
+        },
+        {
+            "nome": "POTION RAIN",
+            "sl": 2,
+            "descricao": "Quando você cria uma poção que restaura PV e/ou PM de uma única criatura, pode fazer com que ela afete até 【NH】 criaturas adicionais. Se o fizer, a poção restaura apenas metade da quantidade normal de PV e PM para cada criatura."
+        },
+        {
+            "nome": "SECRET FORMULA",
+            "sl": 5,
+            "descricao": "Quando você cria uma poção ou magisfera cujos efeitos restauram PV e/ou PM, cada quantidade restaurada é aumentada em 【NH × 5】. Quando você cria um fragmento elemental, poção ou magisfera que causa dano, esse item causa 【NH】 de dano extra."
+        },
+        {
+            "nome": "VISIONARY",
+            "sl": 0,
+            "descricao": "Quando você trabalha em um Projeto, até 【NH × 100】 zenit de custos materiais são pagos automaticamente; além disso, você gera 【NH】 de progresso adicional a cada dia. Se múltiplos personagens com esta Habilidade trabalharem no mesmo Projeto, os efeitos serão cumulativos."
+        }
+    ]
+},
+{
+    "nome": "Wayfarer",
+    "icon": "icons/155.png",
+    "imagem": "img/154.png",
+    "livro": "principal",
+    "resumo": "Nômades em busca de um continente lendário, exploradores desbravando as selvas, caçadores grisalhos e viajantes têm uma coisa em comum: eles são Wayfarers.\nEmbora a maioria dos heróis viaje pelo mundo durante suas aventuras, Wayfarers vivem pela jornada. Eles estão sempre ansiosos para visitar novos lugares e aprender com os outros.\nAos olhos de um Wayfarer, a natureza selvagem não é nem inimiga nem aliada, mas sim uma professora severa que pode revelar muitas verdades esquecidas.",
+    "beneficio_gratis": "+2PI",
+    "skills": [
+        {
+            "nome": "FAITHFUL COMPANION",
+            "sl": 5,
+            "descricao": "Junto com o resto do seu grupo, crie uma criatura besta, construto, elemental ou planta de nível 5 (veja página 302) que se torna seu companheiro. Esta criatura não tem valor de Iniciativa e não sobe de nível, pode ter até dois ataques básicos, recebe um bônus igual a 【SL】 nos Testes de Precisão e Testes Mágicos, e seus Pontos de Vida máximos são iguais a 【(SL multiplicado pelo tamanho do dado de MIG base do companheiro) + metade do seu nível】. Seu companheiro não tem um turno durante conflitos, mas no seu turno você pode usar uma ação para fazer o companheiro realizar uma ação (apenas uma vez por turno). Se você sair de uma cena, seu companheiro sai com você. Se seu companheiro cair a 0 Pontos de Vida, ele foge e se junta a você no início da próxima cena em que estiver presente, com PV igual ao seu valor de Crise. Quando você descansa, seu companheiro também recebe os benefícios completos de descansar."
+        },
+        {
+            "nome": "RESOURCEFUL",
+            "sl": 4,
+            "descricao": "Você recupera 【SL】 Pontos de Inventário após cada rolagem de viagem (veja página 106)."
+        },
+        {
+            "nome": "TAVERN TALK",
+            "sl": 3,
+            "descricao": "Quando você descansa em uma estalagem ou taverna, pode fazer ao Mestre até 【SL】 perguntas sobre seus arredores e as pessoas que vivem aqui; o Mestre responderá com sinceridade e você descreve como obteve a informação."
+        },
+        {
+            "nome": "TREASURE HUNTER",
+            "sl": 2,
+            "descricao": "Quando seu grupo viaja no mapa-múndi, você fará uma descoberta com um resultado de 【SL + 1】 ou menos na rolagem de viagem (em vez de apenas em 1)."
+        },
+        {
+            "nome": "WELL-TRAVELLED",
+            "sl": 0,
+            "descricao": "Você reduz o dado rolado para suas rolagens de viagem em um tamanho (até um mínimo de d6). Se múltiplos personagens tiverem esta Habilidade, os efeitos não são cumulativos."
+        }
+    ]
+},
+{
+    "nome": "Weaponmaster",
+    "icon": "icons/157.png",
+    "imagem": "img/156.png",
+    "livro": "principal",
+    "resumo": "Weaponmasters passam anos e anos aprimorando suas artes de combate próximo. A maioria deles exibe uma habilidade notável com uma variedade de armas; outros treinaram para se tornar um com um armamento específico.\nMuitos Weaponmasters seguem e protegem alguém por amor ou lealdade, mas também existem aqueles que vagam incansavelmente pelo mundo em busca de oponentes dignos, armas mágicas lendárias ou professores capazes.",
+    "beneficio_gratis": "+5HP & martial melee weapons e martial shields",
+    "skills": [
+        {
+            "nome": "BLADE STORM",
+            "sl": 0,
+            "descricao": "Quando você realiza um ataque corpo a corpo, pode gastar 10 Pontos de Mente para escolher uma opção: o ataque ganha multi (2); ou você aumenta a propriedade multi do ataque em um, até um máximo de multi (3)."
+        },
+        {
+            "nome": "BONE CRUSHER",
+            "sl": 4,
+            "descricao": "Quando você acerta um ou mais alvos com um ataque corpo a corpo que causaria dano, pode fazer com que o ataque não cause dano. Se o fizer, escolha uma opção: inflija atordoado em cada alvo atingido pelo ataque; ou inflija fraco em cada alvo atingido pelo ataque; ou cada alvo atingido pelo ataque perde 【SL × 10】 Pontos de Mente. Descreva sua manobra!"
+        },
+        {
+            "nome": "BREACH",
+            "sl": 3,
+            "descricao": "Você pode usar uma ação e gastar 5 Pontos de Mente para realizar um ataque gratuito com uma arma corpo a corpo que tenha equipada. Este ataque deve mirar uma única criatura. Se o ataque for bem-sucedido, ele não causa dano e você escolhe uma opção: você destrói um escudo equipado pelo alvo; ou você destrói a armadura equipada do alvo; ou sempre que o alvo sofrer dano de uma fonte antes do início do seu próximo turno, aquela fonte causa 【SL × 2】 de dano extra a ele."
+        },
+        {
+            "nome": "COUNTERATTACK",
+            "sl": 0,
+            "descricao": "Depois que um inimigo acerta ou erra você com um ataque corpo a corpo, se o Resultado do Teste de Precisão dele foi um número par, você pode realizar um ataque gratuito contra aquele inimigo (depois que o ataque dele for totalmente resolvido). Este ataque deve ser um ataque corpo a corpo e deve ter aquele inimigo como seu único alvo; trate sua highest roll (HR) como 0 ao calcular o dano causado por este ataque."
+        },
+        {
+            "nome": "MEELEE WEAPON MASTERY",
+            "sl": 4,
+            "descricao": "Você recebe um bônus igual a 【NH】 em todos os Testes de Precisão com armas corpo a corpo."
+        }
+    ]
 }
     ]
 }
