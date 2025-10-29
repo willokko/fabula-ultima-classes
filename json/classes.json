@@ -9,29 +9,29 @@
             "beneficio_gratis": "+5 MP",
             "skills": [
                 {
-                    "nome": "ARCANE CIRCLE",
+                    "nome": "CERCLE ARCANIQUE",
                     "sl": 4,
                     "descricao": "Após você dispensar voluntariamente um Arcanum no seu turno durante um conflito (veja a próxima página), se aquele Arcanum não tiver sido invocado neste mesmo turno e você tiver uma arma arcana equipada, você pode imediatamente realizar a ação Conjurar (Spell) gratuitamente. A magia que você conjurar desta forma deve ter um custo total de Pontos de Mente (MP) de 【SL × 5】 ou inferior (você ainda deve pagar o custo de PM da magia)."
                 },
                 {
-                    "nome": "ARCANE REGENERATION",
+                    "nome": "RÉGÉNÉRATION ARCANE",
                     "sl": 2,
                     "descricao": "Quando você invoca um Arcanum, você imediatamente recupera 【SL × 5】 Pontos de Vida (HP)."
                 },
                 {
-                    "nome": "BIND AND SUMMON",
+                    "nome": "LIEN ET INVOCATION",
                     "sl": 0,
                     "descricao": "Você pode vincular Arcana à sua alma e invocá-los posteriormente. O Mestre de Jogo lhe dirá os detalhes de cada processo de vinculação quando você encontrar o Arcanum em questão pela primeira vez. Você pode usar uma ação e gastar 40 Pontos de Mente (MP) para invocar um Arcanum que você vinculou: os detalhes deste processo são explicados na próxima página. Se você pegar esta Habilidade na criação de personagem, você começa o jogo com um Arcanum de sua escolha já vinculado a você, escolhido da lista nas páginas seguintes. Fora isso, você só pode obter novos Arcana através de exploração e progressão na história."
                 },
                 {
-                    "nome": "EMERGENCY ARCANIUM",
+                    "nome": "ARCANE D'URGENCE",
                     "sl": 6,
                     "descricao": "Enquanto você estiver em Crise (Crisis), o custo para invocar seus Arcana é reduzido em 【SL × 5】 Pontos de Mente (MP)."
                 },
                 {
-                    "nome": "RITUAL ARCANISM",
+                    "nome": "ARCANISME RITUEL",
                     "sl": 0,
-                    "descricao": "Você pode realizar Rituais da disciplina de Arcanismo (Arcanism), desde que seus efeitos estejam dentro dos domínios de um ou mais Arcana que você vinculou (veja as próximas páginas). Rituais de Arcanismo usam 【VON + VON】 para o Teste de Magia (Magic Check)."
+                    "descricao": "Você pode realizar Rituais da disciplina de Arcanismo (Arcanism), desde que seus efeitos estejam dentro dos domínios de um ou mais Arcana que você vinculou (veja as próximas páginas). Rituais de Arcanismo usam 【WLP + WLP】 para o Teste de Magia (Magic Check)."
                 }
             ]
         },
@@ -44,29 +44,29 @@
             "beneficio_gratis": "+5 MP & Acesso a rituais da disciplina de Ritualismo",
             "skills": [
                 {
-                    "nome": "CONSUME",
+                    "nome": "ASSIMILATION",
                     "sl": 5,
                     "descricao": "Após você causar dano a uma ou mais criaturas com uma magia, se você tiver uma arma arcana, adaga ou mangual equipada, você recupera 【SL × 2】 Pontos de Mente (MP)."
                 },
                 {
-                    "nome": "FERAL SPEECH",
+                    "nome": "LANGAGE SAUVAGE",
                     "sl": 0,
                     "descricao": "Você pode se comunicar com criaturas das Espécies besta (beast), monstro (monster) e planta (plant)."
                 },
                 {
-                    "nome": "PATHOGENESIS",
+                    "nome": "PATHOGENÈSE",
                     "sl": 0,
                     "descricao": "Quando você causa dano a uma ou mais criaturas com uma de suas magias de Quimerista (Chimerist spells), cada uma daquelas criaturas que compartilhar sua Espécie com a criatura da qual você aprendeu originalmente aquela magia sofre envenenado (poisoned)."
                 },
                 {
-                    "nome": "RITUAL CHIMERIST",
+                    "nome": "CHIMÉRISME RITUEL",
                     "sl": 0,
-                    "descricao": "Você pode realizar Rituais cujos efeitos estejam dentro da disciplina de Quimerismo (Chimerism). Quando você adquire esta Habilidade, escolha 【INT + VON】 ou 【FOR + VON】. De agora em diante, seus Rituais de Quimerismo usarão os Atributos escolhidos para o Teste de Magia (Magic Check)."
+                    "descricao": "Você pode realizar Rituais cujos efeitos estejam dentro da disciplina de Quimerismo (Chimerism). Quando você adquire esta Habilidade, escolha 【INS + WLP】 ou 【MIG + WLP】. De agora em diante, seus Rituais de Quimerismo usarão os Atributos escolhidos para o Teste de Magia (Magic Check)."
                 },
                 {
-                    "nome": "SPELL MIMIC",
+                    "nome": "MIMÉTISME MAGIQUE",
                     "sl": 10,
-                    "descricao": "Quando você vê uma criatura pertencente às Espécies besta (beast), monstro (monster) ou planta (plant) conjurar uma magia, você pode imediatamente escolher aprender aquela magia como uma magia de Quimerista (Chimerist spell) sua: se o fizer, registre a Espécie da criatura da qual você a aprendeu. Quando você adquire esta Habilidade pela primeira vez, escolha 【INT + VON】 ou 【FOR + VON】. De agora em diante, suas magias de Quimerista ofensivas (rr) usarão os Atributos escolhidos para o Teste de Magia (Magic Check), independentemente dos Atributos usados pela criatura da qual você aprendeu a magia. Você pode ter até 【SL + 2】 magias de Quimerista diferentes memorizadas desta forma. Se você quiser memorizar uma nova magia de Quimerista, mas já estiver no seu limite, você deve esquecer uma de suas magias antigas e substituí-la pela nova magia."
+                    "descricao": "Quando você vê uma criatura pertencente às Espécies besta (beast), monstro (monster) ou planta (plant) conjurar uma magia, você pode imediatamente escolher aprender aquela magia como uma magia de Quimerista (Chimerist spell) sua: se o fizer, registre a Espécie da criatura da qual você a aprendeu. Quando você adquire esta Habilidade pela primeira vez, escolha 【INS + WLP】 ou 【MIG + WLP】. De agora em diante, suas magias de Quimerista ofensivas (rr) usarão os Atributos escolhidos para o Teste de Magia (Magic Check), independentemente dos Atributos usados pela criatura da qual você aprendeu a magia. Você pode ter até 【SL + 2】 magias de Quimerista diferentes memorizadas desta forma. Se você quiser memorizar uma nova magia de Quimerista, mas já estiver no seu limite, você deve esquecer uma de suas magias antigas e substituí-la pela nova magia."
                 }
             ]
         },
@@ -79,27 +79,27 @@
     "beneficio_gratis": "+5HP & capacidade de equipar martial melee weapons e martial armor",
     "skills": [
         {
-            "nome": "AGONY",
+            "nome": "AGONIE",
             "sl": 5,
             "descricao": "Após você causar dano a uma ou mais criaturas, se você tiver um Vínculo (Bond) com pelo menos uma daquelas criaturas, você pode recuperar 【SL × 2】 Pontos de Vida (HP) e 【SL × 2】 Pontos de Mente (MP)."
         },
         {
-            "nome": "DARKBLOOD",
+            "nome": "SANG TÉNÉBREUX",
             "sl": 0,
             "descricao": "Enquanto você estiver em Crise (Crisis), você tem Resistência a dano de escuridão e dano de veneno."
         },
         {
-            "nome": "HEART OF DARKNESS",
+            "nome": "CŒUR DES TÉNÈBRES",
             "sl": 0,
             "descricao": "Uma vez por cena, ao entrar em Crise (Crisis), você pode escolher uma criatura específica que possa ver e com a qual não tenha um Vínculo (Bond). Se o fizer, crie um Vínculo de ódio com aquela criatura."
         },
         {
-            "nome": "PAINFUL LESSON",
+            "nome": "DOULOUREUSE LEÇON",
             "sl": 3,
             "descricao": "Após outra criatura fazer você perder Pontos de Vida (com um ataque, uma magia ou qualquer outro método), você pode imediatamente realizar a ação Estudar (Study) naquela criatura (veja página 74) gratuitamente. Se o fizer, ganhe um bônus igual a 【SL】 no seu Teste (Check). Lembre-se, você só pode estudar o mesmo aspecto de uma criatura uma única vez."
         },
         {
-            "nome": "SHADOW STRIKE",
+            "nome": "FRAPPE D'OMBRE",
             "sl": 5,
             "descricao": "Você aprendeu a canalizar sua força vital em seus ataques. Você pode usar uma ação para realizar um Ataque Sombrio: role seu dado de Força (Might) atual e perca uma quantidade de Pontos de Vida igual a 【o número rolado no seu dado de Força】. Se isso não reduziu seus Pontos de Vida a 0, você pode realizar um ataque gratuito com uma arma que você tenha equipada: se este ataque atingir um ou mais alvos, ele causa dano extra igual a 【SL + o número rolado no seu dado de Força】. No entanto, todo o dano causado por este ataque se torna de escuridão e seu tipo de dano não pode ser alterado."
         }
@@ -114,29 +114,29 @@
     "beneficio_gratis": "+5MP & Acesso a rituais da disciplina de Ritualismo",
     "skills": [
         {
-            "nome": "CATACLYSM",
+            "nome": "CATACLYSME",
             "sl": 3,
             "descricao": "Quando você conjura uma magia instantânea (instantaneous spell), se você tiver uma arma arcana equipada, você pode aumentar o custo total de PM da magia em até 【SL × 10】 Pontos de Mente. Se o fizer e a magia causar dano a uma ou mais criaturas, ela causará 5 de dano extra a cada criatura para cada 10 Pontos de Mente pelos quais você aumentou seu custo total de PM."
         },
         {
-            "nome": "ELEMENTAL MAGIC",
+            "nome": "MAGIE ÉLÉMENTAIRE",
             "sl": 10,
-            "descricao": "Cada vez que você adquire esta Habilidade, aprenda uma magia de Elementalista (Elementalist spell) (veja as próximas duas páginas). Magias de Elementalista ofensivas (rr) usam 【INT + VON】 para o Teste de Magia (Magic Check)."
+            "descricao": "Cada vez que você adquire esta Habilidade, aprenda uma magia de Elementalista (Elementalist spell) (veja as próximas duas páginas). Magias de Elementalista ofensivas (rr) usam 【INS + WLP】 para o Teste de Magia (Magic Check)."
         },
         {
-            "nome": "MAGICAL ARTILLERY",
+            "nome": "ARTILLERIE MAGIQUE",
             "sl": 3,
             "descricao": "Quando você conjura uma magia ofensiva (rr), se você tiver uma arma arcana equipada, você ganha um bônus no seu Teste de Magia (Magic Check) igual a 【SL × 2】."
         },
         {
-            "nome": "RITUAL ELEMENTALISM",
+            "nome": "ÉLÉMENTALISME RITUEL",
             "sl": 0,
-            "descricao": "Você pode realizar Rituais cujos efeitos estejam dentro da disciplina de Elementalismo (Elementalism). Rituais de Elementalismo usam 【INT + VON】 para o Teste de Magia (Magic Check)."
+            "descricao": "Você pode realizar Rituais cujos efeitos estejam dentro da disciplina de Elementalismo (Elementalism). Rituais de Elementalismo usam 【INS + WLP】 para o Teste de Magia (Magic Check)."
         },
         {
-            "nome": "SPELLBLADE",
+            "nome": "LAME SORCIÈRE",
             "sl": 4,
-            "descricao": "Quando você conjura uma magia ofensiva (rr) que tenha como alvo uma única criatura, se a magia tiver um custo total de Pontos de Mente de 【SL × 10】 ou inferior e você tiver uma ou mais armas do tipo arco (bow), combate desarmado (brawling), adaga (dagger), mangual (flail), lança (spear) ou espada (sword) equipadas, você pode escolher uma dessas armas. Se o fizer, seu Teste de Magia (Magic Check) para a magia usará a fórmula do Teste de Precisão (Accuracy Check) da arma escolhida; por exemplo, o Teste de Magia para uma magia de Elementalista conjurada através de uma espada de bronze (página 131) será 【DES + FOR】+1 em vez de 【INT + VON】."
+            "descricao": "Quando você conjura uma magia ofensiva (rr) que tenha como alvo uma única criatura, se a magia tiver um custo total de Pontos de Mente de 【SL × 10】 ou inferior e você tiver uma ou mais armas do tipo arco (bow), combate desarmado (brawling), adaga (dagger), mangual (flail), lança (spear) ou espada (sword) equipadas, você pode escolher uma dessas armas. Se o fizer, seu Teste de Magia (Magic Check) para a magia usará a fórmula do Teste de Precisão (Accuracy Check) da arma escolhida; por exemplo, o Teste de Magia para uma magia de Elementalista conjurada através de uma espada de bronze (página 131) será 【DEX + MIG】+1 em vez de 【INS + WLP】."
         }
     ]
 },
@@ -149,27 +149,27 @@
     "beneficio_gratis": "+5MP & Acesso a rituais da disciplina de Ritualismo",
     "skills": [
         {
-            "nome": "ABSORB MP",
+            "nome": "ABSORPTION DE PM",
             "sl": 5,
             "descricao": "Após você sofrer dano, você pode imediatamente recuperar 【SL × 2】 Pontos de Mente (MP)."
         },
         {
-            "nome": "ENTROPIC MAGIC",
+            "nome": "MAGIE ENTROPIQUE",
             "sl": 10,
-            "descricao": "Cada vez que você adquire esta Habilidade, aprenda uma magia de Entropista (Entropist spell) (veja as próximas duas páginas). Magias de Entropista ofensivas (rr) usam 【INT + VON】 para o Teste de Magia (Magic Check)."
+            "descricao": "Cada vez que você adquire esta Habilidade, aprenda uma magia de Entropista (Entropist spell) (veja as próximas duas páginas). Magias de Entropista ofensivas (rr) usam 【INS + WLP】 para o Teste de Magia (Magic Check)."
         },
         {
-            "nome": "LUCKY SEVEN",
+            "nome": "SEPT CHANCEUX",
             "sl": 0,
             "descricao": "Você tem um número da sorte; no início de cada sessão, esse número é 7. Uma vez por cena, após você realizar um Teste (Check), você pode substituir o valor mostrado em um dos dados que você rolou pelo seu número da sorte (mesmo que isso resulte em um Resultado impossível, como um valor 7 em um d6). Se o fizer, o valor substituído se torna seu novo número da sorte."
         },
         {
-            "nome": "RITUAL ENTROPIMS",
+            "nome": "ENTROPISME RITUEL",
             "sl": 0,
-            "descricao": "Você pode realizar Rituais cujos efeitos estejam dentro da disciplina de Entropismo (Entropism). Rituais de Entropismo usam 【INT + VON】 para o Teste de Magia (Magic Check)."
+            "descricao": "Você pode realizar Rituais cujos efeitos estejam dentro da disciplina de Entropismo (Entropism). Rituais de Entropismo usam 【INS + WLP】 para o Teste de Magia (Magic Check)."
         },
         {
-            "nome": "STOLEN TIME",
+            "nome": "TEMPS DÉROBÉ",
             "sl": 4,
             "descricao": "Durante um conflito, você pode usar uma ação para interferir no fluxo do tempo gastando até 【SL × 5】 Pontos de Mente (MP). Para cada 5 Pontos de Mente que você gastar desta forma, escolha uma opção: uma criatura que você possa ver sofre lento (slow); ou uma criatura que você possa ver se recupera de lento; ou uma criatura que você possa ver pode imediatamente realizar a ação Equipamento (Equipment) gratuitamente; ou escolha um aliado que você possa ver que ainda não tenha agido durante esta rodada: esse aliado pode agir imediatamente após o seu turno durante esta rodada. Cada opção só pode ser escolhida uma vez por uso desta Habilidade."
         }
@@ -184,29 +184,29 @@
     "beneficio_gratis": "+5HP & martial melee weapons e martial armor",
     "skills": [
         {
-            "nome": "ADRENALYNE",
+            "nome": "ADRÉNALINE",
             "sl": 5,
             "descricao": "Enquanto você estiver em Crise (Crisis), você causa 【SL × 2】 de dano extra (seja com ataques, magias, Arcana, itens ou qualquer outro método)."
         },
         {
-            "nome": "FRENZY",
+            "nome": "FRÉNÉSIE",
             "sl": 0,
             "descricao": "Seus Testes de Precisão (Accuracy Checks) com armas do tipo combate desarmado (brawling), adaga (dagger), mangual (flail) e armas de arremesso (thrown) ativam um sucesso crítico se ambos os dados mostrarem o mesmo número (e o Teste não for uma falha crítica/fumble)."
         },
         {
-            "nome": "INDOMITABLE SPIRIT",
+            "nome": "ESPRIT INDOMPTABLE",
             "sl": 4,
             "descricao": "Quando você gasta um ou mais Pontos de Fabula (Fabula Points), você recebe um benefício adicional — escolha uma opção: você recupera 【SL × 5】 Pontos de Vida (HP); ou você recupera 【SL × 5】 Pontos de Mente (MP); ou você se recupera de um único efeito de status de sua escolha."
         },
         {
-            "nome": "PROVOKE",
+            "nome": "PROVOCATION",
             "sl": 5,
-            "descricao": "Você pode usar uma ação e gastar 5 Pontos de Mente (MP) para realizar um Teste Oposto (Opposed Check) de 【FOR + VON】 contra uma criatura que você possa ver — descreva como você a provoca! Se você tiver sucesso, o alvo sofre enfurecido (enraged) e é compelido a focar a atenção em você (seus ataques e magias ofensivas devem incluir você entre os alvos, se possível). Esta compulsão termina se você cair inconsciente ou sair da cena, se a criatura não estiver mais enfurecida, ou se ela for provocada com sucesso por outra pessoa. Você ganha um bônus igual a 【SL】 nos seus Testes de 【FOR + VON】 para esta Habilidade."
+            "descricao": "Você pode usar uma ação e gastar 5 Pontos de Mente (MP) para realizar um Teste Oposto (Opposed Check) de 【MIG + WLP】 contra uma criatura que você possa ver — descreva como você a provoca! Se você tiver sucesso, o alvo sofre enfurecido (enraged) e é compelido a focar a atenção em você (seus ataques e magias ofensivas devem incluir você entre os alvos, se possível). Esta compulsão termina se você cair inconsciente ou sair da cena, se a criatura não estiver mais enfurecida, ou se ela for provocada com sucesso por outra pessoa. Você ganha um bônus igual a 【SL】 nos seus Testes de 【MIG + WLP】 para esta Habilidade."
         },
         {
-            "nome": "WITHSTAND",
+            "nome": "ENDURER",
             "sl": 5,
-            "descricao": "Quando você realiza a ação Proteger (Guard), se você escolher não fornecer cobertura a outra criatura, você recupera Pontos de Vida iguais a 【SL, multiplicado pela maior força entre seus Vínculos (Bonds)】 e escolhe Força (Might) ou Vontade (Willpower): você trata o Atributo escolhido como se fosse um tamanho de dado maior (até um máximo de d12) até o final do seu próximo turno."
+            "descricao": "Quando você realiza a ação Proteger (Guard), se você escolher não fornecer cobertura a outra criatura, você recupera Pontos de Vida iguais a 【SL, multiplicado pela maior força entre seus Vínculos (Bonds)】 e escolhe Might ou Willpower: você trata o Atributo escolhido como se fosse um tamanho de dado maior (até um máximo de d12) até o final do seu próximo turno."
         }
     ]
 },
@@ -219,27 +219,27 @@
     "beneficio_gratis": "+5HP & martial armor e martial shields",
     "skills": [
         {
-            "nome": "BODYGUARD",
+            "nome": "GARDE DU CORPS",
             "sl": 0,
             "descricao": "Se você realizar a ação Proteger (Guard) e escolher fornecer cobertura a outra criatura, aquela criatura ganha Resistência a todos os tipos de dano até o início do seu próximo turno."
         },
         {
-            "nome": "DEFENSIVE MASTERY",
+            "nome": "MAÎTRISE DÉFENSIVE",
             "sl": 5,
             "descricao": "Enquanto você tiver um escudo (shield) ou uma armadura marcial (martial armor) equipada, todo dano que você sofrer é reduzido e【SL】 (aplicado antes das Afinidades de dano)."
         },
         {
-            "nome": "DUAL SHIELDBEARER",
+            "nome": "DOUBLE BOUCLIER",
             "sl": 0,
             "descricao": "Você agora pode equipar um escudo no espaço da sua mão principal (main hand). Enquanto você tiver dois escudos equipados, você ganha os benefícios de ambos os itens e pode tratá-los como a seguinte arma combinada de combate desarmado (brawling) corpo a corpo de duas mãos:\nARMA\t| PRECISÃO |\tDANO\nEscudos Gêmeos (Twin Shields)\t【MIG + MIG】\t【HR + 5】físico\n\nCausa dano extra igual ao seu 【SL】 em Maestria Defensiva (acima)."
         },
         {
-            "nome": "FORTRESS",
+            "nome": "FORTERESSE",
             "sl": 5,
             "descricao": "Aumenta permanentemente seus Pontos de Vida (HP) máximos em 【SL × 3】."
         },
         {
-            "nome": "PROTECT",
+            "nome": "PROTECTION",
             "sl": 0,
             "descricao": "Quando outra criatura for ameaçada por um ataque, magia ou outro perigo, você pode tomar o lugar dela (quaisquer Testes (Checks) que façam parte do perigo serão realizados contra você; você pode declarar o uso desta Habilidade antes ou depois dos Testes terem sido feitos). Se o perigo já afetava você, ele o afeta duas vezes (resolva ambas as instâncias separadamente); você também não pode proteger múltiplas criaturas do mesmo perigo. Se você usar esta Habilidade durante um conflito, não poderá usá-la novamente até o início do seu próximo turno."
         }
@@ -254,27 +254,27 @@
     "beneficio_gratis": "+5 MP",
     "skills": [
         {
-            "nome": "FLASH OF INSIGHT",
+            "nome": "ÉCLAIR DE GÉNIE",
             "sl": 3,
             "descricao": "Quando você rola 13 ou mais em um Teste (Check) realizado para investigar uma criatura, item ou localização — isto inclui usar a ação Estudar (Study) durante um conflito — você pode fazer ao Mestre de Jogo (MJ) até 【SL】 perguntas sobre o alvo da sua investigação. Você pode fazer essas perguntas imediatamente ou guardá-las para mais tarde; sempre que você fizer uma dessas perguntas, o MJ responderá sinceramente e você descreverá o processo dedutivo do seu personagem. Esta Habilidade só pode ser usada uma vez na mesma criatura, item ou localização."
         },
         {
-            "nome": "FOCUSED",
+            "nome": "CONCENTRATION",
             "sl": 5,
-            "descricao": "Aumenta permanentemente seus Pontos de Mente (MP) máximos em 【SL × 3】. Quando você realiza um Teste Aberto (Open Check) usando 【INT + INT】, você ganha um bônus igual a 【SL】 nesse Teste (isto se aplica apenas a Testes Abertos)."
+            "descricao": "Aumenta permanentemente seus Pontos de Mente (MP) máximos em 【SL × 3】. Quando você realiza um Teste Aberto (Open Check) usando 【INS + INS】, você ganha um bônus igual a 【SL】 nesse Teste (isto se aplica apenas a Testes Abertos)."
         },
         {
-            "nome": "KNOWLEDGE IS POWER",
+            "nome": "SAVOIR EST POUVOIR",
             "sl": 0,
-            "descricao": "Quando você realiza um Teste de Precisão (Accuracy Check), você pode substituir um dos dados de Atributo por Intuição (Insight) (como 【INT + INT】 para uma pistola ou 【INT + FOR】 para um machado de guerra)."
+            "descricao": "Quando você realiza um Teste de Precisão (Accuracy Check), você pode substituir um dos dados de Atributo por Intuição (Insight) (como 【INS + INS】 para uma pistola ou 【INS + MIG】 para um machado de guerra)."
         },
         {
-            "nome": "QUICK ASSESSMENT",
+            "nome": "ÉVALUATION RAPIDE",
             "sl": 6,
             "descricao": "No início de um conflito, você pode gastar até 【SL × 5】 Pontos de Mente (MP). Para cada 5 Pontos de Mente que você gastar desta forma, escolha uma opção: escolha uma criatura que você possa ver e o MJ revela uma de suas Características (Traits); ou nomeie um tipo de dano e escolha uma criatura que você possa ver, e o MJ revela a Afinidade (Affinity) daquela criatura àquele tipo de dano."
         },
         {
-            "nome": "TRAINED MEMORY",
+            "nome": "MÉMOIRE EXERCÉE",
             "sl": 0,
             "descricao": "Você pode se lembrar perfeitamente dos detalhes de qualquer cena que tenha visitado na última semana. Você pode \"voltar no tempo\" em sua mente para examinar e investigar tais cenas novamente — sua Habilidade Lampejo de Intuição (Flash of Insight) se aplicará a essas memórias também."
         }
@@ -289,27 +289,27 @@
     "beneficio_gratis": "+5 MP",
     "skills": [
         {
-            "nome": "CONDEMN",
+            "nome": "CONDAMNATION",
             "sl": 4,
-            "descricao": "Você pode usar uma ação e gastar 5 Pontos de Mente (MP) para realizar um Teste Oposto (Opposed Check) de 【INT + VON】 contra uma criatura que possa ouvi-lo e entendê-lo — descreva suas acusações! Se você tiver sucesso, o alvo perde 【SL × 10】 Pontos de Mente e sofre atordoado (dazed) ou abalado (shaken) (à sua escolha). Você ganha um bônus equal a 【SL】 nos seus Testes de 【INT + VON】 para esta Habilidade."
+            "descricao": "Você pode usar uma ação e gastar 5 Pontos de Mente (MP) para realizar um Teste Oposto (Opposed Check) de 【INS + WLP】 contra uma criatura que possa ouvi-lo e entendê-lo — descreva suas acusações! Se você tiver sucesso, o alvo perde 【SL × 10】 Pontos de Mente e sofre atordoado (dazed) ou abalado (shaken) (à sua escolha). Você ganha um bônus equal a 【SL】 nos seus Testes de 【INS + WLP】 para esta Habilidade."
         },
         {
-            "nome": "ENCOURAGE",
+            "nome": "ENCOURAGEMENT",
             "sl": 6,
-            "descricao": "Durante um conflito, você pode usar uma ação e gastar 5 Pontos de Mente (MP) para escolher outra criatura que possa ouvi-lo e entendê-lo. Aquela criatura recupera 【SL × 5】 Pontos de Vida (HP) e escolhe Destreza (Dexterity), Intuição (Insight), Força (Might) ou Vontade (Willpower): ela trata o Atributo escolhido como se fosse um tamanho de dado maior (até um máximo de d12) até o início do seu próximo turno."
+            "descricao": "Durante um conflito, você pode usar uma ação e gastar 5 Pontos de Mente (MP) para escolher outra criatura que possa ouvi-lo e entendê-lo. Aquela criatura recupera 【SL × 5】 de HP e escolhe Dexterity, Insight, Might ou Willpower: ela trata o Atributo escolhido como se fosse um tamanho de dado maior (até um máximo de d12) até o início do seu próximo turno."
         },
         {
-            "nome": "MY TRUST IN YOU",
+            "nome": "MA FOI EN TOI",
             "sl": 2,
             "descricao": "Após outro Personagem Jogador (Player Character) que seja capaz de ouvi-lo realizar um Teste (Check), você pode gastar 1 Ponto de Fabula (Fabula Point) e invocar uma de suas Características (Traits) ou Vínculos (Bonds) para permitir que role novamente os dados ou melhore o Resultado do Teste (seguindo as regras normais). Então, se você tiver um Vínculo (Bond) com aquele personagem, ele recupera 【SL × 10】 Pontos de Mente (MP)."
         },
         {
-            "nome": "PERSUASIVE",
+            "nome": "PERSUASION",
             "sl": 2,
             "descricao": "Quando você realiza com sucesso um Teste (Check) para preencher ou apagar seções de um Relógio (Clock), se sua abordagem dependeu de charme, diplomacia, enganação ou intimidação, você pode gastar até 【SL × 20】 Pontos de Mente (MP). Se o fizer, preencha ou apague uma seção adicional daquele Relógio para cada 20 Pontos de Mente que você gastar desta forma."
         },
         {
-            "nome": "UNEXPECTED ALLY",
+            "nome": "ALLIÉ INATTENDU",
             "sl": 0,
             "descricao": "Você pode usar uma ação e gastar 1 Ponto de Fabula (Fabula Point) para escolher uma criatura não hostil capaz de ouvi-lo e entendê-lo. Se o fizer, aquela criatura se torna prestativa (helpful) a você, desde que você seja gentil e respeitoso com ela e seus pedidos sejam razoáveis."
         }
@@ -324,29 +324,29 @@
     "beneficio_gratis": "+2 PI",
     "skills": [
         {
-            "nome": "CHEAP SHOT",
+            "nome": "COUP BAS",
             "sl": 5,
-            "descricao": "Quando você acerta uma criatura com um ataque, se o ataque mirou apenas aquela criatura e ela estiver sofrendo de um ou mais efeitos de status, você pode fazer com que ele cause dano extra igual a 【NH + o número de efeitos de status na criatura】."
+            "descricao": "Quando você acerta uma criatura com um ataque, se o ataque mirou apenas aquela criatura e ela estiver sofrendo de um ou mais efeitos de status, você pode fazer com que ele cause dano extra igual a 【SL + o número de efeitos de status na criatura】."
         },
         {
-            "nome": "DODGE",
+            "nome": "ESQUIVE",
             "sl": 3,
-            "descricao": "Quando você acerta uma criatura com um ataque, se o ataque mirou apenas aquela criatura e ela estiver sofrendo de um ou mais efeitos de status, você pode fazer com que ele cause dano extra igual a 【NH + o número de efeitos de status na criatura】."
+            "descricao": "Quando você acerta uma criatura com um ataque, se o ataque mirou apenas aquela criatura e ela estiver sofrendo de um ou mais efeitos de status, você pode fazer com que ele cause dano extra igual a 【SL + o número de efeitos de status na criatura】."
         },
         {
-            "nome": "HIGH SPEED",
+            "nome": "VÉLOCITÉ",
             "sl": 3,
-            "descricao": "No início de um conflito, você pode gastar 10 Pontos de Mente. Se o fizer, escolha uma opção e aplique-a antes do início da primeira rodada: realizar um ataque gratuito com uma arma que você tenha equipada; ou realizar uma ação de Atrapalhar ou de Objetivo. Você também recebe um bônus igual a 【NH】 em todos os Testes que realizar como parte da opção escolhida."
+            "descricao": "No início de um conflito, você pode gastar 10 Pontos de Mente. Se o fizer, escolha uma opção e aplique-a antes do início da primeira rodada: realizar um ataque gratuito com uma arma que você tenha equipada; ou realizar uma ação de Atrapalhar ou de Objetivo. Você também recebe um bônus igual a 【SL】 em todos os Testes que realizar como parte da opção escolhida."
         },
         {
-            "nome": "SEE YOU LATER",
+            "nome": "À LA PROCHAINE",
             "sl": 0,
             "descricao": "Você pode usar uma ação e gastar 1 Ponto de Fabula para desaparecer da cena atual, reaparecendo quando quiser durante uma cena diferente em que outro Personagem de Jogador esteja presente. Descreva como você escapou e milagrosamente chegou aqui!"
         },
         {
-            "nome": "SOUL STEAL",
+            "nome": "VOL D'ÂME",
             "sl": 5,
-            "descricao": "Você pode usar uma ação para realizar um Teste de 【DEX + WLP】 contra a Defesa Mágica de uma criatura que você possa ver. Se você tiver sucesso e o alvo for um soldado, você recupera 【NH】 Pontos de Inventário; se ele for um elite ou campeão, o Mestre lhe dá o tesouro da alma do alvo, um item com valor em zenit igual ou inferior a 【o nível do alvo multiplicado por 30, ou por 50 se for um Vilão】. Este tesouro da alma aparecerá em sua mochila; uma criatura só pode ser roubada com sucesso com esta Habilidade uma única vez. Você recebe um bônus igual a 【NH】 em seus Testes de 【DEX + WLP】 para esta Habilidade."
+            "descricao": "Você pode usar uma ação para realizar um Teste de 【DEX + WLP】 contra a Defesa Mágica de uma criatura que você possa ver. Se você tiver sucesso e o alvo for um soldado, você recupera 【SL】 Pontos de Inventário; se ele for um elite ou campeão, o Mestre lhe dá o tesouro da alma do alvo, um item com valor em zenit igual ou inferior a 【o nível do alvo multiplicado por 30, ou por 50 se for um Vilão】. Este tesouro da alma aparecerá em sua mochila; uma criatura só pode ser roubada com sucesso com esta Habilidade uma única vez. Você recebe um bônus igual a 【SL】 em seus Testes de 【DEX + WLP】 para esta Habilidade."
         }
     ]
 },
@@ -364,24 +364,24 @@
             "descricao": "Quando você realiza um ataque à distância, pode gastar 10 Pontos de Mente para escolher uma opção: o ataque ganha multi (2); ou você aumenta a propriedade multi do ataque em um, até um máximo de multi (3)."
         },
         {
-            "nome": "CROSSFIRE",
+            "nome": "TIR CROISÉ",
             "sl": 0,
             "descricao": "Depois que uma criatura que você possa ver realizar um ataque à distância, você pode gastar uma quantidade de Pontos de Mente igual ao Resultado total do Teste de Precisão dela para fazer com que o ataque falhe automaticamente contra todos os alvos. Você só pode usar esta Habilidade se tiver uma arma de ataque à distância equipada, e ela não tem efeito se o Teste de Precisão foi um sucesso crítico."
         },
         {
-            "nome": "HAWKEYE",
+            "nome": "ŒIL DE FAUCON",
             "sl": 5,
-            "descricao": "Quando você realiza a ação Proteger, se optar por não fornecer cobertura a outra criatura, pode escolher uma opção: o próximo ataque à distância que você realizar antes do fim da cena atual causará 【NH × 2】 de dano extra; ou você pode imediatamente realizar um ataque gratuito com um arco ou arma de fogo que tenha equipado, tratando sua Rolagem Alta (RA) como 0 ao calcular o dano causado por este ataque."
+            "descricao": "Quando você realiza a ação Proteger, se optar por não fornecer cobertura a outra criatura, pode escolher uma opção: o próximo ataque à distância que você realizar antes do fim da cena atual causará 【SL × 2】 de dano extra; ou você pode imediatamente realizar um ataque gratuito com um arco ou arma de fogo que tenha equipado, tratando sua Rolagem Alta (RA) como 0 ao calcular o dano causado por este ataque."
         },
         {
-            "nome": "RANGED WEAPON MASTER",
+            "nome": "MAÎTRISE À DISTANCE",
             "sl": 4,
-            "descricao": "Você recebe um bônus igual a 【NH】 em todos os Testes de Precisão com armas de ataque à distância."
+            "descricao": "Você recebe um bônus igual a 【SL】 em todos os Testes de Precisão com armas de ataque à distância."
         },
         {
-            "nome": "WARNING SHOT",
+            "nome": "TIR D'AVERTISSEMENT",
             "sl": 4,
-            "descricao": "Quando você acerta um ou mais alvos com um ataque à distância que causaria dano, você pode fazer com que o ataque não cause dano. Se o fizer, escolha uma opção: inflija abalado em cada alvo atingido pelo ataque; ou inflija lento em cada alvo atingido pelo ataque; ou cada alvo atingido pelo ataque perde 【NH × 10】 Pontos de Mente. Descreva sua manobra!"
+            "descricao": "Quando você acerta um ou mais alvos com um ataque à distância que causaria dano, você pode fazer com que o ataque não cause dano. Se o fizer, escolha uma opção: inflija abalado em cada alvo atingido pelo ataque; ou inflija lento em cada alvo atingido pelo ataque; ou cada alvo atingido pelo ataque perde 【SL × 10】 Pontos de Mente. Descreva sua manobra!"
         }
     ]
 },
@@ -394,27 +394,27 @@
     "beneficio_gratis": "+5MP & você consegue fazer rituais da disciplina de Ritualism",
     "skills": [
         {
-            "nome": "HEALING POWER",
+            "nome": "PUISSANCE GUÉRISSEUSE",
             "sl": 2,
-            "descricao": "Quando você lança uma magia que afeta um ou mais aliados, se tiver uma arma arcana equipada, você pode fazer com que cada um desses aliados recupere uma quantidade de Pontos de Vida igual a 【NH, multiplicado pelo número de Laços que você possui】. Esta cura é separada de qualquer cura causada pelos efeitos da magia."
+            "descricao": "Quando você lança uma magia que afeta um ou mais aliados, se tiver uma arma arcana equipada, você pode fazer com que cada um desses aliados recupere uma quantidade de Pontos de Vida igual a 【SL, multiplicado pelo número de Laços que você possui】. Esta cura é separada de qualquer cura causada pelos efeitos da magia."
         },
         {
-            "nome": "RITUAL SPIRITISM",
+            "nome": "SPIRITISME RITUEL",
             "sl": 0,
             "descricao": "Você pode realizar Rituais cujos efeitos se enquadram na disciplina de Espiritismo. Rituais de Espiritismo usam 【INS + WLP】 para o Teste Mágico."
         },
         {
-            "nome": "SPIRITUAL MAGIC",
+            "nome": "MAGIE SPIRITUELLE",
             "sl": 10,
             "descricao": "Cada vez que adquire esta Habilidade, você aprende uma magia de Espiritista (veja as próximas duas páginas). Magias de Espiritista ofensivas (rr) usam 【INS + WLP】 para o Teste Mágico."
         },
         {
-            "nome": "SUPPORT MAGIC",
+            "nome": "MAGIE DE SOUTIEN",
             "sl": 0,
             "descricao": "Quando você lança uma magia que afeta um ou mais aliados, se tiver uma arma arcana equipada, pode escolher um desses aliados para com quem você tenha um Laço. Se o fizer, aquele aliado recebe um bônus no próximo Teste que realizar durante a cena atual; este bônus é igual à força do seu Laço com ele."
         },
         {
-            "nome": "VISMAGUS",
+            "nome": "MAGIE VITALE",
             "sl": 0,
             "descricao": "Quando você lança uma magia, se não tiver Pontos de Mente suficientes para pagar seu custo total, pode optar por gastar o dobro de Pontos de Vida. Você não pode usar esta Habilidade se isso o reduzir a 0 Pontos de Vida. Se uma magia lançada desta forma fosse fazer você recuperar Pontos de Vida, você não recupera Pontos de Vida (a magia funciona normally em qualquer outro alvo)."
         }
@@ -429,29 +429,29 @@
     "beneficio_gratis": "+2PI & voce consegue iniciar PROJETOS",
     "skills": [
         {
-            "nome": "EMERGENCY ITEM",
+            "nome": "OBJET D'URGENCE",
             "sl": 0,
             "descricao": "Uma vez por cena de conflito, se você estiver em Crise, pode realizar uma ação adicional em seu turno. Esta ação deve ser a ação de Inventário."
         },
         {
-            "nome": "GADGETS",
+            "nome": "BABIOLES",
             "sl": 5,
             "descricao": "Quando adquire esta Habilidade pela primeira vez, escolha um tipo de engenhoca: alquimia, infusões ou magitec (veja as próximas quatro páginas). Você recebe seus benefícios básicos. Sempre que pegar esta Habilidade novamente, escolha uma opção: você recebe os benefícios básicos de um novo tipo de engenhoca; ou você recebe os benefícios avançados de um tipo de engenhoca cujos benefícios básicos já obteve; ou você recebe os benefícios superiores de um tipo de engenhoca cujos benefícios avançados já obteve."
         },
         {
-            "nome": "POTION RAIN",
+            "nome": "PLUIE DE POTIONS",
             "sl": 2,
-            "descricao": "Quando você cria uma poção que restaura PV e/ou PM de uma única criatura, pode fazer com que ela afete até 【NH】 criaturas adicionais. Se o fizer, a poção restaura apenas metade da quantidade normal de PV e PM para cada criatura."
+            "descricao": "Quando você cria uma poção que restaura PV e/ou PM de uma única criatura, pode fazer com que ela afete até 【SL】 criaturas adicionais. Se o fizer, a poção restaura apenas metade da quantidade normal de PV e PM para cada criatura."
         },
         {
-            "nome": "SECRET FORMULA",
+            "nome": "FORMULE SECRÈTE",
             "sl": 5,
-            "descricao": "Quando você cria uma poção ou magisfera cujos efeitos restauram PV e/ou PM, cada quantidade restaurada é aumentada em 【NH × 5】. Quando você cria um fragmento elemental, poção ou magisfera que causa dano, esse item causa 【NH】 de dano extra."
+            "descricao": "Quando você cria uma poção ou magisfera cujos efeitos restauram PV e/ou PM, cada quantidade restaurada é aumentada em 【SL × 5】. Quando você cria um fragmento elemental, poção ou magisfera que causa dano, esse item causa 【SL】 de dano extra."
         },
         {
-            "nome": "VISIONARY",
+            "nome": "VISIONNAIRE",
             "sl": 0,
-            "descricao": "Quando você trabalha em um Projeto, até 【NH × 100】 zenit de custos materiais são pagos automaticamente; além disso, você gera 【NH】 de progresso adicional a cada dia. Se múltiplos personagens com esta Habilidade trabalharem no mesmo Projeto, os efeitos serão cumulativos."
+            "descricao": "Quando você trabalha em um Projeto, até 【SL × 100】 zenit de custos materiais são pagos automaticamente; além disso, você gera 【SL】 de progresso adicional a cada dia. Se múltiplos personagens com esta Habilidade trabalharem no mesmo Projeto, os efeitos serão cumulativos."
         }
     ]
 },
@@ -464,27 +464,27 @@
     "beneficio_gratis": "+2PI",
     "skills": [
         {
-            "nome": "FAITHFUL COMPANION",
+            "nome": "FIDÈLE COMPAGNON",
             "sl": 5,
             "descricao": "Junto com o resto do seu grupo, crie uma criatura besta, construto, elemental ou planta de nível 5 (veja página 302) que se torna seu companheiro. Esta criatura não tem valor de Iniciativa e não sobe de nível, pode ter até dois ataques básicos, recebe um bônus igual a 【SL】 nos Testes de Precisão e Testes Mágicos, e seus Pontos de Vida máximos são iguais a 【(SL multiplicado pelo tamanho do dado de MIG base do companheiro) + metade do seu nível】. Seu companheiro não tem um turno durante conflitos, mas no seu turno você pode usar uma ação para fazer o companheiro realizar uma ação (apenas uma vez por turno). Se você sair de uma cena, seu companheiro sai com você. Se seu companheiro cair a 0 Pontos de Vida, ele foge e se junta a você no início da próxima cena em que estiver presente, com PV igual ao seu valor de Crise. Quando você descansa, seu companheiro também recebe os benefícios completos de descansar."
         },
         {
-            "nome": "RESOURCEFUL",
+            "nome": "DÉBROUILLARD",
             "sl": 4,
             "descricao": "Você recupera 【SL】 Pontos de Inventário após cada rolagem de viagem (veja página 106)."
         },
         {
-            "nome": "TAVERN TALK",
+            "nome": "RUMEURS DE TAVERNE",
             "sl": 3,
             "descricao": "Quando você descansa em uma estalagem ou taverna, pode fazer ao Mestre até 【SL】 perguntas sobre seus arredores e as pessoas que vivem aqui; o Mestre responderá com sinceridade e você descreve como obteve a informação."
         },
         {
-            "nome": "TREASURE HUNTER",
+            "nome": "CHASSEUR DE TRÉSORS",
             "sl": 2,
             "descricao": "Quando seu grupo viaja no mapa-múndi, você fará uma descoberta com um resultado de 【SL + 1】 ou menos na rolagem de viagem (em vez de apenas em 1)."
         },
         {
-            "nome": "WELL-TRAVELLED",
+            "nome": "GRAND VOYAGEUR",
             "sl": 0,
             "descricao": "Você reduz o dado rolado para suas rolagens de viagem em um tamanho (até um mínimo de d6). Se múltiplos personagens tiverem esta Habilidade, os efeitos não são cumulativos."
         }
@@ -499,29 +499,29 @@
     "beneficio_gratis": "+5HP & martial melee weapons e martial shields",
     "skills": [
         {
-            "nome": "BLADE STORM",
+            "nome": "TEMPÊTE DE LAMES",
             "sl": 0,
             "descricao": "Quando você realiza um ataque corpo a corpo, pode gastar 10 Pontos de Mente para escolher uma opção: o ataque ganha multi (2); ou você aumenta a propriedade multi do ataque em um, até um máximo de multi (3)."
         },
         {
-            "nome": "BONE CRUSHER",
+            "nome": "BRISE-OS",
             "sl": 4,
             "descricao": "Quando você acerta um ou mais alvos com um ataque corpo a corpo que causaria dano, pode fazer com que o ataque não cause dano. Se o fizer, escolha uma opção: inflija atordoado em cada alvo atingido pelo ataque; ou inflija fraco em cada alvo atingido pelo ataque; ou cada alvo atingido pelo ataque perde 【SL × 10】 Pontos de Mente. Descreva sua manobra!"
         },
         {
-            "nome": "BREACH",
+            "nome": "BRÈCHE",
             "sl": 3,
             "descricao": "Você pode usar uma ação e gastar 5 Pontos de Mente para realizar um ataque gratuito com uma arma corpo a corpo que tenha equipada. Este ataque deve mirar uma única criatura. Se o ataque for bem-sucedido, ele não causa dano e você escolhe uma opção: você destrói um escudo equipado pelo alvo; ou você destrói a armadura equipada do alvo; ou sempre que o alvo sofrer dano de uma fonte antes do início do seu próximo turno, aquela fonte causa 【SL × 2】 de dano extra a ele."
         },
         {
-            "nome": "COUNTERATTACK",
+            "nome": "CONTRE-ATTAQUE",
             "sl": 0,
             "descricao": "Depois que um inimigo acerta ou erra você com um ataque corpo a corpo, se o Resultado do Teste de Precisão dele foi um número par, você pode realizar um ataque gratuito contra aquele inimigo (depois que o ataque dele for totalmente resolvido). Este ataque deve ser um ataque corpo a corpo e deve ter aquele inimigo como seu único alvo; trate sua highest roll (HR) como 0 ao calcular o dano causado por este ataque."
         },
         {
-            "nome": "MEELEE WEAPON MASTERY",
+            "nome": "MAÎTRISE DE MÊLÉE",
             "sl": 4,
-            "descricao": "Você recebe um bônus igual a 【NH】 em todos os Testes de Precisão com armas corpo a corpo."
+            "descricao": "Você recebe um bônus igual a 【SL】 em todos os Testes de Precisão com armas corpo a corpo."
         }
     ]
 }
