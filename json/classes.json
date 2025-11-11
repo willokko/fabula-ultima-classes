@@ -331,7 +331,7 @@
         {
             "nome": "ESQUIVE",
             "sl": 3,
-            "descricao": "Quando você acerta uma criatura com um ataque, se o ataque mirou apenas aquela criatura e ela estiver sofrendo de um ou mais efeitos de status, você pode fazer com que ele cause dano extra igual a 【SL + o número de efeitos de status na criatura】."
+            "descricao": "Enquanto você não tiver Shields ou Martial Armos equipados sua pontuação de Defesa é aumentado em 【SL】."
         },
         {
             "nome": "VÉLOCITÉ",
