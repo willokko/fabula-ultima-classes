@@ -524,6 +524,76 @@
             "descricao": "Você recebe um bônus igual a 【SL】 em todos os Testes de Precisão com armas corpo a corpo."
         }
     ]
+},
+{
+    "nome": "Floralist",
+    "icon": "icons/FloralistIcon.png",
+    "imagem": "img/Floralist.png",
+    "livro": "Natural Fantasy",
+    "resumo": "A energia espiritual flui fortemente dentro das plantas, graças à sua conexão direta com nossa terra. Desse encontro, crescem as magis sementes, dotadas da habilidade única de prosperar com energia espiritual e florescer em um majestoso, porém efêmero, triunfo da magia. Floralistas podem identificar e cultivar essas sementes estranhas, que concedem uma grande variedade de benefícios e podem ser combinadas com todo tipo de disciplina, marcial e mágica.",
+    "beneficio_gratis": "+5MP ou +5HP",
+    "skills": [
+        {
+            "nome": "JARDIM DE GUERRE",
+            "sl": 3,
+            "descricao": "Após plantar uma magis semente através da Habilidade Chloromancie (não ao usar Greffe), você pode escolher uma opção: realizar um ataque gratuito com uma arma equipada; ou realizar a ação Conjurar (Spell) gratuitamente, lançando uma magia com um custo total de Pontos de Mente igual ou inferior a 【5 + (NH × 5)】 (você ainda deve pagar seu custo de PM). Trate a Rolagem Alta (RA) do seu Teste de Precisão ou Teste Mágico como 0 ao determinar o dano causado por este ataque ou magia."
+        },
+        {
+            "nome": "CHLOROMANCIE",
+            "sl": 10,
+            "descricao": "Cada vez que você adquire esta Habilidade, você descobre um novo tipo de magis semente da lista encontrada nas páginas seguintes.\nDurante um conflito, se não houver magis sementes em seu jardim, você pode usar uma ação e gastar 20 Pontos de Mente para plantar uma magis semente de um tipo que você descobriu. As regras para o jardim e para o crescimento das magis sementes podem ser encontradas nas páginas seguintes."
+        },
+        {
+            "nome": "GREFEE",
+            "sl": 0,
+            "descricao": "Contanto que haja uma magis semente em seu jardim e 1 ou mais seções do seu Relógio de Crescimento (Growth Clock) estejam preenchidas, você pode usar uma ação para remover aquela magis semente do seu jardim: se o fizer, plante uma magis semente diferente entre as que você descobriu (mantenha as seções preenchidas atuais do seu Relógio de Crescimento inalteradas)."
+        },
+        {
+            "nome": "ARBRE DE VIE",
+            "sl": 5,
+            "descricao": "Quando você remove uma magis semente do seu jardim, pode escolher uma criatura que possa ver: se aquela criatura estiver em Crise, ela recupera 【5 + (NH × 5)】 Pontos de Vida."
+        },
+        {
+            "nome": "EMPRISE VERDOYANTE",
+            "sl": 0,
+            "descricao": "Você ganha a habilidade de realizar Rituais da disciplina de Ritualismo; além disso, você pode usar Ritualismo para criar, animar e/ou controlar vegetação, pólen, esporos e toxinas (mas você não pode criar nem controlar NPCs da Espécie planta desta forma)."
+        }
+    ]
+},
+{
+    "nome": "Gourmet",
+    "icon": "icons/gourmeticon.png",
+    "imagem": "img/gourmet.png",
+    "livro": "Natural Fantasy",
+    "resumo": "Cozinhar pode ser considerado uma habilidade comum, mas Gourmets refinam seu conhecimento de alimentos a um nível que é nada menos que sobrenatural: eles refinam a arte de extrair energias espirituais de cada ingrediente, infundindo refeições com poderosos efeitos mágicos!\nEmbora a maioria dos Gourmets se contente em simplesmente se estabelecer em uma cidade ou vila e viver de suas habilidades, alguns vagam pelo mundo em uma busca vitalícia por novos ingredientes.",
+    "beneficio_gratis": "Aumente permanentemente seus Pontos de Inventário máximos em 2. Você pode iniciar Projetos para criar comidas e bebidas exclusivas; elas são sempre consumíveis e sua área é baseada no número e tipo de criaturas que você precisa alimentar.",
+    "skills": [
+        {
+            "nome": "CUISINE",
+            "sl": 5,
+            "descricao": "Quando você descansa em um assentamento, você ganha 【NH】 ingredientes (veja a próxima página).\nVocê pode usar uma ação e combinar 2 ou 3 ingredientes para preparar uma iguaria (veja a próxima página) e escolher uma opção: aplicar seus efeitos a si mesmo ou a um aliado que possa ver; ou realizar um ataque gratuito com uma arma equipada. Este ataque não causa dano, mas você aplica os efeitos da iguaria a cada inimigo atingido pelo ataque.\nVocê pode carregar até 10 + 【NH × 5】 ingredientes, e eles nunca estragarão até que você os use; se pegar esta Habilidade durante a criação de personagem, você começa o jogo com dez ingredientes com sabores aleatórios."
+        },
+        {
+            "nome": "FOURCHETTE ET COUTEAU",
+            "sl": 0,
+            "descricao": "Quando você realiza o ataque gratuito concedido pela Habilidade Cuisine, se combinou não mais que 2 ingredientes, você pode fazer com que o ataque cause dano normalmente. Se o fizer, você trata sua Rolagem Alta (RA) como 0 ao calcular o dano causado por este ataque."
+        },
+        {
+            "nome": "FAIT AVEC AMOUR",
+            "sl": 3,
+            "descricao": "Quando você usa a Habilidade Cuisine e escolhe aplicar os efeitos da iguaria a si mesmo ou a um aliado que possa ver, você pode gastar até 【NH × 10】 PM. Para cada 10 PM gastos desta forma, aplique os efeitos da iguaria a um aliado adicional que possa ver."
+        },
+        {
+            "nome": "SEL ET POIVRE",
+            "sl": 0,
+            "descricao": "Ao preparar uma iguaria, você pode gastar 2 Pontos de Inventário: se o fizer, mude o sabor de um ingrediente para um sabor diferente de sua escolha."
+        },
+        {
+            "nome": "CUISINIER ITINÉRANT",
+            "sl": 3,
+            "descricao": "Após cada rolagem de viagem, se você adquiriu a Habilidade Cuisine, você ganha 【NH × 2】 ingredientes."
+        }
+    ]
 }
     ]
 }
