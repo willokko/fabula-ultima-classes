@@ -17,6 +17,8 @@ const modalBook = document.getElementById('modal-book');
 const modalBenefit = document.getElementById('modal-benefit');
 const modalSummary = document.getElementById('modal-summary');
 const modalSkills = document.getElementById('modal-skills');
+const modalExtraSection = document.getElementById('modal-extra-section');
+const modalExtra = document.getElementById('modal-extra');
 
 // Load classes from JSON
 async function loadClasses() {
@@ -106,6 +108,9 @@ function openModal(classData) {
         const skillCard = createSkillCard(skill, index);
         modalSkills.appendChild(skillCard);
     });
+
+    // Render extra (if present)
+    renderExtra(classData.extra);
     
     // Show modal with animation
     modalEl.classList.remove('hidden');
@@ -115,6 +120,108 @@ function openModal(classData) {
     
     // Prevent body scroll
     document.body.style.overflow = 'hidden';
+}
+
+// Render `extra` content. Supports:
+// - string (interpreted as trusted HTML)
+// - object with { tables: [ { caption, headers: [], rows: [[], ...] } ], notes }
+function renderExtra(extra) {
+    // Hide by default
+    modalExtraSection.classList.add('hidden');
+    modalExtra.innerHTML = '';
+
+    if (!extra) return;
+
+    // If extra is a string, treat as trusted HTML (user-provided HTML in JSON)
+    if (typeof extra === 'string') {
+        // NOTE: This inserts raw HTML. Only use if JSON is trusted.
+        modalExtra.innerHTML = extra;
+        modalExtraSection.classList.remove('hidden');
+        return;
+    }
+
+    // If extra is an array, render each item
+    if (Array.isArray(extra)) {
+        extra.forEach(item => renderExtra(item));
+        modalExtraSection.classList.remove('hidden');
+        return;
+    }
+
+    // If extra is an object with structured tables
+    if (typeof extra === 'object') {
+        // Render free-form notes first
+        if (extra.notes) {
+            const p = document.createElement('p');
+            p.className = 'text-gray-300';
+            p.textContent = extra.notes;
+            modalExtra.appendChild(p);
+        }
+
+        if (Array.isArray(extra.tables)) {
+            extra.tables.forEach(tbl => {
+                const tableEl = createTableElement(tbl);
+                modalExtra.appendChild(tableEl);
+            });
+        }
+
+        // Render any raw HTML if provided (trusted)
+        if (extra.html) {
+            const wrapper = document.createElement('div');
+            wrapper.innerHTML = extra.html; // trusted
+            modalExtra.appendChild(wrapper);
+        }
+
+        modalExtraSection.classList.remove('hidden');
+        return;
+    }
+}
+
+// Create a DOM table from a structured table object
+function createTableElement(tbl) {
+    const container = document.createElement('div');
+    container.className = 'overflow-x-auto bg-slate-800/30 p-3 rounded-lg border border-purple-500/20';
+
+    if (tbl.caption) {
+        const cap = document.createElement('div');
+        cap.className = 'text-sm text-purple-200 font-semibold mb-2';
+        cap.textContent = tbl.caption;
+        container.appendChild(cap);
+    }
+
+    const table = document.createElement('table');
+    table.className = 'table-auto w-full text-sm text-left border-collapse';
+
+    if (Array.isArray(tbl.headers) && tbl.headers.length > 0) {
+        const thead = document.createElement('thead');
+        const tr = document.createElement('tr');
+        tbl.headers.forEach(h => {
+            const th = document.createElement('th');
+            th.className = 'px-3 py-2 text-purple-300 border-b border-slate-700';
+            th.textContent = h;
+            tr.appendChild(th);
+        });
+        thead.appendChild(tr);
+        table.appendChild(thead);
+    }
+
+    const tbody = document.createElement('tbody');
+    if (Array.isArray(tbl.rows)) {
+        tbl.rows.forEach(row => {
+            const tr = document.createElement('tr');
+            row.forEach(cell => {
+                const td = document.createElement('td');
+                td.className = 'px-3 py-2 border-b border-slate-800 text-gray-300';
+                // allow strings or numbers
+                td.textContent = (cell === null || cell === undefined) ? '' : String(cell);
+                tr.appendChild(td);
+            });
+            tbody.appendChild(tr);
+        });
+    }
+    table.appendChild(tbody);
+
+    container.appendChild(table);
+    return container;
 }
 
 // Create skill card

@@ -34,6 +34,17 @@
                     "descricao": "Você pode realizar Rituais da disciplina de Arcanismo (Arcanism), desde que seus efeitos estejam dentro dos domínios de um ou mais Arcana que você vinculou (veja as próximas páginas). Rituais de Arcanismo usam 【WLP + WLP】 para o Teste de Magia (Magic Check)."
                 }
             ]
+            ,
+            "extra": {
+                "notes": "Tabela de exemplo com custos de invocação e observações.",
+                "tables": [
+                    {
+                        "caption": "Custos de Invocação",
+                        "headers": ["Arcanum","Custo (MP)"],
+                        "rows": [["Menor","40"],["Maior","120"]]
+                    }
+                ]
+            }
         },
         {
             "nome": "Chimerist",
