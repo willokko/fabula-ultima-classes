@@ -769,6 +769,41 @@
             "descricao": "Depois de realizar uma dança, seus ataques com armas de combate desarmado, adaga, mangual e arremesso causam 【SL】 de dano extra até o início do seu próximo turno. Se tiver uma arma arcana equipada, magias ofensivas que você lançar também causam 【SL】 de dano extra até o início do seu próximo turno."
         }
     ]
+},
+{
+    "nome": "Symbolist",
+    "icon": "icons/symbolisticon.png",
+    "imagem": "img/symbolist.png",
+    "livro": "High Fantasy",
+    "resumo": "Existe um grande poder dentro de símbolos e imagens, e ninguém sabe disso melhor do que um Symboliste. Em vez de uma disciplina mágica, o simbolismo poderia ser descrito como um estudo de como tecer energias sobrenaturais em sinais e ícones: estes podem ser pinturas, runas, talismãs e muito mais. A maioria dos Symbolistes desenvolve suas habilidades através de prática intensa e estudo meticuloso, mas há muitos que veem esta disciplina mágica como uma forma de expressar livremente sua visão artística.",
+    "beneficio_gratis": "+2 PI",
+    "skills": [
+        {
+            "nome": "SYMBOLES MAGIQUES",
+            "sl": 3,
+            "descricao": "Se um aliado carrega um de seus símbolos, aquele aliado pode realizar a ação Conjurar (Spell) e destruir aquele símbolo para lançar uma única magia entre as que você conhece, desde que tenha um custo total de Pontos de Mente igual ou inferior a 【NH × 10】 (aquele aliado ainda deve pagar o custo de PM)."
+        },
+        {
+            "nome": "MIRAGE",
+            "sl": 0,
+            "descricao": "Você ganha a habilidade de realizar Rituais da disciplina de Ritualismo; além disso, você pode usar Ritualismo para criar ilusões baseadas na visão."
+        },
+        {
+            "nome": "TOUCHE PERSONNELLE",
+            "sl": 5,
+            "descricao": "Quando uma criatura que você possa ver que esteja carregando um de seus símbolos sofre dano ou recupera PV e/ou PM, você pode fazer com que aquela criatura sofra 【SL】 de dano extra ou recupere 【SL】 PV e/ou PM adicionais, respectivamente."
+        },
+        {
+            "nome": "CONNEXION SYMBOLIQUE",
+            "sl": 0,
+            "descricao": "Você sempre sabe a direção exata para encontrar qualquer criatura carregando um de seus símbolos, desde que essa criatura esteja a até 2 dias de viagem da sua posição."
+        },
+        {
+            "nome": "SYMBOLISME",
+            "sl": 5,
+            "descricao": "Cada vez que adquire esta habilidade, você aprende dois símbolos. Você pode ter até 【NH + 1】 símbolos ativos ao mesmo tempo; se criar mais enquanto estiver no seu limite, deve primeiro escolher e destruir alguns de seus símbolos anteriores. Você pode realizar a ação de Inventário e gastar 2 Pontos de Inventário para criar um símbolo que aprendeu e escolher uma opção: aplicar o símbolo a si mesmo; ou aplicar o símbolo a um aliado que possa ver; ou realizar um ataque gratuito com uma arma equipada. Este ataque não causa dano, mas você aplica uma cópia do símbolo escolhido a cada inimigo atingido (cada cópia conta como um símbolo separado para o seu limite)."
+        }
+    ]
 }
     ]
 }
