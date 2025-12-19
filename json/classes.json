@@ -612,7 +612,77 @@
             "sl": 0,
             "descricao": "Quando você trabalha em um Projeto, até 【SL × 100】 zenit de custos materiais são pagos automaticamente; além disso, você gera 【SL】 de progresso adicional a cada dia. Se múltiplos personagens com esta Habilidade trabalharem no mesmo Projeto, os efeitos serão cumulativos."
         }
-    ]
+    ],
+    "extra":{
+        "notes": "O Inventor combina criatividade com recursos limitados (PI). A Alquimia é versátil mas aleatória, as Infusões fortalecem ataques e a Magitecnologia oferece ferramentas duradouras.",
+        "tables": [
+            {
+                "caption": "Alquimia - Tipos de Mistura",
+                "headers": ["Mistura", "Custo (PI)", "Descrição"],
+                "rows": [
+                    ["Básica", "3", "Rola 2d20; atribui um ao Alvo e um ao Efeito."],
+                    ["Avançada", "4", "Rola 3d20; atribui um ao Alvo e um ao Efeito."],
+                    ["Superior", "5", "Rola 4d20; atribui um ao Alvo e um ao Efeito."]
+                ]
+            },
+            {
+                "caption": "Alquimia - Tabela de Alvos",
+                "headers": ["Dado", "Alvo Afetado"],
+                "rows": [
+                    ["1-6", "Você ou um aliado visível na cena."],
+                    ["7-11", "Um inimigo visível na cena."],
+                    ["12-16", "Você e todos os aliados na cena."],
+                    ["17-20", "Todos os inimigos na cena."]
+                ]
+            },
+            {
+                "caption": "Alquimia - Tabela de Efeitos",
+                "headers": ["Dado", "Efeito"],
+                "rows": [
+                    ["Qualquer", "Sufre 20 de dano de veneno OU recupera 30 PV."],
+                    ["1", "Trata DEX e MIG como um tamanho de dado maior (máx. d12) até o fim do seu próximo turno."],
+                    ["2", "Trata INS e WLP como um tamanho de dado maior (máx. d12) até o fim do seu próximo turno."],
+                    ["3", "Sufre 20 de dano de ar (30 no nv20, 40 no nv40)."],
+                    ["4", "Sufre 20 de dano de raio (30 no nv20, 40 no nv40)."],
+                    ["5", "Sufre 20 de dano de escuridão (30 no nv20, 40 no nv40)."],
+                    ["6", "Sufre 20 de dano de terra (30 no nv20, 40 no nv40)."],
+                    ["7", "Sufre 20 de dano de fogo (30 no nv20, 40 no nv40)."],
+                    ["8", "Sufre 20 de dano de gelo (30 no nv20, 40 no nv40)."],
+                    ["9", "Ganha Resistência a ar e fogo até o fim da cena."],
+                    ["10", "Ganha Resistência a raio e gelo até o fim da cena."],
+                    ["11", "Ganha Resistência a escuridão e terra até o fim da cena."],
+                    ["12", "Sufre Enfurecido (Enraged)."],
+                    ["13", "Sufre Envenenado (Poisoned)."],
+                    ["14", "Sufre Atordoado, Abalado, Lento e Fraco."],
+                    ["15", "Recupera-se de todos os efeitos de status."],
+                    ["16-17", "Recupera 50 PV e 50 PM."],
+                    ["18", "Recupera 100 PV."],
+                    ["19", "Recupera 100 PM."],
+                    ["20", "Recupera 100 PV e 100 PM."]
+                ]
+            },
+            {
+                "caption": "Infusões (Custo: 2 PI por ataque)",
+                "headers": ["Infusão", "Efeito"],
+                "rows": [
+                    ["Cryo / Pyro / Volt", "O ataque causa +5 de dano e o tipo torna-se Gelo, Fogo ou Raio."],
+                    ["Cyclone / Exorcism", "O ataque causa +5 de dano e o tipo torna-se Ar ou Luz."],
+                    ["Seismic / Shadow", "O ataque causa +5 de dano e o tipo torna-se Terra ou Escuridão."],
+                    ["Vampire (Superior)", "Recupera PV ou PM igual a metade da perda de PV sofrida pelo alvo (apenas alvo único)."],
+                    ["Venom (Superior)", "Dano torna-se veneno, causa +5 de dano e inflige Envenenado."]
+                ]
+            },
+            {
+                "caption": "Magitecnologia",
+                "headers": ["Nível", "Habilidade", "Descrição"],
+                "rows": [
+                    ["Básico", "Override", "Ação, 10 PM: Teste Oposto [INS+INS] contra soldado construto. Sucesso garante controle até o fim da cena ou até ser ferido."],
+                    ["Avançado", "Magicannon", "Ação de Inventário, 3 PI: Cria uma arma de duas mãos à distância. Precisão [DEX+INS]+1, Dano [RA+10]. Escolha o tipo de dano ao criar."],
+                    ["Superior", "Magispheres", "Ação de Inventário, 2 PI: Cria uma magisfera para conjurar uma magia de protótipo (Elementalista, Entropista ou Espiritista) sem gastar ação."]
+                ]
+            }
+        ]
+    }
 },
 {
     "nome": "Wayfarer",
