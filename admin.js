@@ -156,7 +156,7 @@ function showToast() {
 function setDefaultPaths() {
     iconInput.value = 'icons/.png';
     imagemInput.value = 'img/.png';
-    livroInput.value = 'principal';
+    livroInput.value = 'Natural Fantasy';
 }
 
 // Reset form

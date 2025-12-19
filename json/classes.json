@@ -594,6 +594,181 @@
             "descricao": "Após cada rolagem de viagem, se você adquiriu a Habilidade Cuisine, você ganha 【NH × 2】 ingredientes."
         }
     ]
+},
+{
+    "nome": "Invoker",
+    "icon": "icons/invokericon.png",
+    "imagem": "img/invoker.png",
+    "livro": "Natural Fantasy",
+    "resumo": "Invocadores pesquisam a energia inata das almas e a forma como ela flui e se manifesta espontaneamente ao seu redor. Mesmo que sua arte dependa de invocar o poder dos elementos, eles se adaptam às fontes de poder existentes em vez de forçar um resultado não natural e perturbar o fluxo dos espíritos.\nDito isso, Invocadores continuam sendo aventureiros formidáveis: eles ostentam grande flexibilidade e uma afinidade única por criaturas elementais.",
+    "beneficio_gratis": "+5HP ou +5MP",
+    "skills": [
+        {
+            "nome": "HARMONIE ÉLÉMENTAIRE",
+            "sl": 2,
+            "descricao": "Você pode se comunicar verbalmente com criaturas da Espécie elemental.\nQuando você restaura os Pontos de Vida de uma criatura com uma invocação ou magia, se um elemental estiver presente na cena, a quantidade restaurada é aumentada em 【NH × 5】."
+        },
+        {
+            "nome": "INVOCATION",
+            "sl": 3,
+            "descricao": "Você pode usar uma ação e gastar 5 Pontos de Mente para realizar uma invocação, extraindo energia de uma das fontes (wellsprings) presentes na cena (veja a próxima página). Seu 【NH】 nesta Habilidade determina a quais invocações você tem acesso."
+        },
+        {
+            "nome": "INVOCATION LIÉE",
+            "sl": 3,
+            "descricao": "Quando você realiza uma invocação, pode gastar até 【NH × 10】 Pontos de Mente adicionais. Para cada 10 Pontos de Mente gastos desta forma, a invocação pode mirar uma criatura adicional que você possa ver."
+        },
+        {
+            "nome": "ONDULATIONS",
+            "sl": 5,
+            "descricao": "Após um inimigo que você possa ver perder Pontos de Vida devido a dano causado por um de seus aliados, se esse dano foi aumentado por uma ou mais de suas invocações \"hex\", você pode realizar um ataque gratuito com uma arma equipada. Este ataque só pode mirar aquele inimigo e recebe um bônus igual a 【NH】 em seu Teste de Precisão; se for bem-sucedido, todo o seu dano se torna do mesmo tipo causado pelo seu aliado, e todas as invocações \"hex\" presentes em seu alvo terminam imediatamente após o ataque ser resolvido.\nSe dois ou mais inimigos ativarem esta Habilidade ao mesmo tempo, você pode realizar um ataque gratuito contra cada um deles, na ordem que preferir."
+        },
+        {
+            "nome": "EXPANSION DE SOURCE",
+            "sl": 5,
+            "descricao": "Contanto que você tenha uma arma pertencente à Categoria arcana, arco, combate desarmado, mangual, espada ou arremesso equipada, suas invocações \"blast\" causam 【NH】 de dano extra, e o dano extra concedido por suas invocações \"hex\" é aumentado em 【NH】."
+        }
+    ]
+},
+{
+    "nome": "Merchant",
+    "icon": "icons/merchanticon.png",
+    "imagem": "img/merchant.png",
+    "livro": "Natural Fantasy",
+    "resumo": "Mesmo em mundos repletos de grande magia, riqueza e dinheiro são muito influentes. O comércio é um aspecto fundamental para o desenvolvimento de nações e reinos, e os Mercadores estão bem cientes desse poder.\n\nPode parecer estranho que um Mercador seja tratado em pé de igualdade com um herói; no entanto, aqueles que resistem à tentação da ganância e se apoiam no comércio para fomentar a troca de ideias e o diálogo entre povos distantes estão verdadeiramente travando sua própria revolução.",
+    "beneficio_gratis": "+5HP ou +5MP",
+    "skills": [
+        {
+            "nome": "DATE D'EXPIRATION",
+            "sl": 3,
+            "descricao": "Quando uma poção ou iguaria (veja página 151) que você criou e que não causa dano faz uma ou mais criaturas recuperarem Pontos de Vida, você pode, em vez disso, fazer com que ela cause dano de veneno igual a 【metade do seu nível + (NH × 10)】 a cada uma dessas criaturas. O tipo deste dano não pode mudar, e ele é reduzido pela metade se você estiver causando dano a duas ou mais criaturas."
+        },
+        {
+            "nome": "J'EN AI ENTENDU PARLER!",
+            "sl": 3,
+            "descricao": "Quando você ou um aliado que possa ouvi-lo e entendê-lo realizar um Teste para examinar uma criatura, item ou localização, você pode gastar 1 Ponto de Comércio (Trade Point) para conceder um bônus igual a 【NH × 2】 ao Resultado daquele Teste."
+        },
+        {
+            "nome": "RÉSERVE PERSONNELLE",
+            "sl": 3,
+            "descricao": "Quando você ou outro Personagem de Jogador gastar 【NH + 2】 ou menos Pontos de Inventário, você pode gastar 1 Ponto de Comércio para ignorar aquele custo."
+        },
+        {
+            "nome": "VRAI TRÉSOR",
+            "sl": 3,
+            "descricao": "Uma vez por sessão, quando você ajuda um NPC ou comunidade a derrotar a ganância e a corrupção, melhorar sua qualidade de vida ou coexistir com outras criaturas, se você adquiriu a Habilidade Vents du Commerce, você ganha 【NH + 1】 Pontos de Comércio."
+        },
+        {
+            "nome": "VENTS DU COMMERCE",
+            "sl": 3,
+            "descricao": "Após descansar em uma área onde o comércio é possível, você ganha 【NH + 1】 Pontos de Comércio.\nVocê nunca pode ter mais que 【NH + 3】 Pontos de Comércio; se adquirir esta Habilidade durante a criação de personagem, você começa o jogo com 2 Pontos de Comércio.\nDurante uma cena fora de conflito, você pode gastar 2 Pontos de Comércio para escolher uma opção: você cria um item material ou raro aprovado pelo Mestre de Jogo cujo valor em zenit seja igual ou inferior a 【seu nível, multiplicado por 30】; ou você cria um NPC que vive por perto e explica sua ocupação, bem como o conheceu, então o Mestre lhe diz o que ele exige em troca de seus serviços."
+        }
+    ]
+},
+{
+    "nome": "Chanter",
+    "icon": "icons/chantericon.png",
+    "imagem": "img/chanter.png",
+    "livro": "High Fantasy",
+    "resumo": "Seja deslizando os dedos em uma harpa delicada, atordoando uma audiência despreparada com o puro poder de seus vocais, ou mergulhando alegremente em uma multidão de fãs delirantes, Chantres podem ser descritos como orquestras mágicas de uma pessoa só! As habilidades de um Chantre vão muito além dos limites normais da música e do canto: eles dependem da força de suas almas e tecem energia mágica em canções, apoiando seus aliados durante situações tensas.",
+    "beneficio_gratis": "+5 MP",
+    "skills": [
+        {
+            "nome": "CHANT MAGIQUE",
+            "sl": 10,
+            "descricao": "Em seu turno durante uma cena de conflito, você pode usar uma ação e gastar uma quantidade variável de PM para tecer voz e música em um efeito mágico conhecido como verso. Você só pode cantar um verso por turno, mesmo que tenha acesso a múltiplas ações; as regras completas para versos podem ser encontradas a partir da próxima página. Quando você adquire esta habilidade pela primeira vez, você aprende todos os três volumes, além de uma clave e um tom. Sempre que adquirir esta habilidade novamente, você pode aprender uma clave ou um tom (sua escolha)."
+        },
+        {
+            "nome": "RÉSONANCE",
+            "sl": 3,
+            "descricao": "Depois de afetar um ou mais inimigos com um verso, se você tiver uma arma arcana equipada, você pode escolher uma opção: até o início do seu próximo turno, seus aliados causam 【SL】 de dano extra a esses inimigos; ou até o início do seu próximo turno, você recupera 【NH】 Pontos de Mente toda vez que um desses inimigos sofrer dano (se a mesma fonte causar dano a dois ou mais desses inimigos ao mesmo tempo, você recupera 【NH】 PM para cada inimigo danificado)."
+        },
+        {
+            "nome": "CHANT DE LA SIRÈNE",
+            "sl": 0,
+            "descricao": "Você ganha a habilidade de realizar Rituais da disciplina de Ritualismo; além disso, você pode usar Ritualismo para criar ilusões baseadas na audição."
+        },
+        {
+            "nome": "BARRIÈRE SONORE",
+            "sl": 5,
+            "descricao": "Depois de cantar um verso com volume médio ou alto, todo o dano físico que você sofrer até o início do seu próximo turno é reduzido em 【SL】 (aplicado antes das Afinidades)."
+        },
+        {
+            "nome": "VIBRATO (Antiga: VIBRATO)",
+            "sl": 0,
+            "descricao": "Depois de cantar um verso com volume baixo ou médio, você pode realizar um ataque gratuito com uma arma equipada; trate sua HR como 0 ao calcular o dano causado por este ataque."
+        }
+    ]
+},
+{
+    "nome": "Commander",
+    "icon": "icons/commandericon.png",
+    "imagem": "img/commander.png",
+    "livro": "High Fantasy",
+    "resumo": "Comandantes são líderes e figuras inspiradoras. Alguns são de sangue nobre, mas a maioria conquistou a lealdade de seus companheiros no campo de batalha, onde sua determinação de ferro e proeza tática foram testadas repetidas vezes. Ao pensar em como um Comandante deve ser, não se sinta preso à ideia de um cavaleiro em armadura brilhante: capitães bandidos, nobres caídos e estudantes de guerra são todos exemplos perfeitos do que esta Classe pode representar.",
+    "beneficio_gratis": "+ 5HP & \"martial melee weapons\" e \"martial ranged weapons\"",
+    "skills": [
+        {
+            "nome": "ÉDIT DE L'ÉVÊQUE",
+            "sl": 5,
+            "descricao": "Durante um conflito, você pode usar uma ação e gastar 10 Pontos de Mente para escolher uma opção: todos os custos de PM são dobrados; ou todas as fontes de dano causam 【NH × 3】 de dano extra. O efeito escolhido dura até o início do seu próximo turno."
+        },
+        {
+            "nome": "CAVALERIE DE CHARGE",
+            "sl": 5,
+            "descricao": "Durante um conflito, você pode usar uma ação e gastar 10 PM para escolher um aliado que possa ouvi-lo. Aquele aliado pode imediatamente realizar um ataque gratuito com uma arma equipada (ou com um ataque básico se for um NPC). Eles ganham um bônus igual a 【NH + 3】 no Teste de Precisão, mas tratam sua Rolagem Alta (RA) como 0 ao calcular o dano."
+        },
+        {
+            "nome": "CHAR D'ASSAUT",
+            "sl": 0,
+            "descricao": "Depois de usar Édit de l'Évêque, Cavalerie de Charge ou Roque du Roi, você pode escolher outro Personagem de Jogador que possa ouvi-lo e que ainda não tenha agido nesta rodada. Aquele personagem pode agir imediatamente após o seu turno durante esta rodada."
+        },
+        {
+            "nome": "ROQUE DU ROI",
+            "sl": 4,
+            "descricao": "Durante um conflito, você pode usar uma ação e gastar 10 Pontos de Mente para escolher uma opção: nenhuma criatura pode recuperar Pontos de Vida ou Pontos de Mente; ou todos os efeitos que restauram Pontos de Mente restauram 【NH × 5】 PM adicionais. O efeito escolhido dura até o início do seu próximo turno."
+        },
+        {
+            "nome": "GAMBIT DE LA REINE",
+            "sl": 6,
+            "descricao": "Durante um conflito, você pode usar uma ação para realizar um ataque gratuito com uma arma equipada, tratando sua Rolagem Alta (RA) como 0 ao calcular o dano. Após o ataque ser resolvido, escolha uma opção: um aliado que possa ouvi-lo recupera 【5 + (NH × 5)】 Pontos de Vida; ou você pode imediatamente usar uma Habilidade que adquiriu entre Édit de l'Évêque, Cavalerie de Charge ou Roque du Roi gratuitamente (gastando o PM apropriado)."
+        }
+    ]
+},
+{
+    "nome": "Dancer",
+    "icon": "icons/dancericon.png",
+    "imagem": "img/dancer.png",
+    "livro": "High Fantasy",
+    "resumo": "Dançarinos são aqueles que treinaram seus corpos para alcançar coordenação e flexibilidade excepcionais, seja para impressionar uma multidão com sua ginástica ou para realizar passos ancestrais destinados a manter o mal afastado. Os Dançarinos mais talentosos podem direcionar o fluxo de força espiritual através de movimentos repetidos e precisos, aprimorando suas habilidades físicas e manifestando efeitos mágicos. Eles são combatentes surpreendentemente capazes, embora às vezes um pouco... dramáticos demais.",
+    "beneficio_gratis": "+ 5HP ou 5MP",
+    "skills": [
+        {
+            "nome": "DANSE",
+            "sl": 10,
+            "descricao": "Cada vez que você pega esta habilidade, você aprende uma dança. Em seu turno durante uma cena de conflito, se não tiver armadura marcial equipada, você pode gastar 10 Pontos de Mente para realizar uma dança que aprendeu. Isso não requer uma ação, mas só pode ser feito antes ou depois de uma ação, e apenas uma vez por turno. Se você já realizou uma dança diferente durante seu turno anterior nesta cena, o custo da nova dança é reduzido para 5 Pontos de Mente."
+        },
+        {
+            "nome": "SUIVEZ ME PAS",
+            "sl": 0,
+            "descricao": "Quando você realiza uma dança com duração \"Até o início do seu próximo turno\", você pode gastar 10 Pontos de Mente adicionais. Se o fizer, escolha um aliado que possa ver para com quem tenha um Laço de afeição: aplique os benefícios da dança àquele aliado e a si mesmo (os benefícios ainda duram até o início do seu próximo turno)."
+        },
+        {
+            "nome": "JEU DE JAMBES FRÉNÉTIQUE",
+            "sl": 2,
+            "descricao": "Depois de realizar uma dança com duração \"Até o início do seu próximo turno\", você ganha um bônus igual a 【SL × 2】 em todos os Testes Opostos que dependam de acrobacias, coordenação ou velocidade até o início do seu próximo turno."
+        },
+        {
+            "nome": "CHANGEMENT RAPIDE (Antiga: QUICK-CHANGE)",
+            "sl": 0,
+            "descricao": "Depois de realizar uma dança, você pode realizar a ação Equipament gratuitamente."
+        },
+        {
+            "nome": "DANSEUR DE GUERRE",
+            "sl": 5,
+            "descricao": "Depois de realizar uma dança, seus ataques com armas de combate desarmado, adaga, mangual e arremesso causam 【SL】 de dano extra até o início do seu próximo turno. Se tiver uma arma arcana equipada, magias ofensivas que você lançar também causam 【SL】 de dano extra até o início do seu próximo turno."
+        }
+    ]
 }
     ]
 }
