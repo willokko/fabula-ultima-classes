@@ -35,16 +35,84 @@
                 }
             ]
             ,
-            "extra": {
-                "notes": "Tabela de exemplo com custos de invocação e observações.",
-                "tables": [
-                    {
-                        "caption": "Custos de Invocação",
-                        "headers": ["Arcanum","Custo (MP)"],
-                        "rows": [["Menor","40"],["Maior","120"]]
-                    }
-                ]
-            }
+           "extra": {
+"notes": "O Arcanista depende da mecânica de Fusão e Dispensa. Lembre-se: o efeito de dispensar (Dismiss) só ocorre se a dispensa for voluntária. Se você cair a 0 PV, o Arcanum desaparece sem ativar o efeito final. O dano de dispensa aumenta nos níveis 20 (+10) e 40 (+20).",
+"tables": [
+{
+"caption": "Resumo de Regras",
+"headers": ["Ação", "Custo (PM)", "Duração"],
+"rows": [
+["Invocar Arcanum", "40", "Até ser dispensado"],
+["Dispensar (Voluntário)", "0 (Sem Ação)", "Instantâneo"],
+["Escalonamento de Dano", "Nível 20/40", "+10 / +20 de dano"]
+]
+},
+{
+"caption": "Arcanum da Forja (Forge)",
+"headers": ["Benefícios de Fusão (Merge)", "Efeito de Dispensa (Dismiss)"],
+"rows": [
+["Resistência a Fogo; Seus danos de fogo ignoram Resistência.", "Forge: Cria arma/armadura/escudo básico de fogo. Inferno: 30 dano fogo em alvos escolhidos."],
+["", "Inferno. Escolha qualquer número de criaturas que você possa ver: cada uma delas sofre 30 de dano de fogo. Esse dano ignora Resistências."]
+]
+},
+{
+"caption": "Arcanum do Gelo (Frost)",
+"headers": ["Benefícios de Fusão (Merge)", "Efeito de Dispensa (Dismiss)"],
+"rows": [
+["Resistência a Gelo; Imune a Enfurecido; Seus danos de gelo ignoram Resistência.", "Era do Gelo: Escolha qualquer número de criaturas para sofrerem 30 de dano de gelo. Ignora Resistências."]
+]
+},
+{
+"caption": "Arcanum do Portal (Gate)",
+"headers": ["Benefícios de Fusão (Merge)", "Efeito de Dispensa (Dismiss)"],
+"rows": [
+["Resistência a Escuridão; Ganha +1 de Defesa Mágica.", "Esquecimento: 30 de dano de escuridão (ignora Res.). Warp: Você se teleporta, juntamente com até cinco outras criaturas voluntárias próximas, para um local que você já tenha visitado anteriormente, desde que esse local esteja a até 1 dia de viagem de distância."]
+]
+},
+{
+"caption": "Arcanum do Grimório (Grimoire)",
+"headers": ["Benefícios de Fusão (Merge)", "Efeito de Dispensa (Dismiss)"],
+"rows": [
+["Lê/Fala todos os idiomas; Intuição (INS) sobe um tamanho de dado (máx. d12).", "Oráculo: Você faz uma única pergunta ao Mestre do Jogo. O Mestre deve responder com a verdade, descrevendo a visão que lhe é mostrada pelo Grimório. Uma vez usado, este efeito de dispensa não poderá ser utilizado novamente até o próximo amanhecer. Além disso, a mesma pergunta nunca poderá ser feita mais de uma vez. O Mestre tem a palavra final sobre quais perguntas são semelhantes demais para serem feitas novamente."]
+]
+},
+{
+"caption": "Arcanum do Carvalho (Oak)",
+"headers": ["Benefícios de Fusão (Merge)", "Efeito de Dispensa (Dismiss)"],
+"rows": [
+["Resistência a Terra/Veneno; Imune a Envenenado; +5 em curas recebidas.", "Florescer: Escolha qualquer número de criaturas que você possa ver (você também pode escolher a si mesmo): cada uma delas se recupera da condição Envenenado e recupera 40 Pontos de Vida. Esse valor aumenta para 50 Pontos de Vida se você for nível 20 ou superior, ou para 60 Pontos de Vida se você for nível 40 ou superior."]
+]
+},
+{
+"caption": "Arcanum do Céu (Sky)",
+"headers": ["Benefícios de Fusão (Merge)", "Efeito de Dispensa (Dismiss)"],
+"rows": [
+["Resistência a Ar/Raio; Pode prever o clima para o dia seguinte.", "Tempestade: Escolha qualquer número de criaturas para sofrerem 30 de dano de raio. Ignora Resistências."]
+]
+},
+{
+"caption": "Arcanum da Espada (Sword)",
+"headers": ["Benefícios de Fusão (Merge)"],
+"rows": [
+["Seus ataques causam 5 de dano adicional, e todo o dano causado por seus ataques é tratado como sem tipo (portanto, não é afetado por Afinidades de dano). O dano causado por seus ataques não pode ganhar um tipo enquanto você estiver fundido com este Arcanum. Quando você realiza um ataque, pode fazer com que esse ataque ganhe a propriedade múltiplo (qualquer número de alvos). Se fizer isso, este Arcanum será automaticamente dispensado após a resolução do ataque (isso não é considerado uma dispensa voluntária)."]
+]
+},
+{
+"caption": "Arcanum da Torre (Tower)",
+"headers": ["Benefícios de Fusão (Merge)", "Efeito de Dispensa (Dismiss)"],
+"rows": [
+["Escolha um tipo de dano elemental: todos os aliados ganham Resistência a ele.", "Julgamento: Escolha qualquer número de criaturas para sofrerem 30 de dano de luz. Ignora Resistências."]
+]
+},
+{
+"caption": "Arcanum da Roda (Wheel)",
+"headers": ["Benefícios de Fusão (Merge)", "Efeito de Dispensa (Dismiss)"],
+"rows": [
+["Imune ao status Lento; Ganha +1 de Defesa.", "Parar o Tempo: Escolha qualquer número de criaturas que você possa ver: cada uma delas sofre a condição Lento. Se uma criatura escolhida dessa forma já estiver Lenta, ela realizará uma ação a menos durante seu próximo turno (mínimo de 0 ações)."]
+]
+}
+]
+}
         },
         {
             "nome": "Chimerist",
