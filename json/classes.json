@@ -787,7 +787,187 @@
             "sl": 0,
             "descricao": "Você ganha a habilidade de realizar Rituais da disciplina de Ritualismo; além disso, você pode usar Ritualismo para criar, animar e/ou controlar vegetação, pólen, esporos e toxinas (mas você não pode criar nem controlar NPCs da Espécie planta desta forma)."
         }
+    ],
+    "extra":{
+        "notes": "O Floralista gerencia um 'Jardim' abstrato. Você só pode ter uma semente por vez. O Relógio de Crescimento (4 seções) dita quais efeitos estão ativos. No final do seu turno: 1. Aumente o Relógio em 1; 2. Aplique o efeito correspondente ao número atual de seções. Ao preencher a 4ª seção, a semente é removida e o relógio reseta. Escalamento (Nv 30+): +5 de dano e +10 em recuperações/perdas de PV/PM.",
+    "tables": [
+      {
+        "caption": "Regras do Jardim e Crescimento",
+        "headers": ["Mecânica", "Regra Detalhada"],
+        "rows": [
+          ["O Jardim", "Espaço abstrato que comporta apenas uma semente. Sementes são removidas ao fim da cena."],
+          ["Relógio de Crescimento(Growth Clock)", "4 seções. Começa vazio. Aumenta em 1 no final de cada um de seus turnos se houver uma semente no Jardim."],
+          ["Resete do Ciclo", "Ao preencher a 4ª seção, a semente é removida e o relógio volta a zero."],
+          ["Efeitos de Semente", "Podem ser Passivos (sempre ativos) ou de Fim de Turno (ativam após o relógio subir)."],
+          ["Efeito por Seção", "Você aplica APENAS o efeito referente ao número exato de seções preenchidas (0, 1, 2 ou 3)."]
+        ]
+      },
+      {
+        "caption": "Narciso Ártico (Arctic Narcissus)",
+        "headers": ["Seções", "Efeito"],
+        "rows": [
+          ["0-1", "Você ganha Resistência a terra e gelo."],
+          ["2-3", "Você e seus aliados na cena ganham Resistência a terra e gelo."]
+        ]
+      },
+      {
+        "caption": "Crisântemo Flamejante (Blazing Chrysanthemum)",
+        "headers": ["Seções", "Efeito"],
+        "rows": [
+          ["1-3", "Fim do turno: Escolha terra ou fogo. Até o próximo uso ou remoção, todo dano causado por você e aliados torna-se do tipo escolhido, ignora Resistências e não pode mudar."]
+        ]
+      },
+      {
+        "caption": "Dália do Deserto (Desert Dahlia)",
+        "headers": ["Seções", "Efeito"],
+        "rows": [
+          ["0-1", "Você ganha Resistência a ar e fogo."],
+          ["2-3", "Você e seus aliados na cena ganham Resistência a ar e fogo."]
+        ]
+      },
+      {
+        "caption": "Ginkgo Dourado (Golden Ginkgo)",
+        "headers": ["Seções", "Efeito"],
+        "rows": [
+          ["1", "Fim do turno: Você e aliados visíveis recuperam-se de Atordoado, Enfurecido e Abalado."],
+          ["2-3", "Fim do turno: Você e aliados visíveis recuperam PM iguais a [5 + Nível em Chloromancie]."]
+        ]
+      },
+      {
+        "caption": "Asfódelo de Sepultura (Grave Asphodel)",
+        "headers": ["Seções", "Efeito"],
+        "rows": [
+          ["1", "Fim do turno: Escolha um inimigo visível; ele sofre o status Abalado."],
+          ["2", "Fim do turno: Todos os inimigos visíveis sofrem o status Abalado."],
+          ["3", "Fim do turno: Causa [15 + Nível em Chloromancie] de dano de escuridão a cada inimigo visível que esteja Abalado."]
+        ]
+      },
+      {
+        "caption": "Íris Eremita (Hermit Iris)",
+        "headers": ["Seções", "Efeito"],
+        "rows": [
+          ["1", "Fim do turno: Escolha um inimigo. O MJ revela Nível, Rank, Espécie, PV/PM Máximos, Traços, Atributos, Defesa e Defesa Mágica."],
+          ["2-3", "Fim do turno: Como acima, mas o MJ também revela todas as Afinidades."]
+        ]
+      },
+      {
+        "caption": "Beladona de Gancho (Hookleaf Nightshade)",
+        "headers": ["Seções", "Efeito"],
+        "rows": [
+          ["0-1", "Todo seu dano torna-se veneno, ignora Imunidade/Resistência e não pode mudar."],
+          ["2-3", "Como acima. Além disso, na primeira vez que causar dano de veneno no seu turno, causa +[Nível em Chloromancie] de dano e inflige Envenenado."]
+        ]
+      },
+      {
+        "caption": "Espinheiro Chifrudo (Horned Hawthorn)",
+        "headers": ["Seções", "Efeito"],
+        "rows": [
+          ["0-1", "Você ganha Resistência a escuridão e veneno."],
+          ["2-3", "Você e seus aliados na cena ganham Resistência a escuridão e veneno."]
+        ]
+      },
+      {
+        "caption": "Magnólia Lunar (Lunar Magnolia)",
+        "headers": ["Seções", "Efeito"],
+        "rows": [
+          ["1-3", "Fim do turno: Escolha gelo ou luz. Até o próximo uso ou remoção, todo dano causado por você e aliados torna-se do tipo escolhido, ignora Resistências e não pode mudar."]
+        ]
+      },
+      {
+        "caption": "Lótus do Oceano (Ocean Lotus)",
+        "headers": ["Seções", "Efeito"],
+        "rows": [
+          ["0-1", "Você é imune a Atordoado e Lento."],
+          ["2", "Sua DEX e INS aumentam em um tamanho de dado (máx. d12)."],
+          ["3", "Você e aliados visíveis aumentam DEX e INS em um tamanho de dado (máx. d12)."]
+        ]
+      },
+      {
+        "caption": "Gazânia do Peregrino (Pilgrim Gazalia)",
+        "headers": ["Seções", "Efeito"],
+        "rows": [
+          ["1-2", "Fim do turno: Escolha você ou um PJ visível; o alvo recupera 2 Pontos de Inventário."],
+          ["3", "Fim do turno: Você e todos os PJs visíveis recuperam 1 Ponto de Inventário."]
+        ]
+      },
+      {
+        "caption": "Dente-de-Leão Saltitante (Prancing Dandelion)",
+        "headers": ["Seções", "Efeito"],
+        "rows": [
+          ["1-3", "Fim do turno: Escolha ar ou raio. Até o próximo uso ou remoção, todo dano causado por você e aliados torna-se do tipo escolhido, ignora Resistências e não pode mudar."]
+        ]
+      },
+      {
+        "caption": "Proteia Real (Regal Protea)",
+        "headers": ["Seções", "Efeito"],
+        "rows": [
+          ["0-1", "Você é imune a Abalado e Fraco."],
+          ["2", "Seu MIG e WLP aumentam em um tamanho de dado (máx. d12)."],
+          ["3", "Você e aliados visíveis aumentam MIG e WLP em um tamanho de dado (máx. d12)."]
+        ]
+      },
+      {
+        "caption": "Lírio do Remédio (Remedy Lily)",
+        "headers": ["Seções", "Efeito"],
+        "rows": [
+          ["1", "Fim do turno: Você e aliados visíveis recuperam-se de Envenenado, Lento e Fraco."],
+          ["2-3", "Fim do turno: Você e aliados visíveis recuperam PV iguais a [15 + Nível em Chloromancie]."]
+        ]
+      },
+      {
+        "caption": "Rosa Serrilhada (Serrated Rose)",
+        "headers": ["Seções", "Efeito"],
+        "rows": [
+          ["1", "Fim do turno: Escolha um inimigo visível; ele sofre o status Lento."],
+          ["2", "Fim do turno: Todos os inimigos visíveis sofrem o status Lento."],
+          ["3", "Fim do turno: Causa [15 + Nível em Chloromancie] de dano físico a cada inimigo visível que esteja Lento."]
+        ]
+      },
+      {
+        "caption": "Strelitzia Prateada (Silver Strelitzia)",
+        "headers": ["Seções", "Efeito"],
+        "rows": [
+          ["0-1", "Você ganha Resistência a raio e luz."],
+          ["2-3", "Você e seus aliados na cena ganham Resistência a raio e luz."]
+        ]
+      },
+      {
+        "caption": "Peônia Estelar (Star Peony)",
+        "headers": ["Seções", "Efeito"],
+        "rows": [
+          ["1", "Fim do turno: Escolha um inimigo visível; ele sofre o status Atordoado."],
+          ["2", "Fim do turno: Todos os inimigos visíveis sofrem o status Atordoado."],
+          ["3", "Fim do turno: Causa [15 + Nível em Chloromancie] de dano de luz a cada inimigo visível que esteja Atordoado."]
+        ]
+      },
+      {
+        "caption": "Orquídea Listrada (Striped Orchid)",
+        "headers": ["Seções", "Efeito"],
+        "rows": [
+          ["1", "Fim do turno: Escolha um inimigo visível; ele sofre o status Fraco."],
+          ["2", "Fim do turno: Todos os inimigos visíveis sofrem o status Fraco."],
+          ["3", "Fim do turno: Causa [15 + Nível em Chloromancie] de dano de veneno a cada inimigo visível que esteja Fraco."]
+        ]
+      },
+      {
+        "caption": "Acácia de Guarda (Wardwattle)",
+        "headers": ["Seções", "Efeito"],
+        "rows": [
+          ["0-1", "Você ganha Resistência a dano físico."],
+          ["2", "Ganha Resistência física. Após sofrer ataque corpo a corpo, causa [5 + Nível em Chloromancie] de dano físico ao agressor."],
+          ["3", "Como acima, mas causa o dano físico E MAIS [5 + Nível em Chloromancie] de dano de veneno ao agressor."]
+        ]
+      },
+      {
+        "caption": "Cravo Colérico (Wrathful Carnation)",
+        "headers": ["Seções", "Efeito"],
+        "rows": [
+          ["1-4", "Ao sair do jardim: Escolha 1 inimigo. Até o fim do seu próximo turno, se ele atacar ou lançar magias ofensivas, DEVE incluir você entre os alvos."],
+          ["Especial", "No fim do seu turno, você pode remover esta semente para resetar o Relógio de Crescimento."]
+        ]
+      }
     ]
+    }
 },
 {
     "nome": "Gourmet",
@@ -800,7 +980,7 @@
         {
             "nome": "CUISINE",
             "sl": 5,
-            "descricao": "Quando você descansa em um assentamento, você ganha 【NH】 ingredientes (veja a próxima página).\nVocê pode usar uma ação e combinar 2 ou 3 ingredientes para preparar uma iguaria (veja a próxima página) e escolher uma opção: aplicar seus efeitos a si mesmo ou a um aliado que possa ver; ou realizar um ataque gratuito com uma arma equipada. Este ataque não causa dano, mas você aplica os efeitos da iguaria a cada inimigo atingido pelo ataque.\nVocê pode carregar até 10 + 【NH × 5】 ingredientes, e eles nunca estragarão até que você os use; se pegar esta Habilidade durante a criação de personagem, você começa o jogo com dez ingredientes com sabores aleatórios."
+            "descricao": "Quando você descansa em um assentamento, você ganha 【SL】 ingredientes (veja a próxima página).\nVocê pode usar uma ação e combinar 2 ou 3 ingredientes para preparar uma iguaria (veja a próxima página) e escolher uma opção: aplicar seus efeitos a si mesmo ou a um aliado que possa ver; ou realizar um ataque gratuito com uma arma equipada. Este ataque não causa dano, mas você aplica os efeitos da iguaria a cada inimigo atingido pelo ataque.\nVocê pode carregar até 10 + 【NH × 5】 ingredientes, e eles nunca estragarão até que você os use; se pegar esta Habilidade durante a criação de personagem, você começa o jogo com dez ingredientes com sabores aleatórios."
         },
         {
             "nome": "FOURCHETTE ET COUTEAU",
@@ -822,7 +1002,63 @@
             "sl": 3,
             "descricao": "Após cada rolagem de viagem, se você adquiriu a Habilidade Cuisine, você ganha 【NH × 2】 ingredientes."
         }
+    ],
+    "extra": {
+    "notes": "O Gourmet gira em torno da experimentação de sabores. Você combina 2 ou 3 ingredientes para criar uma iguaria com efeitos poderosos. Como suas habilidades são geradas processualmente (rolando na tabela d12 ao descobrir novas combinações), é altamente recomendável manter uma 'Folha de Livro de Receitas' para registar os 15 pares possíveis.",
+    "tables": [
+      {
+        "caption": "Obtenção de Ingredientes",
+        "headers": ["Dado (d6)", "Sabor do Ingrediente"],
+        "rows": [
+          ["1", "Amargo (Bitter)"],
+          ["2", "Salgado (Salty)"],
+          ["3", "Azedo (Sour)"],
+          ["4", "Doce (Sweet)"],
+          ["5", "Umami"],
+          ["6", "Escolha do Jogador"]
+        ]
+      },
+      {
+        "caption": "Regras de Combinação e Iguarias",
+        "headers": ["Regra", "Descrição Detalhada"],
+        "rows": [
+          ["Criação", "Combine 2 ou 3 ingredientes. Cada par diferente de sabores adiciona um efeito à iguaria."],
+          ["Descoberta", "Ao usar uma combinação inédita, role d12 na Tabela de Efeitos e registe. Esse par sempre terá esse efeito de agora em diante."],
+          ["Unicidade", "Não pode haver dois pares com o mesmo efeito no seu livro. Se rolar um repetido, mude a escolha (tipo de dano/status) ou role novamente."],
+          ["Limite de Efeitos", "A iguaria tem 1, 2 ou 3 efeitos (ou mais com Habilidades Heroicas). Você decide a ordem de aplicação."],
+          ["Restrição de Conflito", "Os efeitos de 5 a 12 na tabela d12 só podem ser aplicados durante cenas de conflito."]
+        ]
+      },
+      {
+        "caption": "Tabela de Efeitos de Iguaria (d12)",
+        "headers": ["Dado", "Efeito da Combinação"],
+        "rows": [
+          ["1", "Alvos recuperam-se de UM status: Atordoado, Enfurecido, Envenenado, Abalado, Lento ou Fraco."],
+          ["2", "Alvos sofrem UM status: Atordoado, Abalado, Lento ou Fraco."],
+          ["3", "Alvos recuperam 40 PV (50 se nível 30+)."],
+          ["4", "Alvos recuperam 40 PM (50 se nível 30+)."],
+          ["5", "Dano Elemental: Causa 20 de dano (Ar, Raio, Terra, Fogo, Gelo ou Veneno). 30 no nv 30+."],
+          ["6", "Vulnerabilidade Temporária: Fontes de um tipo de dano escolhido causam +5 de dano ao alvo até o fim do seu próximo turno."],
+          ["7", "Bloqueio de Guarda: O alvo não pode realizar a ação Proteger (Guard) no seu próximo turno."],
+          ["8", "Bloqueio de Magia: O alvo não pode realizar a ação Conjurar (Spell) no seu próximo turno."],
+          ["9", "Bloqueio de Habilidade: O alvo não pode realizar a ação de Habilidade (Skill) no seu próximo turno."],
+          ["10", "Resistência Elemental: O alvo ganha Resistência a um tipo de dano escolhido até o fim do seu próximo turno."],
+          ["11", "Aprimoramento de Atributo: Um atributo (DEX, INS, MIG ou WLP) sobe um tamanho de dado (máx. d12) até o fim do seu próximo turno."],
+          ["12", "Alteração de Dano: Todo dano causado pelo alvo torna-se de um tipo escolhido até o fim do próximo turno dele."]
+        ]
+      },
+      {
+        "caption": "Regras Especiais de Efeitos",
+        "headers": ["Tipo de Efeito", "Restrição/Observação"],
+        "rows": [
+          ["Tipo 5 (Dano)", "Uma iguaria só pode ter UM efeito de dano. Se tiver mais por combinações, ignore os outros."],
+          ["Tipo 12 (Tipo de Dano)", "Uma iguaria só pode ter UM efeito de mudança de tipo de dano. Escolha um e ignore o resto."],
+          ["Acumulação", "Fora as restrições acima, todos os efeitos são cumulativos e aplicados a cada alvo."],
+          ["Fora de Conflito", "Pode preparar iguarias fora de combate para 'testar' os efeitos sem gastar ações em momentos críticos."]
+        ]
+      }
     ]
+  }
 },
 {
     "nome": "Invoker",
@@ -840,7 +1076,7 @@
         {
             "nome": "INVOCATION",
             "sl": 3,
-            "descricao": "Você pode usar uma ação e gastar 5 Pontos de Mente para realizar uma invocação, extraindo energia de uma das fontes (wellsprings) presentes na cena (veja a próxima página). Seu 【NH】 nesta Habilidade determina a quais invocações você tem acesso."
+            "descricao": "Você pode usar uma ação e gastar 5 Pontos de Mente para realizar uma invocação, extraindo energia de uma das fontes (wellsprings) presentes na cena (veja a próxima página). Seu 【SL】 nesta Habilidade determina a quais invocações você tem acesso."
         },
         {
             "nome": "INVOCATION LIÉE",
@@ -850,14 +1086,78 @@
         {
             "nome": "ONDULATIONS",
             "sl": 5,
-            "descricao": "Após um inimigo que você possa ver perder Pontos de Vida devido a dano causado por um de seus aliados, se esse dano foi aumentado por uma ou mais de suas invocações \"hex\", você pode realizar um ataque gratuito com uma arma equipada. Este ataque só pode mirar aquele inimigo e recebe um bônus igual a 【NH】 em seu Teste de Precisão; se for bem-sucedido, todo o seu dano se torna do mesmo tipo causado pelo seu aliado, e todas as invocações \"hex\" presentes em seu alvo terminam imediatamente após o ataque ser resolvido.\nSe dois ou mais inimigos ativarem esta Habilidade ao mesmo tempo, você pode realizar um ataque gratuito contra cada um deles, na ordem que preferir."
+            "descricao": "Após um inimigo que você possa ver perder Pontos de Vida devido a dano causado por um de seus aliados, se esse dano foi aumentado por uma ou mais de suas invocações \"hex\", você pode realizar um ataque gratuito com uma arma equipada. Este ataque só pode mirar aquele inimigo e recebe um bônus igual a 【SL】 em seu Teste de Precisão; se for bem-sucedido, todo o seu dano se torna do mesmo tipo causado pelo seu aliado, e todas as invocações \"hex\" presentes em seu alvo terminam imediatamente após o ataque ser resolvido.\nSe dois ou mais inimigos ativarem esta Habilidade ao mesmo tempo, você pode realizar um ataque gratuito contra cada um deles, na ordem que preferir."
         },
         {
             "nome": "EXPANSION DE SOURCE",
             "sl": 5,
-            "descricao": "Contanto que você tenha uma arma pertencente à Categoria arcana, arco, combate desarmado, mangual, espada ou arremesso equipada, suas invocações \"blast\" causam 【NH】 de dano extra, e o dano extra concedido por suas invocações \"hex\" é aumentado em 【NH】."
+            "descricao": "Contanto que você tenha uma arma pertencente à Categoria arcana, arco, combate desarmado, mangual, espada ou arremesso equipada, suas invocações \"blast\" causam 【SL】 de dano extra, e o dano extra concedido por suas invocações \"hex\" é aumentado em 【SL】."
         }
+    ],
+    "extra": {
+    "notes": "O Invocador utiliza as 'Fontes' (Wellsprings) presentes na cena. O MJ define duas fontes disponíveis no início da cena. Suas invocações escalam com o nível: +5 dano / +10 recuperação no nv 20; +10 dano / +20 recuperação no nv 40. O Teste Mágico é sempre [INS + WLP].",
+    "tables": [
+      {
+        "caption": "Níveis de Invocação",
+        "headers": ["Nível de Habilidade (NH)", "Acesso"],
+        "rows": [
+          ["NH 1", "Habilita invocações do tipo 'Blast' (Dano)."],
+          ["NH 2", "Habilita invocações do tipo 'Blast' e 'Hex' (Debuff)."],
+          ["NH 3", "Dá acesso a todas as invocações da tabela (Suporte e Utilitárias)."]
+        ]
+      },
+      {
+        "caption": "Fonte de Ar (Air Wellspring) - Dano: Ar",
+        "headers": ["Invocação", "Efeito"],
+        "rows": [
+          ["Aero Blast", "Causa 20 de dano de ar ao alvo."],
+          ["Aero Hex", "Até o início do seu próximo turno, o alvo sofre +5 de dano de Raio e Fogo."],
+          ["Breeze", "O alvo recupera 30 Pontos de Vida (PV)."],
+          ["Twister", "Causa 10 de dano de ar e o alvo fica Atordoado (Dazed)."]
+        ]
+      },
+      {
+        "caption": "Fonte de Terra (Earth Wellspring) - Dano: Terra",
+        "headers": ["Invocação", "Efeito"],
+        "rows": [
+          ["Geo Blast", "Causa 20 de dano de terra ao alvo."],
+          ["Geo Hex", "Até o início do seu próximo turno, o alvo sofre +5 de dano de Ar e Gelo."],
+          ["Growth", "O alvo recupera 30 Pontos de Vida (PV)."],
+          ["Quicksand", "Causa 10 de dano de terra e o alvo fica Lento (Slow)."]
+        ]
+      },
+      {
+        "caption": "Fonte de Fogo (Fire Wellspring) - Dano: Fogo",
+        "headers": ["Invocação", "Efeito"],
+        "rows": [
+          ["Pyro Blast", "Causa 20 de dano de fogo ao alvo."],
+          ["Pyro Hex", "Até o início do seu próximo turno, o alvo sofre +5 de dano de Terra e Gelo."],
+          ["Burst", "Causa 10 de dano de fogo e o alvo fica Abalado (Shaken)."],
+          ["Smoke", "O alvo perde 20 Pontos de Mente (PM) e fica Fraco (Weak)."]
+        ]
+      },
+      {
+        "caption": "Fonte de Raio (Lightning Wellspring) - Dano: Raio",
+        "headers": ["Invocação", "Efeito"],
+        "rows": [
+          ["Electro Blast", "Causa 20 de dano de raio ao alvo."],
+          ["Electro Hex", "Até o início do seu próximo turno, o alvo sofre +5 de dano de Terra e Fogo."],
+          ["Static", "Causa 10 de dano de raio e o alvo fica Lento (Slow)."],
+          ["Thunder", "O alvo perde 20 Pontos de Mente (PM) e fica Atordoado (Dazed)."]
+        ]
+      },
+      {
+        "caption": "Fonte de Água/Gelo (Water Wellspring) - Dano: Gelo",
+        "headers": ["Invocação", "Efeito"],
+        "rows": [
+          ["Hydro Blast", "Causa 20 de dano de gelo ao alvo."],
+          ["Hydro Hex", "Até o início do seu próximo turno, o alvo sofre +5 de dano de Ar e Raio."],
+          ["Chill", "O alvo perde 20 Pontos de Mente (PM) e fica Abalado (Shaken)."],
+          ["Frostbite", "Causa 10 de dano de gelo e o alvo fica Fraco (Weak)."]
+        ]
+      }
     ]
+  }
 },
 {
     "nome": "Merchant",
@@ -910,7 +1210,7 @@
         {
             "nome": "RÉSONANCE",
             "sl": 3,
-            "descricao": "Depois de afetar um ou mais inimigos com um verso, se você tiver uma arma arcana equipada, você pode escolher uma opção: até o início do seu próximo turno, seus aliados causam 【SL】 de dano extra a esses inimigos; ou até o início do seu próximo turno, você recupera 【NH】 Pontos de Mente toda vez que um desses inimigos sofrer dano (se a mesma fonte causar dano a dois ou mais desses inimigos ao mesmo tempo, você recupera 【NH】 PM para cada inimigo danificado)."
+            "descricao": "Depois de afetar um ou mais inimigos com um verso, se você tiver uma arma arcana equipada, você pode escolher uma opção: até o início do seu próximo turno, seus aliados causam 【SL】 de dano extra a esses inimigos; ou até o início do seu próximo turno, você recupera 【SL】 Pontos de Mente toda vez que um desses inimigos sofrer dano (se a mesma fonte causar dano a dois ou mais desses inimigos ao mesmo tempo, você recupera 【SL】 PM para cada inimigo danificado)."
         },
         {
             "nome": "CHANT DE LA SIRÈNE",
