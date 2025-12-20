@@ -765,7 +765,7 @@
         {
             "nome": "JARDIM DE GUERRE",
             "sl": 3,
-            "descricao": "Após plantar uma magis semente através da Habilidade Chloromancie (não ao usar Greffe), você pode escolher uma opção: realizar um ataque gratuito com uma arma equipada; ou realizar a ação Conjurar (Spell) gratuitamente, lançando uma magia com um custo total de Pontos de Mente igual ou inferior a 【5 + (NH × 5)】 (você ainda deve pagar seu custo de PM). Trate a Rolagem Alta (HR) do seu Teste de Precisão ou Teste Mágico como 0 ao determinar o dano causado por este ataque ou magia."
+            "descricao": "Após plantar uma magis semente através da Habilidade Chloromancie (não ao usar Greffe), você pode escolher uma opção: realizar um ataque gratuito com uma arma equipada; ou realizar a ação Conjurar (Spell) gratuitamente, lançando uma magia com um custo total de Pontos de Mente igual ou inferior a 【5 + (SL × 5)】 (você ainda deve pagar seu custo de PM). Trate a Rolagem Alta (HR) do seu Teste de Precisão ou Teste Mágico como 0 ao determinar o dano causado por este ataque ou magia."
         },
         {
             "nome": "CHLOROMANCIE",
@@ -780,7 +780,7 @@
         {
             "nome": "ARBRE DE VIE",
             "sl": 5,
-            "descricao": "Quando você remove uma magis semente do seu jardim, pode escolher uma criatura que possa ver: se aquela criatura estiver em Crise, ela recupera 【5 + (NH × 5)】 Pontos de Vida."
+            "descricao": "Quando você remove uma magis semente do seu jardim, pode escolher uma criatura que possa ver: se aquela criatura estiver em Crise, ela recupera 【5 + (SL × 5)】 Pontos de Vida."
         },
         {
             "nome": "EMPRISE VERDOYANTE",
@@ -980,7 +980,7 @@
         {
             "nome": "CUISINE",
             "sl": 5,
-            "descricao": "Quando você descansa em um assentamento, você ganha 【SL】 ingredientes (veja a próxima página).\nVocê pode usar uma ação e combinar 2 ou 3 ingredientes para preparar uma iguaria (veja a próxima página) e escolher uma opção: aplicar seus efeitos a si mesmo ou a um aliado que possa ver; ou realizar um ataque gratuito com uma arma equipada. Este ataque não causa dano, mas você aplica os efeitos da iguaria a cada inimigo atingido pelo ataque.\nVocê pode carregar até 10 + 【NH × 5】 ingredientes, e eles nunca estragarão até que você os use; se pegar esta Habilidade durante a criação de personagem, você começa o jogo com dez ingredientes com sabores aleatórios."
+            "descricao": "Quando você descansa em um assentamento, você ganha 【SL】 ingredientes (veja a próxima página).\nVocê pode usar uma ação e combinar 2 ou 3 ingredientes para preparar uma iguaria (veja a próxima página) e escolher uma opção: aplicar seus efeitos a si mesmo ou a um aliado que possa ver; ou realizar um ataque gratuito com uma arma equipada. Este ataque não causa dano, mas você aplica os efeitos da iguaria a cada inimigo atingido pelo ataque.\nVocê pode carregar até 10 + 【SL × 5】 ingredientes, e eles nunca estragarão até que você os use; se pegar esta Habilidade durante a criação de personagem, você começa o jogo com dez ingredientes com sabores aleatórios."
         },
         {
             "nome": "FOURCHETTE ET COUTEAU",
@@ -990,7 +990,7 @@
         {
             "nome": "FAIT AVEC AMOUR",
             "sl": 3,
-            "descricao": "Quando você usa a Habilidade Cuisine e escolhe aplicar os efeitos da iguaria a si mesmo ou a um aliado que possa ver, você pode gastar até 【NH × 10】 PM. Para cada 10 PM gastos desta forma, aplique os efeitos da iguaria a um aliado adicional que possa ver."
+            "descricao": "Quando você usa a Habilidade Cuisine e escolhe aplicar os efeitos da iguaria a si mesmo ou a um aliado que possa ver, você pode gastar até 【SL × 10】 PM. Para cada 10 PM gastos desta forma, aplique os efeitos da iguaria a um aliado adicional que possa ver."
         },
         {
             "nome": "SEL ET POIVRE",
@@ -1000,7 +1000,7 @@
         {
             "nome": "CUISINIER ITINÉRANT",
             "sl": 3,
-            "descricao": "Após cada rolagem de viagem, se você adquiriu a Habilidade Cuisine, você ganha 【NH × 2】 ingredientes."
+            "descricao": "Após cada rolagem de viagem, se você adquiriu a Habilidade Cuisine, você ganha 【SL × 2】 ingredientes."
         }
     ],
     "extra": {
@@ -1071,7 +1071,7 @@
         {
             "nome": "HARMONIE ÉLÉMENTAIRE",
             "sl": 2,
-            "descricao": "Você pode se comunicar verbalmente com criaturas da Espécie elemental.\nQuando você restaura os Pontos de Vida de uma criatura com uma invocação ou magia, se um elemental estiver presente na cena, a quantidade restaurada é aumentada em 【NH × 5】."
+            "descricao": "Você pode se comunicar verbalmente com criaturas da Espécie elemental.\nQuando você restaura os Pontos de Vida de uma criatura com uma invocação ou magia, se um elemental estiver presente na cena, a quantidade restaurada é aumentada em 【SL × 5】."
         },
         {
             "nome": "INVOCATION",
@@ -1081,7 +1081,7 @@
         {
             "nome": "INVOCATION LIÉE",
             "sl": 3,
-            "descricao": "Quando você realiza uma invocação, pode gastar até 【NH × 10】 Pontos de Mente adicionais. Para cada 10 Pontos de Mente gastos desta forma, a invocação pode mirar uma criatura adicional que você possa ver."
+            "descricao": "Quando você realiza uma invocação, pode gastar até 【SL × 10】 Pontos de Mente adicionais. Para cada 10 Pontos de Mente gastos desta forma, a invocação pode mirar uma criatura adicional que você possa ver."
         },
         {
             "nome": "ONDULATIONS",
@@ -1099,11 +1099,11 @@
     "tables": [
       {
         "caption": "Níveis de Invocação",
-        "headers": ["Nível de Habilidade (NH)", "Acesso"],
+        "headers": ["Skill Level (SL)", "Acesso"],
         "rows": [
-          ["NH 1", "Habilita invocações do tipo 'Blast' (Dano)."],
-          ["NH 2", "Habilita invocações do tipo 'Blast' e 'Hex' (Debuff)."],
-          ["NH 3", "Dá acesso a todas as invocações da tabela (Suporte e Utilitárias)."]
+          ["SL 1", "Habilita invocações do tipo 'Blast' (Dano)."],
+          ["SL 2", "Habilita invocações do tipo 'Blast' e 'Hex' (Debuff)."],
+          ["SL 3", "Dá acesso a todas as invocações da tabela (Suporte e Utilitárias)."]
         ]
       },
       {
@@ -1170,27 +1170,27 @@
         {
             "nome": "DATE D'EXPIRATION",
             "sl": 3,
-            "descricao": "Quando uma poção ou iguaria (veja página 151) que você criou e que não causa dano faz uma ou mais criaturas recuperarem Pontos de Vida, você pode, em vez disso, fazer com que ela cause dano de veneno igual a 【metade do seu nível + (NH × 10)】 a cada uma dessas criaturas. O tipo deste dano não pode mudar, e ele é reduzido pela metade se você estiver causando dano a duas ou mais criaturas."
+            "descricao": "Quando uma poção ou iguaria (veja página 151) que você criou e que não causa dano faz uma ou mais criaturas recuperarem Pontos de Vida, você pode, em vez disso, fazer com que ela cause dano de veneno igual a 【metade do seu nível + (SL × 10)】 a cada uma dessas criaturas. O tipo deste dano não pode mudar, e ele é reduzido pela metade se você estiver causando dano a duas ou mais criaturas."
         },
         {
             "nome": "J'EN AI ENTENDU PARLER!",
             "sl": 3,
-            "descricao": "Quando você ou um aliado que possa ouvi-lo e entendê-lo realizar um Teste para examinar uma criatura, item ou localização, você pode gastar 1 Ponto de Comércio (Trade Point) para conceder um bônus igual a 【NH × 2】 ao Resultado daquele Teste."
+            "descricao": "Quando você ou um aliado que possa ouvi-lo e entendê-lo realizar um Teste para examinar uma criatura, item ou localização, você pode gastar 1 Ponto de Comércio (Trade Point) para conceder um bônus igual a 【SL × 2】 ao Resultado daquele Teste."
         },
         {
             "nome": "RÉSERVE PERSONNELLE",
             "sl": 3,
-            "descricao": "Quando você ou outro Personagem de Jogador gastar 【NH + 2】 ou menos Pontos de Inventário, você pode gastar 1 Ponto de Comércio para ignorar aquele custo."
+            "descricao": "Quando você ou outro Personagem de Jogador gastar 【SL + 2】 ou menos Pontos de Inventário, você pode gastar 1 Ponto de Comércio para ignorar aquele custo."
         },
         {
             "nome": "VRAI TRÉSOR",
             "sl": 3,
-            "descricao": "Uma vez por sessão, quando você ajuda um NPC ou comunidade a derrotar a ganância e a corrupção, melhorar sua qualidade de vida ou coexistir com outras criaturas, se você adquiriu a Habilidade Vents du Commerce, você ganha 【NH + 1】 Pontos de Comércio."
+            "descricao": "Uma vez por sessão, quando você ajuda um NPC ou comunidade a derrotar a ganância e a corrupção, melhorar sua qualidade de vida ou coexistir com outras criaturas, se você adquiriu a Habilidade Vents du Commerce, você ganha 【SL + 1】 Pontos de Comércio."
         },
         {
             "nome": "VENTS DU COMMERCE",
             "sl": 3,
-            "descricao": "Após descansar em uma área onde o comércio é possível, você ganha 【NH + 1】 Pontos de Comércio.\nVocê nunca pode ter mais que 【NH + 3】 Pontos de Comércio; se adquirir esta Habilidade durante a criação de personagem, você começa o jogo com 2 Pontos de Comércio.\nDurante uma cena fora de conflito, você pode gastar 2 Pontos de Comércio para escolher uma opção: você cria um item material ou raro aprovado pelo Mestre de Jogo cujo valor em zenit seja igual ou inferior a 【seu nível, multiplicado por 30】; ou você cria um NPC que vive por perto e explica sua ocupação, bem como o conheceu, então o Mestre lhe diz o que ele exige em troca de seus serviços."
+            "descricao": "Após descansar em uma área onde o comércio é possível, você ganha 【SL + 1】 Pontos de Comércio.\nVocê nunca pode ter mais que 【SL + 3】 Pontos de Comércio; se adquirir esta Habilidade durante a criação de personagem, você começa o jogo com 2 Pontos de Comércio.\nDurante uma cena fora de conflito, você pode gastar 2 Pontos de Comércio para escolher uma opção: você cria um item material ou raro aprovado pelo Mestre de Jogo cujo valor em zenit seja igual ou inferior a 【seu nível, multiplicado por 30】; ou você cria um NPC que vive por perto e explica sua ocupação, bem como o conheceu, então o Mestre lhe diz o que ele exige em troca de seus serviços."
         }
     ]
 },
@@ -1227,7 +1227,48 @@
             "sl": 0,
             "descricao": "Depois de cantar um verso com volume baixo ou médio, você pode realizar um ataque gratuito com uma arma equipada; trate sua HR como 0 ao calcular o dano causado por este ataque."
         }
+    ],
+    "extra": {
+    "notes": "Cantar um Verso combina Volume, Clave e Tom. O Volume define o custo de PM e os alvos. A Clave define o tipo de dano, status, atributo e tipo de recuperação. O Tom define a lógica do efeito. Você só pode cantar um verso por turno.",
+    "tables": [
+      {
+        "caption": "Volumes do Verso",
+        "headers": ["Volume", "Custo (PM)", "Alvos"],
+        "rows": [
+          ["Bas (Baixo)", "10", "Você mesmo ou outra criatura que possa te ouvir."],
+          ["Moyen (Médio)", "20", "Cada aliado que possa te ouvir."],
+          ["Haut (Alto)", "30", "Cada inimigo que possa te ouvir."]
+        ]
+      },
+      {
+        "caption": "Claves (Keys) do Verso",
+        "headers": ["Clave", "Tipo", "Efeito de Status", "Atributo", "Recuperação"],
+        "rows": [
+          ["Flamme (Flame)", "Fogo", "Abalado(shaken)", "Might", "Pontos de Vida"],
+          ["Givre (Frost)", "Gelo", "Fraco(weak)", "Willpower", "Pontos de Mente"],
+          ["Fer (Iron)", "Físico", "Lento(slow)", "Willpower", "Pontos de Mente"],
+          ["Éclat (Radiance)", "Raio", "Abalado(shaken)", "Dexterity", "Pontos de Vida"],
+          ["Ombre (Shadow)", "Luz", "Atordoado(dazed)", "Insight", "Pontos de Vida"],
+          ["Pierre (Stone)", "Escuridão", "Fraco(weak)", "Dexterity", "Pontos de Mente"],
+          ["Tonnerre (Thunder)", "Terra", "Atordoado(dazed)", "Might", "Pontos de Vida"],
+          ["Vent (Wind)", "Ar", "Lento(slow)", "Insight", "Pontos de Mente"]
+        ]
+      },
+      {
+        "caption": "Tons (Tones) do Verso",
+        "headers": ["Tom", "Efeito Detalhado"],
+        "rows": [
+          ["Calme (Calm)", "Cada alvo recupera [Recuperação da Clave] igual a 10 + o dobro do tamanho do dado de Willpower atual. Aumenta em 10 no nível 20 e em 20 no nível 40. Se recuperar PM, não afeta o Chantre."],
+          ["Énergique (Energetic)", "Até o início do seu próximo turno, quando um alvo for bem-sucedido em um Teste que inclua o [Atributo da Clave] e esse Teste permitir avançar ou retroceder um Relógio, ele pode preencher ou apagar uma seção adicional."],
+          ["Frénétique (Frantic)", "Cada alvo sofre dano do [Tipo da Clave] igual ao dobro do tamanho do dado de Willpower atual. Causa 10 de dano extra no nível 20 e 20 no nível 40."],
+          ["Obsédant (Haunting)", "Cada alvo sofre o [Status da Clave]. Além disso, cada alvo perde Resistência ao [Tipo da Clave] (se possuir) até o início do seu próximo turno."],
+          ["Vif (Lively)", "Cada alvo trata o [Atributo da Clave] como um tamanho de dado maior (máx. d12) até o início do seu próximo turno."],
+          ["Menaçant (Menacing)", "A primeira vez que cada alvo sofrer dano antes do início do seu próximo turno, esse dano torna-se do [Tipo da Clave]. Isso pode ativar uma vez para cada alvo individualmente."],
+          ["Solennel (Solemn)", "Cada alvo recupera-se do [Status da Clave]. Além disso, cada alvo ganha Resistência ao [Tipo da Clave] até o início do seu próximo turno."]
+        ]
+      }
     ]
+  }
 },
 {
     "nome": "Commander",
@@ -1240,12 +1281,12 @@
         {
             "nome": "ÉDIT DE L'ÉVÊQUE",
             "sl": 5,
-            "descricao": "Durante um conflito, você pode usar uma ação e gastar 10 Pontos de Mente para escolher uma opção: todos os custos de PM são dobrados; ou todas as fontes de dano causam 【NH × 3】 de dano extra. O efeito escolhido dura até o início do seu próximo turno."
+            "descricao": "Durante um conflito, você pode usar uma ação e gastar 10 Pontos de Mente para escolher uma opção: todos os custos de PM são dobrados; ou todas as fontes de dano causam 【SL × 3】 de dano extra. O efeito escolhido dura até o início do seu próximo turno."
         },
         {
             "nome": "CAVALERIE DE CHARGE",
             "sl": 5,
-            "descricao": "Durante um conflito, você pode usar uma ação e gastar 10 PM para escolher um aliado que possa ouvi-lo. Aquele aliado pode imediatamente realizar um ataque gratuito com uma arma equipada (ou com um ataque básico se for um NPC). Eles ganham um bônus igual a 【NH + 3】 no Teste de Precisão, mas tratam sua Rolagem Alta (HR) como 0 ao calcular o dano."
+            "descricao": "Durante um conflito, você pode usar uma ação e gastar 10 PM para escolher um aliado que possa ouvi-lo. Aquele aliado pode imediatamente realizar um ataque gratuito com uma arma equipada (ou com um ataque básico se for um NPC). Eles ganham um bônus igual a 【SL + 3】 no Teste de Precisão, mas tratam sua Rolagem Alta (HR) como 0 ao calcular o dano."
         },
         {
             "nome": "CHAR D'ASSAUT",
@@ -1255,12 +1296,12 @@
         {
             "nome": "ROQUE DU ROI",
             "sl": 4,
-            "descricao": "Durante um conflito, você pode usar uma ação e gastar 10 Pontos de Mente para escolher uma opção: nenhuma criatura pode recuperar Pontos de Vida ou Pontos de Mente; ou todos os efeitos que restauram Pontos de Mente restauram 【NH × 5】 PM adicionais. O efeito escolhido dura até o início do seu próximo turno."
+            "descricao": "Durante um conflito, você pode usar uma ação e gastar 10 Pontos de Mente para escolher uma opção: nenhuma criatura pode recuperar Pontos de Vida ou Pontos de Mente; ou todos os efeitos que restauram Pontos de Mente restauram 【SL × 5】 PM adicionais. O efeito escolhido dura até o início do seu próximo turno."
         },
         {
             "nome": "GAMBIT DE LA REINE",
             "sl": 6,
-            "descricao": "Durante um conflito, você pode usar uma ação para realizar um ataque gratuito com uma arma equipada, tratando sua Rolagem Alta (HR) como 0 ao calcular o dano. Após o ataque ser resolvido, escolha uma opção: um aliado que possa ouvi-lo recupera 【5 + (NH × 5)】 Pontos de Vida; ou você pode imediatamente usar uma Habilidade que adquiriu entre Édit de l'Évêque, Cavalerie de Charge ou Roque du Roi gratuitamente (gastando o PM apropriado)."
+            "descricao": "Durante um conflito, você pode usar uma ação para realizar um ataque gratuito com uma arma equipada, tratando sua Rolagem Alta (HR) como 0 ao calcular o dano. Após o ataque ser resolvido, escolha uma opção: um aliado que possa ouvi-lo recupera 【5 + (SL × 5)】 Pontos de Vida; ou você pode imediatamente usar uma Habilidade que adquiriu entre Édit de l'Évêque, Cavalerie de Charge ou Roque du Roi gratuitamente (gastando o PM apropriado)."
         }
     ]
 },
@@ -1297,7 +1338,35 @@
             "sl": 5,
             "descricao": "Depois de realizar uma dança, seus ataques com armas de combate desarmado, adaga, mangual e arremesso causam 【SL】 de dano extra até o início do seu próximo turno. Se tiver uma arma arcana equipada, magias ofensivas que você lançar também causam 【SL】 de dano extra até o início do seu próximo turno."
         }
+    ],
+    "extra": {
+    "notes": "Danças não exigem ação, mas só podem ser feitas antes ou após uma ação (uma vez por turno). O custo é 10 PM, ou 5 PM se você já tiver dançado no turno anterior desta cena. Algumas são instantâneas, outras duram até o início do seu próximo turno.",
+    "tables": [
+      {
+        "caption": "Lista de Danças",
+        "headers": ["Dança", "Duração", "Efeito Detalhado"],
+        "rows": [
+          ["Danse de l'Ange", "Cena", "Escolha: Ganha Resistência a Luz OU todo seu dano (ataques/magias) torna-se Luz."],
+          ["Danse de la Banshee", "Instantânea", "Escolha uma criatura visível. Se ela já estiver Lenta, ela sofre imediatamente o status Abalado."],
+          ["Danse de la Chauve-souris", "Cena", "Escolha: Ganha Resistência a Escuridão OU todo seu dano torna-se Escuridão."],
+          ["Danse du Golem", "Cena", "Escolha: Ganha Resistência a Raio OU todo seu dano torna-se Raio."],
+          ["Danse du Griffon", "Cena", "Escolha: Ganha Resistência a Ar OU todo seu dano torna-se Ar."],
+          ["Danse de l'Hydre", "Cena", "Após sofrer dano, escolha: recupera 5 PV OU recupera 5 PM."],
+          ["Danse du Kraken", "Instantânea", "Escolha uma criatura visível. Se ela estiver Atordoada, sofre imediatamente o status Lento."],
+          ["Danse du Lion", "Instantânea", "Você se recupera imediatamente de um efeito de status à sua escolha."],
+          ["Danse de la Ménade", "Instantânea", "Escolha uma criatura visível. Ela perde PM igual ao seu dado de Dexterity atual."],
+          ["Danse du Myrmidon", "Cena", "Escolha: Ganha Resistência a Terra OU todo seu dano torna-se Terra."],
+          ["Danse du Cauchemar", "Instantânea", "Escolha uma criatura visível. Se ela estiver Abalada, sofre imediatamente o status Fraco."],
+          ["Danse de l'Ouroboros", "Instantânea", "Escolha um aliado visível que ainda não agiu. Ele pode agir imediatamente após o seu turno."],
+          ["Danse du Paon", "Instantânea", "Escolha uma criatura visível. O próximo ataque ou magia ofensiva dela deve incluir você como alvo, se possível."],
+          ["Danse du Phénix", "Cena", "Escolha: Ganha Resistência a Fogo OU todo seu dano torna-se Fogo."],
+          ["Danse du Satyre", "Instantânea", "Escolha uma criatura visível. Se ela estiver Fraca, sofre imediatamente o status Atordoado."],
+          ["Danse de la Licorne", "Instantânea", "Escolha um aliado visível com quem você tenha um Laço: você e ele recuperam PV igual ao seu dado de Dexterity. +5 PV no nv 20, +10 PV no nv 40."],
+          ["Danse du Yéti", "Cena", "Escolha: Ganha Resistência a Gelo OU todo seu dano torna-se Gelo."]
+        ]
+      }
     ]
+  }
 },
 {
     "nome": "Symbolist",
@@ -1310,7 +1379,7 @@
         {
             "nome": "SYMBOLES MAGIQUES",
             "sl": 3,
-            "descricao": "Se um aliado carrega um de seus símbolos, aquele aliado pode realizar a ação Conjurar (Spell) e destruir aquele símbolo para lançar uma única magia entre as que você conhece, desde que tenha um custo total de Pontos de Mente igual ou inferior a 【NH × 10】 (aquele aliado ainda deve pagar o custo de PM)."
+            "descricao": "Se um aliado carrega um de seus símbolos, aquele aliado pode realizar a ação Conjurar (Spell) e destruir aquele símbolo para lançar uma única magia entre as que você conhece, desde que tenha um custo total de Pontos de Mente igual ou inferior a 【SL × 10】 (aquele aliado ainda deve pagar o custo de PM)."
         },
         {
             "nome": "MIRAGE",
@@ -1330,9 +1399,39 @@
         {
             "nome": "SYMBOLISME",
             "sl": 5,
-            "descricao": "Cada vez que adquire esta habilidade, você aprende dois símbolos. Você pode ter até 【NH + 1】 símbolos ativos ao mesmo tempo; se criar mais enquanto estiver no seu limite, deve primeiro escolher e destruir alguns de seus símbolos anteriores. Você pode realizar a ação de Inventário e gastar 2 Pontos de Inventário para criar um símbolo que aprendeu e escolher uma opção: aplicar o símbolo a si mesmo; ou aplicar o símbolo a um aliado que possa ver; ou realizar um ataque gratuito com uma arma equipada. Este ataque não causa dano, mas você aplica uma cópia do símbolo escolhido a cada inimigo atingido (cada cópia conta como um símbolo separado para o seu limite)."
+            "descricao": "Cada vez que adquire esta habilidade, você aprende dois símbolos. Você pode ter até 【SL + 1】 símbolos ativos ao mesmo tempo; se criar mais enquanto estiver no seu limite, deve primeiro escolher e destruir alguns de seus símbolos anteriores. Você pode realizar a ação de Inventário e gastar 2 Pontos de Inventário para criar um símbolo que aprendeu e escolher uma opção: aplicar o símbolo a si mesmo; ou aplicar o símbolo a um aliado que possa ver; ou realizar um ataque gratuito com uma arma equipada. Este ataque não causa dano, mas você aplica uma cópia do símbolo escolhido a cada inimigo atingido (cada cópia conta como um símbolo separado para o seu limite)."
         }
+    ],
+    "extra": {
+    "notes": "Símbolos seguem um conjunto de regras especiais.\n\n• Uma criatura só pode portar um símbolo por vez — se receber um novo símbolo, independentemente da origem, qualquer símbolo anterior é destruído.\n\n• Símbolos e seus efeitos têm durações ilimitadas até serem destruídos.\n\n• Se um Simbolista morrer, cada símbolo criado por ele é imediata e automaticamente destruído.\n\n• Se uma criatura portando um símbolo morrer, esse símbolo também é destruído.\n\nNo entanto, se a criatura for um NPC que simplesmente muda de forma e estatísticas quando reduzido a 0 Pontos de Vida, isso não remove o símbolo: em suma, o símbolo está \"narrativamente\" ligado àquele personagem específico, não à sua manifestação e parâmetros atuais.\n\n• Um Vilão pode, durante uma cena do Mestre, gastar 1 Ponto de Ultima para destruir qualquer número de símbolos portados por si mesmo e por qualquer um de seus aliados presentes durante aquela cena.\n\nEsta é a única forma possível de remover um símbolo contra a vontade do Simbolista que o criou, exceto pelo uso de uma oportunidade apropriada à cena ou uma Habilidade de NPC criada especificamente pelo Mestre (mas isso não deve ser feito mais do que duas ou três vezes por campanha).\n\n• Um Simbolista pode destruir qualquer número de seus símbolos a qualquer momento, sem necessidade de ação.\n\n• Se um símbolo exigir que você faça uma escolha ao ser criado, essa escolha se aplica a todas as cópias do símbolo criadas com aquela ação (mas não afeta nenhuma cópia daquele símbolo criada através de ações anteriores).\n\nPor exemplo, se um Simbolista aplicar dois símbolos de fraqueza (fogo) através da Habilidade Simbolismo, combinando-a com um ataque com a propriedade múltiplo (2), as criaturas que receberem esses símbolos sofrerão dano extra de fogo. Se logo em seguida o Simbolista aplicar um símbolo de fraqueza (raio) em uma terceira criatura, as duas criaturas anteriores ainda receberão dano extra de fogo, não de raio.\n\nLembre-se que o número máximo de símbolos que você pode ter ativos ao mesmo tempo é baseado no seu Nível de Habilidade (SL) em Simbolismo.",
+    "tables": [
+      {
+        "caption": "Lista de Símbolos",
+        "headers": ["Símbolo", "Efeito Detalhado"],
+        "rows": [
+          ["Symbole de Liaison", "Os dados de Atributo da criatura nunca podem ser maiores que seus tamanhos de dado base (nega bônus de magias/itens)."],
+          ["Symbole de Création", "A criatura pode destruir este símbolo para ignorar o custo de Pontos de Inventário de uma ação."],
+          ["Symbole de Désespoir", "Quando a criatura recupera PV/PM em conflitos, ela recupera apenas metade do valor normal."],
+          ["Symbole de Destinée", "Se você vir o portador realizar um Teste, pode gastar 1 Ponto de Fabula para forçá-lo a rerolar ambos os dados (exceto Críticos/Fumbles)."],
+          ["Symbole des Éléments", "Escolha um tipo elemental ao criar. Quando o portador causa dano e você o vê, você pode gastar PM igual a 1/3 do dano para mudar o tipo para o escolhido."],
+          ["Symbole d'Inimitié", "Enquanto o portador estiver em Crise, os inimigos dele que puderem vê-lo devem incluí-lo como alvo de ataques/magias ofensivas."],
+          ["Symbole de Flux", "Escolha um status ao criar. O portador ganha imunidade àquele status OU perde a imunidade e não pode ganhá-la."],
+          ["Symbole d'Interdiction", "Escolha um tipo de ação (Ataque, Proteger, Objetivo, Conjurar, Habilidade). Ao realizar essa ação, o portador perde 5 PV e 5 PM (10 no nv 20, 20 no nv 40)."],
+          ["Symbole de Croissance", "Magias com alvo 'Até 3 criaturas' lançadas pelo portador podem atingir 'Até 4'. O custo de PM adicional deve ser pago."],
+          ["Symbole de Métamorphose", "O portador é tratado como sendo de uma Espécie escolhida para fins de habilidades. Não pode ser usado em PJs."],
+          ["Symbole de Prospérité", "Quando o portador gasta 1 Ponto de Fabula para invocar Traço ou Laço, ele também recebe 100 zenit."],
+          ["Symbole de Protection", "Escolha um tipo de dano ao criar. O portador ganha Resistência àquele tipo."],
+          ["Symbole de Rébellion", "Se um Vilão estiver na cena, qualquer Teste Oposto do portador ativa Sucesso Crítico em números iguais (se não for Falha Crítica)."],
+          ["Symbole de Renaissance", "Se o portador for reduzido a 0 PV, ele pode destruir o símbolo para ficar com exatamente 1 PV."],
+          ["Symbole de Vengeance", "Quando uma criatura em Crise atinge o portador com ataque/magia ofensiva, o agressor recupera 5 PV e 5 PM."],
+          ["Symbole de Sacrifice", "Quando o portador sofre dano e você o vê, você pode destruir o símbolo para sofrer o dano no lugar dele."],
+          ["Symbole de Sorcellerie", "O custo de PM de magias que miram o portador é reduzido em 5 (mínimo de 5 PM). Efeito cumulativo se vários portadores forem mirados."],
+          ["Symbole de Vérité", "Testes para examinar/localizar o portador, e Testes de Precisão/Magia contra ele ganham bônus de +2. Cumulativo."],
+          ["Symbole de Faiblesse", "Escolha um tipo de dano ao criar. O portador sofre 5 de dano extra de fontes que causem esse tipo de dano."]
+        ]
+      }
     ]
+  }
 }
     ]
 }

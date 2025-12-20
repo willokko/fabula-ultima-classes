@@ -152,7 +152,8 @@ function renderExtra(extra) {
         // Render free-form notes first
         if (extra.notes) {
             const p = document.createElement('p');
-            p.className = 'text-gray-300';
+            // Preserve line breaks (\n) while keeping text safe: use textContent + CSS pre-line
+            p.className = 'text-gray-300 whitespace-pre-line';
             p.textContent = extra.notes;
             modalExtra.appendChild(p);
         }
