@@ -59,14 +59,14 @@
 "caption": "Arcanum do Gelo (Frost)",
 "headers": ["Benefícios de Fusão (Merge)", "Efeito de Dispensa (Dismiss)"],
 "rows": [
-["Resistência a Gelo; Imune a Enfurecido; Seus danos de gelo ignoram Resistência.", "Era do Gelo: Escolha qualquer número de criaturas para sofrerem 30 de dano de gelo. Ignora Resistências."]
+["Resistência a Gelo; Imune a Enfurecido(enraged); Seus danos de gelo ignoram Resistência.", "Era do Gelo: Escolha qualquer número de criaturas para sofrerem 30 de dano de gelo. Ignora Resistências."]
 ]
 },
 {
 "caption": "Arcanum do Portal (Gate)",
 "headers": ["Benefícios de Fusão (Merge)", "Efeito de Dispensa (Dismiss)"],
 "rows": [
-["Resistência a Escuridão; Ganha +1 de Defesa Mágica.", "Esquecimento: 30 de dano de escuridão (ignora Res.). Warp: Você se teleporta, juntamente com até cinco outras criaturas voluntárias próximas, para um local que você já tenha visitado anteriormente, desde que esse local esteja a até 1 dia de viagem de distância."]
+["Resistência a Escuridão; Ganha +1 de Defesa Mágica.", "Esquecimento: 30 de dano de escuridão (ignora Res.). \nWarp: Você se teleporta, juntamente com até cinco outras criaturas voluntárias próximas, para um local que você já tenha visitado anteriormente, desde que esse local esteja a até 1 dia de viagem de distância."]
 ]
 },
 {
@@ -80,7 +80,7 @@
 "caption": "Arcanum do Carvalho (Oak)",
 "headers": ["Benefícios de Fusão (Merge)", "Efeito de Dispensa (Dismiss)"],
 "rows": [
-["Resistência a Terra/Veneno; Imune a Envenenado; +5 em curas recebidas.", "Florescer: Escolha qualquer número de criaturas que você possa ver (você também pode escolher a si mesmo): cada uma delas se recupera da condição Envenenado e recupera 40 Pontos de Vida. Esse valor aumenta para 50 Pontos de Vida se você for nível 20 ou superior, ou para 60 Pontos de Vida se você for nível 40 ou superior."]
+["Resistência a Terra/Veneno; Imune a Envenenado(poisoned); +5 em curas recebidas.", "Florescer: Escolha qualquer número de criaturas que você possa ver (você também pode escolher a si mesmo): cada uma delas se recupera da condição Envenenado(poisoned) e recupera 40 Pontos de Vida. Esse valor aumenta para 50 Pontos de Vida se você for nível 20 ou superior, ou para 60 Pontos de Vida se você for nível 40 ou superior."]
 ]
 },
 {
@@ -108,7 +108,7 @@
 "caption": "Arcanum da Roda (Wheel)",
 "headers": ["Benefícios de Fusão (Merge)", "Efeito de Dispensa (Dismiss)"],
 "rows": [
-["Imune ao status Lento; Ganha +1 de Defesa.", "Parar o Tempo: Escolha qualquer número de criaturas que você possa ver: cada uma delas sofre a condição Lento. Se uma criatura escolhida dessa forma já estiver Lenta, ela realizará uma ação a menos durante seu próximo turno (mínimo de 0 ações)."]
+["Imune ao status Lento(Slow); Ganha +1 de Defesa.", "Parar o Tempo: Escolha qualquer número de criaturas que você possa ver: cada uma delas sofre a condição Lento(Slow). Se uma criatura escolhida dessa forma já estiver Lenta(Slow), ela realizará uma ação a menos durante seu próximo turno (mínimo de 0 ações)."]
 ]
 }
 ]
@@ -228,10 +228,10 @@
                     ["Elemental Shroud", "5 x T", "Até 3 criaturas", "Cena", "Escolha Ar, Raio, Terra, Fogo ou Gelo: alvos ganham Resistência ao tipo escolhido."],
                     ["Elemental Weapon", "10", "Uma arma", "Cena", "Arma causa dano de Ar, Raio, Terra, Fogo ou Gelo. Permite um ataque gratuito ao conjurar."],
                     ["Flare", "20", "Uma criatura", "Instantânea", "Causa [HR + 25] de dano de fogo. Ignora Resistências."],
-                    ["Fulgur (offensive spells)", "10 x T", "Até 3 criaturas", "Instantânea", "Causa [HR + 15] de dano de raio. Oportunidade: Alvos ficam Atordoados."],
-                    ["Glacies (offensive spells)", "10 x T", "Até 3 criaturas", "Instantânea", "Causa [HR + 15] de dano de gelo. Oportunidade: Alvos ficam Lentos."],
+                    ["Fulgur (offensive spells)", "10 x T", "Até 3 criaturas", "Instantânea", "Causa [HR + 15] de dano de raio. Oportunidade: Alvos ficam Atordoados(Dazed)."],
+                    ["Glacies (offensive spells)", "10 x T", "Até 3 criaturas", "Instantânea", "Causa [HR + 15] de dano de gelo. Oportunidade: Alvos ficam Lentos(Slow)."],
                     ["Iceberg", "20", "Uma criatura", "Instantânea", "Causa [HR + 25] de dano de gelo. Ignora Resistências."],
-                    ["Ignis (offensive spells)", "10 x T", "Até 3 criaturas", "Instantânea", "Causa [HR + 15] de dano de fogo. Oportunidade: Alvos ficam Abalados."],
+                    ["Ignis (offensive spells)", "10 x T", "Até 3 criaturas", "Instantânea", "Causa [HR + 15] de dano de fogo. Oportunidade: Alvos ficam Abalados(Shaken)."],
                     ["Soaring Strike", "10", "Self", "Instantânea", "Ataque corpo a corpo gratuito que pode atingir alvos distantes. +5 dano com Lança/Combate Desarmado."],
                     ["Terra (offensive spells)", "10 x T", "Até 3 criaturas", "Instantânea", "Causa [HR + 15] de dano de terra. Não atinge voadores. Oportunidade: -1 ação no próximo turno."],
                     ["Thunderbolt", "20", "Uma criatura", "Instantânea", "Causa [HR + 25] de dano de raio. Ignora Resistências."],
@@ -273,7 +273,7 @@
         {
             "nome": "TEMPS DÉROBÉ",
             "sl": 4,
-            "descricao": "Durante um conflito, você pode usar uma ação para interferir no fluxo do tempo gastando até 【SL × 5】 Pontos de Mente (MP). Para cada 5 Pontos de Mente que você gastar desta forma, escolha uma opção: uma criatura que você possa ver sofre lento (slow); ou uma criatura que você possa ver se recupera de lento; ou uma criatura que você possa ver pode imediatamente realizar a ação Equipamento (Equipment) gratuitamente; ou escolha um aliado que você possa ver que ainda não tenha agido durante esta rodada: esse aliado pode agir imediatamente após o seu turno durante esta rodada. Cada opção só pode ser escolhida uma vez por uso desta Habilidade."
+            "descricao": "Durante um conflito, você pode usar uma ação para interferir no fluxo do tempo gastando até 【SL × 5】 Pontos de Mente (MP). Para cada 5 Pontos de Mente que você gastar desta forma, escolha uma opção: uma criatura que você possa ver sofre lento (Slow); ou uma criatura que você possa ver se recupera de lento(Slow); ou uma criatura que você possa ver pode imediatamente realizar a ação Equipamento (Equipment) gratuitamente; ou escolha um aliado que você possa ver que ainda não tenha agido durante esta rodada: esse aliado pode agir imediatamente após o seu turno durante esta rodada. Cada opção só pode ser escolhida uma vez por uso desta Habilidade."
         }
     ],
     "extra":{
@@ -294,7 +294,7 @@
                     ["Mirror", "10", "Uma criatura", "Cena", "Reflete a próxima magia ofensiva de volta para o conjurador."],
                     ["Omega", "20", "Uma criatura", "Instantânea", "Alvo perde PV igual a [20 + metade do nível do alvo]."],
                     ["Stop (offensive spells)", "10", "Uma criatura", "Instantânea", "Alvo realiza uma ação a menos no próximo turno."],
-                    ["Umbra (offensive spells)", "10 x T", "Até 3 criaturas", "Instantânea", "Causa [HR + 15] dano escuridão. Oportunidade: Alvos ficam Fracos."]
+                    ["Umbra (offensive spells)", "10 x T", "Até 3 criaturas", "Instantânea", "Causa [HR + 15] dano escuridão. Oportunidade: Alvos ficam Fracos(weak)."]
                 ]
             },
             {
@@ -302,8 +302,8 @@
                 "headers": ["Resultado", "Efeito"],
                 "rows": [
                     ["1", "Você perde metade do seu PV e PM atual."],
-                    ["2-3", "Todas as criaturas na cena (incluindo você) ficam Envenenadas."],
-                    ["4-6", "Todas as criaturas na cena (incluindo você) ficam Lentas."],
+                    ["2-3", "Todas as criaturas na cena (incluindo você) ficam Envenenadas(poisoned)."],
+                    ["4-6", "Todas as criaturas na cena (incluindo você) ficam Lentas(Slow)."],
                     ["7-8", "Até 3 alvos recuperam 50 PV e curam todos os status."],
                     ["9+", "Qualquer número de alvos sofre 30 de dano. Role d6 para o tipo: 1.Ar, 2.Raio, 3.Escuridão, 4.Terra, 5.Fogo, 6.Veneno."]
                 ]
@@ -337,7 +337,7 @@
         {
             "nome": "PROVOCATION",
             "sl": 5,
-            "descricao": "Você pode usar uma ação e gastar 5 Pontos de Mente (MP) para realizar um Teste Oposto (Opposed Check) de 【MIG + WLP】 contra uma criatura que você possa ver — descreva como você a provoca! Se você tiver sucesso, o alvo sofre enfurecido (enraged) e é compelido a focar a atenção em você (seus ataques e magias ofensivas devem incluir você entre os alvos, se possível). Esta compulsão termina se você cair inconsciente ou sair da cena, se a criatura não estiver mais enfurecida, ou se ela for provocada com sucesso por outra pessoa. Você ganha um bônus igual a 【SL】 nos seus Testes de 【MIG + WLP】 para esta Habilidade."
+            "descricao": "Você pode usar uma ação e gastar 5 Pontos de Mente (MP) para realizar um Teste Oposto (Opposed Check) de 【MIG + WLP】 contra uma criatura que você possa ver — descreva como você a provoca! Se você tiver sucesso, o alvo sofre enfurecido (enraged) e é compelido a focar a atenção em você (seus ataques e magias ofensivas devem incluir você entre os alvos, se possível). Esta compulsão termina se você cair inconsciente ou sair da cena, se a criatura não estiver mais enfurecida(enraged), ou se ela for provocada com sucesso por outra pessoa. Você ganha um bônus igual a 【SL】 nos seus Testes de 【MIG + WLP】 para esta Habilidade."
         },
         {
             "nome": "ENDURER",
@@ -427,7 +427,7 @@
         {
             "nome": "CONDAMNATION",
             "sl": 4,
-            "descricao": "Você pode usar uma ação e gastar 5 Pontos de Mente (MP) para realizar um Teste Oposto (Opposed Check) de 【INS + WLP】 contra uma criatura que possa ouvi-lo e entendê-lo — descreva suas acusações! Se você tiver sucesso, o alvo perde 【SL × 10】 Pontos de Mente e sofre atordoado (dazed) ou abalado (shaken) (à sua escolha). Você ganha um bônus equal a 【SL】 nos seus Testes de 【INS + WLP】 para esta Habilidade."
+            "descricao": "Você pode usar uma ação e gastar 5 Pontos de Mente (MP) para realizar um Teste Oposto (Opposed Check) de 【INS + WLP】 contra uma criatura que possa ouvi-lo e entendê-lo — descreva suas acusações! Se você tiver sucesso, o alvo perde 【SL × 10】 Pontos de Mente e sofre atordoado (Dazed) ou abalado (Shaken) (à sua escolha). Você ganha um bônus equal a 【SL】 nos seus Testes de 【INS + WLP】 para esta Habilidade."
         },
         {
             "nome": "ENCOURAGEMENT",
@@ -517,7 +517,7 @@
         {
             "nome": "TIR D'AVERTISSEMENT",
             "sl": 4,
-            "descricao": "Quando você acerta um ou mais alvos com um ataque à distância que causaria dano, você pode fazer com que o ataque não cause dano. Se o fizer, escolha uma opção: inflija abalado em cada alvo atingido pelo ataque; ou inflija lento em cada alvo atingido pelo ataque; ou cada alvo atingido pelo ataque perde 【SL × 10】 Pontos de Mente. Descreva sua manobra!"
+            "descricao": "Quando você acerta um ou mais alvos com um ataque à distância que causaria dano, você pode fazer com que o ataque não cause dano. Se o fizer, escolha uma opção: inflija Abalado(Shaken) em cada alvo atingido pelo ataque; ou inflija lento(Slow) em cada alvo atingido pelo ataque; ou cada alvo atingido pelo ataque perde 【SL × 10】 Pontos de Mente. Descreva sua manobra!"
         }
     ]
 },
@@ -566,14 +566,14 @@
                     ["Awaken", "20", "Uma criatura", "Cena", "Um atributo escolhido aumenta em um tamanho de dado (máx. d12)."],
                     ["Barrier", "5 x T", "Até 3 criaturas", "Cena", "Defesa física dos alvos torna-se 12 (se for menor)."],
                     ["Cleanse", "5 x T", "Até 3 criaturas", "Instantânea", "Alvos recuperam-se de todos os efeitos de status."],
-                    ["Enrage (Offensive Spell)", "10", "Uma criatura", "Instantânea", "Alvo fica Enfurecido e não pode usar ações Proteger ou Conjurar."],
-                    ["Hallucination (Offensive Spell)", "5 x T", "Até 3 criaturas", "Instantânea", "Alvos sofrem Atordoado ou Abalado."],
+                    ["Enrage (Offensive Spell)", "10", "Uma criatura", "Instantânea", "Alvo fica Enfurecido(enraged) e não pode usar ações Proteger ou Conjurar."],
+                    ["Hallucination (Offensive Spell)", "5 x T", "Até 3 criaturas", "Instantânea", "Alvos sofrem Atordoado(Dazed) ou Abalado(Shaken)."],
                     ["Heal", "10 x T", "Até 3 criaturas", "Instantânea", "Recupera 40 PV (50 no nv20, 60 no nv40)."],
-                    ["Lux (Offensive Spell)", "10 x T", "Até 3 criaturas", "Instantânea", "Causa [RA + 15] dano de luz. Oportunidade: Alvos ficam Atordoados."],
+                    ["Lux (Offensive Spell)", "10 x T", "Até 3 criaturas", "Instantânea", "Causa [RA + 15] dano de luz. Oportunidade: Alvos ficam Atordoados(Dazed)."],
                     ["Mercy", "20", "Uma criatura", "Cena", "Se o alvo cair a 0 PV, ele fica com 1 PV (uma vez)."],
                     ["Reinforce", "5 x T", "Até 3 criaturas", "Cena", "Alvos tornam-se imunes a um status escolhido."],
                     ["Soul Weapon", "10", "Uma arma", "Cena", "Arma causa dano de luz. Permite um ataque gratuito ao conjurar."],
-                    ["Torpor (Offensive Spell)", "5 x T", "Até 3 criaturas", "Instantânea", "Alvos sofrem Lento ou Fraco."]
+                    ["Torpor (Offensive Spell)", "5 x T", "Até 3 criaturas", "Instantânea", "Alvos sofrem Lento(Slow) ou Fraco(Weak))"]
                 ]
             }
         ]
@@ -639,21 +639,21 @@
                 "caption": "Alquimia - Tabela de Efeitos",
                 "headers": ["Dado", "Efeito"],
                 "rows": [
-                    ["Qualquer", "Sufre 20 de dano de veneno OU recupera 30 PV."],
+                    ["Qualquer", "Sofre 20 de dano de veneno OU recupera 30 PV."],
                     ["1", "Trata DEX e MIG como um tamanho de dado maior (máx. d12) até o fim do seu próximo turno."],
                     ["2", "Trata INS e WLP como um tamanho de dado maior (máx. d12) até o fim do seu próximo turno."],
-                    ["3", "Sufre 20 de dano de ar (30 no nv20, 40 no nv40)."],
-                    ["4", "Sufre 20 de dano de raio (30 no nv20, 40 no nv40)."],
-                    ["5", "Sufre 20 de dano de escuridão (30 no nv20, 40 no nv40)."],
-                    ["6", "Sufre 20 de dano de terra (30 no nv20, 40 no nv40)."],
-                    ["7", "Sufre 20 de dano de fogo (30 no nv20, 40 no nv40)."],
-                    ["8", "Sufre 20 de dano de gelo (30 no nv20, 40 no nv40)."],
+                    ["3", "sofre 20 de dano de ar (30 no nv20, 40 no nv40)."],
+                    ["4", "sofre 20 de dano de raio (30 no nv20, 40 no nv40)."],
+                    ["5", "sofre 20 de dano de escuridão (30 no nv20, 40 no nv40)."],
+                    ["6", "sofre 20 de dano de terra (30 no nv20, 40 no nv40)."],
+                    ["7", "sofre 20 de dano de fogo (30 no nv20, 40 no nv40)."],
+                    ["8", "sofre 20 de dano de gelo (30 no nv20, 40 no nv40)."],
                     ["9", "Ganha Resistência a ar e fogo até o fim da cena."],
                     ["10", "Ganha Resistência a raio e gelo até o fim da cena."],
                     ["11", "Ganha Resistência a escuridão e terra até o fim da cena."],
-                    ["12", "Sufre Enfurecido (Enraged)."],
-                    ["13", "Sufre Envenenado (Poisoned)."],
-                    ["14", "Sufre Atordoado, Abalado, Lento e Fraco."],
+                    ["12", "Sofre Enfurecido (Enraged)."],
+                    ["13", "Sofre Envenenado (Poisoned)."],
+                    ["14", "sofre Atordoado(Dazed), Abalado(Shaken), Lento(Slow) e Fraco(Weak)."],
                     ["15", "Recupera-se de todos os efeitos de status."],
                     ["16-17", "Recupera 50 PV e 50 PM."],
                     ["18", "Recupera 100 PV."],
@@ -669,7 +669,7 @@
                     ["Cyclone / Exorcism", "O ataque causa +5 de dano e o tipo torna-se Ar ou Luz."],
                     ["Seismic / Shadow", "O ataque causa +5 de dano e o tipo torna-se Terra ou Escuridão."],
                     ["Vampire (Superior)", "Recupera PV ou PM igual a metade da perda de PV sofrida pelo alvo (apenas alvo único)."],
-                    ["Venom (Superior)", "Dano torna-se veneno, causa +5 de dano e inflige Envenenado."]
+                    ["Venom (Superior)", "Dano torna-se veneno, causa +5 de dano e inflige Envenenado(poisoned)."]
                 ]
             },
             {
@@ -735,7 +735,7 @@
         {
             "nome": "BRISE-OS",
             "sl": 4,
-            "descricao": "Quando você acerta um ou mais alvos com um ataque corpo a corpo que causaria dano, pode fazer com que o ataque não cause dano. Se o fizer, escolha uma opção: inflija atordoado em cada alvo atingido pelo ataque; ou inflija fraco em cada alvo atingido pelo ataque; ou cada alvo atingido pelo ataque perde 【SL × 10】 Pontos de Mente. Descreva sua manobra!"
+            "descricao": "Quando você acerta um ou mais alvos com um ataque corpo a corpo que causaria dano, pode fazer com que o ataque não cause dano. Se o fizer, escolha uma opção: inflija atordoado(Dazed) em cada alvo atingido pelo ataque; ou inflija fraco(Weak) em cada alvo atingido pelo ataque; ou cada alvo atingido pelo ataque perde 【SL × 10】 Pontos de Mente. Descreva sua manobra!"
         },
         {
             "nome": "BRÈCHE",
@@ -829,7 +829,7 @@
         "caption": "Ginkgo Dourado (Golden Ginkgo)",
         "headers": ["Seções", "Efeito"],
         "rows": [
-          ["1", "Fim do turno: Você e aliados visíveis recuperam-se de Atordoado, Enfurecido e Abalado."],
+          ["1", "Fim do turno: Você e aliados visíveis recuperam-se de Atordoado(Dazed), Enfurecido(enraged) e Abalado(Shaken)."],
           ["2-3", "Fim do turno: Você e aliados visíveis recuperam PM iguais a [5 + Nível em Chloromancie]."]
         ]
       },
@@ -837,9 +837,9 @@
         "caption": "Asfódelo de Sepultura (Grave Asphodel)",
         "headers": ["Seções", "Efeito"],
         "rows": [
-          ["1", "Fim do turno: Escolha um inimigo visível; ele sofre o status Abalado."],
-          ["2", "Fim do turno: Todos os inimigos visíveis sofrem o status Abalado."],
-          ["3", "Fim do turno: Causa [15 + Nível em Chloromancie] de dano de escuridão a cada inimigo visível que esteja Abalado."]
+          ["1", "Fim do turno: Escolha um inimigo visível; ele sofre o status Abalado(Shaken)."],
+          ["2", "Fim do turno: Todos os inimigos visíveis sofrem o status Abalado(Shaken)."],
+          ["3", "Fim do turno: Causa [15 + Nível em Chloromancie] de dano de escuridão a cada inimigo visível que esteja Abalado(Shaken)."]
         ]
       },
       {
@@ -855,7 +855,7 @@
         "headers": ["Seções", "Efeito"],
         "rows": [
           ["0-1", "Todo seu dano torna-se veneno, ignora Imunidade/Resistência e não pode mudar."],
-          ["2-3", "Como acima. Além disso, na primeira vez que causar dano de veneno no seu turno, causa +[Nível em Chloromancie] de dano e inflige Envenenado."]
+          ["2-3", "Como acima. Além disso, na primeira vez que causar dano de veneno no seu turno, causa +[Nível em Chloromancie] de dano e inflige Envenenado(poisoned)."]
         ]
       },
       {
@@ -877,7 +877,7 @@
         "caption": "Lótus do Oceano (Ocean Lotus)",
         "headers": ["Seções", "Efeito"],
         "rows": [
-          ["0-1", "Você é imune a Atordoado e Lento."],
+          ["0-1", "Você é imune a Atordoado(Dazed) e Lento(Slow)."],
           ["2", "Sua DEX e INS aumentam em um tamanho de dado (máx. d12)."],
           ["3", "Você e aliados visíveis aumentam DEX e INS em um tamanho de dado (máx. d12)."]
         ]
@@ -901,7 +901,7 @@
         "caption": "Proteia Real (Regal Protea)",
         "headers": ["Seções", "Efeito"],
         "rows": [
-          ["0-1", "Você é imune a Abalado e Fraco."],
+          ["0-1", "Você é imune a Abalado(Shaken) e Fraco(weak)."],
           ["2", "Seu MIG e WLP aumentam em um tamanho de dado (máx. d12)."],
           ["3", "Você e aliados visíveis aumentam MIG e WLP em um tamanho de dado (máx. d12)."]
         ]
@@ -910,7 +910,7 @@
         "caption": "Lírio do Remédio (Remedy Lily)",
         "headers": ["Seções", "Efeito"],
         "rows": [
-          ["1", "Fim do turno: Você e aliados visíveis recuperam-se de Envenenado, Lento e Fraco."],
+          ["1", "Fim do turno: Você e aliados visíveis recuperam-se de Envenenado(Poisoned), Lento(Slow) e Fraco(Weak)."],
           ["2-3", "Fim do turno: Você e aliados visíveis recuperam PV iguais a [15 + Nível em Chloromancie]."]
         ]
       },
@@ -918,9 +918,9 @@
         "caption": "Rosa Serrilhada (Serrated Rose)",
         "headers": ["Seções", "Efeito"],
         "rows": [
-          ["1", "Fim do turno: Escolha um inimigo visível; ele sofre o status Lento."],
-          ["2", "Fim do turno: Todos os inimigos visíveis sofrem o status Lento."],
-          ["3", "Fim do turno: Causa [15 + Nível em Chloromancie] de dano físico a cada inimigo visível que esteja Lento."]
+          ["1", "Fim do turno: Escolha um inimigo visível; ele sofre o status Lento(Slow)."],
+          ["2", "Fim do turno: Todos os inimigos visíveis sofrem o status Lento(Slow)."],
+          ["3", "Fim do turno: Causa [15 + Nível em Chloromancie] de dano físico a cada inimigo visível que esteja Lento(Slow)."]
         ]
       },
       {
@@ -935,18 +935,18 @@
         "caption": "Peônia Estelar (Star Peony)",
         "headers": ["Seções", "Efeito"],
         "rows": [
-          ["1", "Fim do turno: Escolha um inimigo visível; ele sofre o status Atordoado."],
-          ["2", "Fim do turno: Todos os inimigos visíveis sofrem o status Atordoado."],
-          ["3", "Fim do turno: Causa [15 + Nível em Chloromancie] de dano de luz a cada inimigo visível que esteja Atordoado."]
+          ["1", "Fim do turno: Escolha um inimigo visível; ele sofre o status Atordoado(Dazed)."],
+          ["2", "Fim do turno: Todos os inimigos visíveis sofrem o status Atordoado(Dazed)."],
+          ["3", "Fim do turno: Causa [15 + Nível em Chloromancie] de dano de luz a cada inimigo visível que esteja Atordoado(Dazed)."]
         ]
       },
       {
         "caption": "Orquídea Listrada (Striped Orchid)",
         "headers": ["Seções", "Efeito"],
         "rows": [
-          ["1", "Fim do turno: Escolha um inimigo visível; ele sofre o status Fraco."],
-          ["2", "Fim do turno: Todos os inimigos visíveis sofrem o status Fraco."],
-          ["3", "Fim do turno: Causa [15 + Nível em Chloromancie] de dano de veneno a cada inimigo visível que esteja Fraco."]
+          ["1", "Fim do turno: Escolha um inimigo visível; ele sofre o status Fraco(weak)."],
+          ["2", "Fim do turno: Todos os inimigos visíveis sofrem o status Fraco(weak)."],
+          ["3", "Fim do turno: Causa [15 + Nível em Chloromancie] de dano de veneno a cada inimigo visível que esteja Fraco(weak)."]
         ]
       },
       {
@@ -1033,8 +1033,8 @@
         "caption": "Tabela de Efeitos de Iguaria (d12)",
         "headers": ["Dado", "Efeito da Combinação"],
         "rows": [
-          ["1", "Alvos recuperam-se de UM status: Atordoado, Enfurecido, Envenenado, Abalado, Lento ou Fraco."],
-          ["2", "Alvos sofrem UM status: Atordoado, Abalado, Lento ou Fraco."],
+          ["1", "Alvos recuperam-se de UM status: Atordoado(Dazed), Enfurecido(enraged), Envenenado(poisoned), Abalado(Shaken), Lento(Slow) ou Fraco(Weak)."],
+          ["2", "Alvos sofrem UM status: Atordoado(Dazed), Abalado(Shaken), Lento(Slow) ou Fraco(Weak)."],
           ["3", "Alvos recuperam 40 PV (50 se nível 30+)."],
           ["4", "Alvos recuperam 40 PM (50 se nível 30+)."],
           ["5", "Dano Elemental: Causa 20 de dano (Ar, Raio, Terra, Fogo, Gelo ou Veneno). 30 no nv 30+."],
@@ -1244,14 +1244,14 @@
         "caption": "Claves (Keys) do Verso",
         "headers": ["Clave", "Tipo", "Efeito de Status", "Atributo", "Recuperação"],
         "rows": [
-          ["Flamme (Flame)", "Fogo", "Abalado(shaken)", "Might", "Pontos de Vida"],
-          ["Givre (Frost)", "Gelo", "Fraco(weak)", "Willpower", "Pontos de Mente"],
-          ["Fer (Iron)", "Físico", "Lento(slow)", "Willpower", "Pontos de Mente"],
-          ["Éclat (Radiance)", "Raio", "Abalado(shaken)", "Dexterity", "Pontos de Vida"],
-          ["Ombre (Shadow)", "Luz", "Atordoado(dazed)", "Insight", "Pontos de Vida"],
-          ["Pierre (Stone)", "Escuridão", "Fraco(weak)", "Dexterity", "Pontos de Mente"],
-          ["Tonnerre (Thunder)", "Terra", "Atordoado(dazed)", "Might", "Pontos de Vida"],
-          ["Vent (Wind)", "Ar", "Lento(slow)", "Insight", "Pontos de Mente"]
+          ["Flamme (Flame)", "Fogo", "Abalado(Shaken)", "Might", "Pontos de Vida"],
+          ["Givre (Frost)", "Gelo", "Fraco(Weak)", "Willpower", "Pontos de Mente"],
+          ["Fer (Iron)", "Físico", "Lento(Slow)", "Willpower", "Pontos de Mente"],
+          ["Éclat (Radiance)", "Raio", "Abalado(Shaken)", "Dexterity", "Pontos de Vida"],
+          ["Ombre (Shadow)", "Luz", "Atordoado(Dazed)", "Insight", "Pontos de Vida"],
+          ["Pierre (Stone)", "Escuridão", "Fraco(Weak)", "Dexterity", "Pontos de Mente"],
+          ["Tonnerre (Thunder)", "Terra", "Atordoado(Dazed)", "Might", "Pontos de Vida"],
+          ["Vent (Wind)", "Ar", "Lento(Slow)", "Insight", "Pontos de Mente"]
         ]
       },
       {
@@ -1347,20 +1347,20 @@
         "headers": ["Dança", "Duração", "Efeito Detalhado"],
         "rows": [
           ["Danse de l'Ange", "Cena", "Escolha: Ganha Resistência a Luz OU todo seu dano (ataques/magias) torna-se Luz."],
-          ["Danse de la Banshee", "Instantânea", "Escolha uma criatura visível. Se ela já estiver Lenta, ela sofre imediatamente o status Abalado."],
+          ["Danse de la Banshee", "Instantânea", "Escolha uma criatura visível. Se ela já estiver Lenta(Slow), ela sofre imediatamente o status Abalado(Shaken)."],
           ["Danse de la Chauve-souris", "Cena", "Escolha: Ganha Resistência a Escuridão OU todo seu dano torna-se Escuridão."],
           ["Danse du Golem", "Cena", "Escolha: Ganha Resistência a Raio OU todo seu dano torna-se Raio."],
           ["Danse du Griffon", "Cena", "Escolha: Ganha Resistência a Ar OU todo seu dano torna-se Ar."],
           ["Danse de l'Hydre", "Cena", "Após sofrer dano, escolha: recupera 5 PV OU recupera 5 PM."],
-          ["Danse du Kraken", "Instantânea", "Escolha uma criatura visível. Se ela estiver Atordoada, sofre imediatamente o status Lento."],
+          ["Danse du Kraken", "Instantânea", "Escolha uma criatura visível. Se ela estiver Atordoada(Dazed), sofre imediatamente o status Lento(Slow)."],
           ["Danse du Lion", "Instantânea", "Você se recupera imediatamente de um efeito de status à sua escolha."],
           ["Danse de la Ménade", "Instantânea", "Escolha uma criatura visível. Ela perde PM igual ao seu dado de Dexterity atual."],
           ["Danse du Myrmidon", "Cena", "Escolha: Ganha Resistência a Terra OU todo seu dano torna-se Terra."],
-          ["Danse du Cauchemar", "Instantânea", "Escolha uma criatura visível. Se ela estiver Abalada, sofre imediatamente o status Fraco."],
+          ["Danse du Cauchemar", "Instantânea", "Escolha uma criatura visível. Se ela estiver Abalada, sofre imediatamente o status Fraco(weak)."],
           ["Danse de l'Ouroboros", "Instantânea", "Escolha um aliado visível que ainda não agiu. Ele pode agir imediatamente após o seu turno."],
           ["Danse du Paon", "Instantânea", "Escolha uma criatura visível. O próximo ataque ou magia ofensiva dela deve incluir você como alvo, se possível."],
           ["Danse du Phénix", "Cena", "Escolha: Ganha Resistência a Fogo OU todo seu dano torna-se Fogo."],
-          ["Danse du Satyre", "Instantânea", "Escolha uma criatura visível. Se ela estiver Fraca, sofre imediatamente o status Atordoado."],
+          ["Danse du Satyre", "Instantânea", "Escolha uma criatura visível. Se ela estiver Fraca, sofre imediatamente o status Atordoado(Dazed)."],
           ["Danse de la Licorne", "Instantânea", "Escolha um aliado visível com quem você tenha um Laço: você e ele recuperam PV igual ao seu dado de Dexterity. +5 PV no nv 20, +10 PV no nv 40."],
           ["Danse du Yéti", "Cena", "Escolha: Ganha Resistência a Gelo OU todo seu dano torna-se Gelo."]
         ]
