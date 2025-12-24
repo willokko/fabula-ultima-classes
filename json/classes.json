@@ -283,7 +283,7 @@
                 "caption": "Magias de Entropista",
                 "headers": ["Magia", "Custo (PM)", "Alvo", "Duração", "Efeito"],
                 "rows": [
-                    ["Acceleration", "20", "Uma criatura", "Cena", "Alvo ganha 1 ação extra por turno (máx. 2 ações extras no total)."],
+                    ["Acceleration", "20", "Uma criatura", "Cena", "Alvo ganha 1 ação extra por turno (depois de 2 ações extras, a magia cessa)."],
                     ["Anomaly", "20", "Uma criatura", "Cena", "Se o alvo sofreria dano que Absolve ou é Imune, é tratado como Vulnerável uma vez."],
                     ["Dark Weapon", "10", "Uma arma", "Cena", "Arma causa dano de escuridão. Permite um ataque gratuito ao conjurar."],
                     ["Dispel", "10", "Uma criatura", "Instantânea", "Remove efeitos de magias com duração de Cena do alvo."],
