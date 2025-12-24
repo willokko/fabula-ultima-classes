@@ -362,7 +362,7 @@
         {
             "nome": "MAÎTRISE DÉFENSIVE",
             "sl": 5,
-            "descricao": "Enquanto você tiver um escudo (shield) ou uma armadura marcial (martial armor) equipada, todo dano que você sofrer é reduzido e【SL】 (aplicado antes das Afinidades de dano)."
+            "descricao": "Enquanto você tiver um escudo (shield) ou uma armadura marcial (martial armor) equipada, todo dano que você sofrer é reduzido em 【SL】 (aplicado antes das Afinidades de dano)."
         },
         {
             "nome": "DOUBLE BOUCLIER",
