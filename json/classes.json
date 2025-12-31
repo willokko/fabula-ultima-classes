@@ -1427,7 +1427,7 @@
           ["Symbole de Sacrifice", "Quando o portador sofre dano e você o vê, você pode destruir o símbolo para sofrer o dano no lugar dele."],
           ["Symbole de Sorcellerie", "O custo de PM de magias que miram o portador é reduzido em 5 (mínimo de 5 PM). Efeito cumulativo se vários portadores forem mirados."],
           ["Symbole de Vérité", "Testes para examinar/localizar o portador, e Testes de Precisão/Magia contra ele ganham bônus de +2. Cumulativo."],
-          ["Symbole de Faiblesse", "Escolha um tipo de dano ao criar. O portador sofre 5 de dano extra de fontes que causem esse tipo de dano."]
+          ["Symbole de Faiblesse", "Ao criar, escolha um tipo de dano entre: air, bolt, dark, earth, fire, ice, light, or poison. O portador sofre 5 de dano extra de fontes que causem esse tipo de dano."]
         ]
       }
     ]
