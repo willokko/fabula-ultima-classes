@@ -42,73 +42,94 @@
 "caption": "Resumo de Regras",
 "headers": ["Ação", "Custo (PM)", "Duração"],
 "rows": [
-["Invocar Arcanum", "40", "Até ser dispensado"],
+["Invocar Arcanum", "40 (1 Ação)", "Até ser dispensado"],
+["Pulso", "0 (1 Ação)", "Instantâneo"],
 ["Dispensar (Voluntário)", "0 (Sem Ação)", "Instantâneo"],
 ["Escalonamento de Dano", "Nível 20/40", "+10 / +20 de dano"]
 ]
 },
 {
 "caption": "Arcanum da Forja (Forge)",
-"headers": ["Benefícios de Fusão (Merge)", "Efeito de Dispensa (Dismiss)"],
+"headers": ["Benefícios de Fusão (Merge)", "Pulso", "Efeito de Dispensa (Dismiss)"],
 "rows": [
-["Resistência a Fogo; Seus danos de fogo ignoram Resistência.", "Forge: Cria arma/armadura/escudo básico de fogo. Inferno: 30 dano fogo em alvos escolhidos."],
-["", "Inferno. Escolha qualquer número de criaturas que você possa ver: cada uma delas sofre 30 de dano de fogo. Esse dano ignora Resistências."]
+["Resistência a Fogo; Seus danos de fogo ignoram Resistência. Quando causar dano pode escolher para que se torne dano de Fogo", "Escolha uma arma que você tem euipada; você pode trocar a Categoria dessa arma (veja o Core Rulebook, página 129) para outra Categoria de sua escolha até o fim do seu próximo turno. Então, performe um Free Attack com essa arma: esse ataque ganha o multi(2).", "Escolha entre: você dá 20 de dano de fogo a todos os inimigos presentes na cena, e esse ignora Resistências; ou, até o começo do seu próximo turno todo dano realizado por você ou aliados se torna dano de Fogo e não pode ser alterado."]
 ]
 },
 {
 "caption": "Arcanum do Gelo (Frost)",
-"headers": ["Benefícios de Fusão (Merge)", "Efeito de Dispensa (Dismiss)"],
+"headers": ["Benefícios de Fusão (Merge)", "Pulso","Efeito de Dispensa (Dismiss)"],
 "rows": [
-["Resistência a Gelo; Imune a Enfurecido(enraged); Seus danos de gelo ignoram Resistência.", "Era do Gelo: Escolha qualquer número de criaturas para sofrerem 30 de dano de gelo. Ignora Resistências."]
+["Resistência a Gelo; Imune a Enfurecido(enraged); Seus danos de gelo ignoram Resistência; Quando der dano por escolher dar dano de Gelo.", "Você dá 10 de dano de Gelo em até 2 criaturas que você consegue ver. Então, cada criatura que perdeu PV por causa dessa habilidade sofre de Fraco","Era do Gelo: Você dá 20 de dano de gelo em todos inimigos presentes em cena. Esse dano Ignora Resistências; cada criatura que perdeu PV por causa dessa habilidade perde a mesma quantidade em Pontos de Mente."]
 ]
 },
 {
 "caption": "Arcanum do Portal (Gate)",
-"headers": ["Benefícios de Fusão (Merge)", "Efeito de Dispensa (Dismiss)"],
+"headers": ["Benefícios de Fusão (Merge)", "Pulso","Efeito de Dispensa (Dismiss)"],
 "rows": [
-["Resistência a Escuridão; Ganha +1 de Defesa Mágica.", "Esquecimento: 30 de dano de escuridão (ignora Res.). \nWarp: Você se teleporta, juntamente com até cinco outras criaturas voluntárias próximas, para um local que você já tenha visitado anteriormente, desde que esse local esteja a até 1 dia de viagem de distância."]
+["Depois de perder Pontos de Vida por conta de dano, se esse dano tem um tipo a esse tipo não é físico, vocÊ ganha Resistência para esse tipo de dano e perde qualquer outra resistência dada por esse efeito. Quando esse Arcanum é Dispensado você perde qualquer resistência recebido por ele.", "Você dá 10 de dano de Fogo para uma criatura que você pode ver, depois 10 de dano de Gelo para uma criatura que você consegue ver(a mesma, ou outra).", "Escolha uma opção: todo inimigo presente na cena sofre Lento(Slow); ou todo inimigo presente na cena que está sofrente de Lento(Slow) performará uma ação a menos no próximo turno dele(mínimo de 0 ações); ou você teleporta a si mesmo an até cinco outros aliados próximos e que você consegue ver para uma localizaçao que você visitou no passado e que esteja a até 1 dia de viagem. Se você escolher a segunda e terceira opção, esse efeito não pode ser escolhido novamente até o próximo amanhecer."]
 ]
 },
 {
 "caption": "Arcanum do Grimório (Grimoire)",
-"headers": ["Benefícios de Fusão (Merge)", "Efeito de Dispensa (Dismiss)"],
+"headers": ["Benefícios de Fusão (Merge)", "Pulso", "Efeito de Dispensa (Dismiss)"],
 "rows": [
-["Lê/Fala todos os idiomas; Intuição (INS) sobe um tamanho de dado (máx. d12).", "Oráculo: Você faz uma única pergunta ao Mestre do Jogo. O Mestre deve responder com a verdade, descrevendo a visão que lhe é mostrada pelo Grimório. Uma vez usado, este efeito de dispensa não poderá ser utilizado novamente até o próximo amanhecer. Além disso, a mesma pergunta nunca poderá ser feita mais de uma vez. O Mestre tem a palavra final sobre quais perguntas são semelhantes demais para serem feitas novamente."]
+["Você tem resistência à danos de Escuridão e Luz. Você não pode ter mais do que 10 Pontos de Gnosi, e você perde todos os pontos de Gnosi assim que esse Arcanum é dispensado.", "Você perforam um Free Attack com uma arma que você tenha equipado; se é um ataque corpo a corpo ele pode atingir criaturas voadoras. Esse ataque causa dano extra igual a sua quantidade atual de pontos de Gnosi, e um adicional de 5 de dano extra contra criatura que absorvem dano de Luz ou são imune a ele. Depois de executar esse ataque, você ganha 1 Ponto de Gnosi para toda criatura que tenha perdido Pontos de Vida por causa desse dano.", "Todo inimigo presente na cena perde uma quantidade de Pontos de Vida igual a 【quantidade de Pontos de Gnosi você perde por dispensar esse Arcanum, multiplicado por 5】. Essa perda de Pontos de Vida aumenta em 10 contra Vilões; adicionalmente, ele aumente em 10 se você é nivel 20 ou superior, ou em 20 se você é nível 40 ou superior"]
 ]
 },
 {
 "caption": "Arcanum do Carvalho (Oak)",
-"headers": ["Benefícios de Fusão (Merge)", "Efeito de Dispensa (Dismiss)"],
+"headers": ["Benefícios de Fusão (Merge)", "Pulso", "Efeito de Dispensa (Dismiss)"],
 "rows": [
-["Resistência a Terra/Veneno; Imune a Envenenado(poisoned); +5 em curas recebidas.", "Florescer: Escolha qualquer número de criaturas que você possa ver (você também pode escolher a si mesmo): cada uma delas se recupera da condição Envenenado(poisoned) e recupera 40 Pontos de Vida. Esse valor aumenta para 50 Pontos de Vida se você for nível 20 ou superior, ou para 60 Pontos de Vida se você for nível 40 ou superior."]
+["Resistência a Terra; Imune a Envenenado(poisoned); seus ataques corpo a corpo consegue acertar criaturas voadoras.", "Você causa 10 de dano de Veneno em até 2 criaturas que possa ver. Então, cada criatura que perdeu PV dessa forma fica Lenta(Slow)", "Você causa 20 de dano em cada inimigo em cena que não esteja no ar. Esse dano ignora Resistências, e també ignora Imunidades e Absorção de criaturas que estejam Lentas(Slow)."]
 ]
 },
 {
 "caption": "Arcanum do Céu (Sky)",
-"headers": ["Benefícios de Fusão (Merge)", "Efeito de Dispensa (Dismiss)"],
+"headers": ["Benefícios de Fusão (Merge)", "Pulso", "Efeito de Dispensa (Dismiss)"],
 "rows": [
-["Resistência a Ar/Raio; Pode prever o clima para o dia seguinte.", "Tempestade: Escolha qualquer número de criaturas para sofrerem 30 de dano de raio. Ignora Resistências."]
+["Resistência a Ar, se você der dano de ar ou físico, você causa dano extra igual a seus Pontos de Ventania. Você perde seus pontos de ventania quanto dispensa essa Arcanum.", "Você causa 10 de dano de ar em até 2 criaturas que você veja. Ganha 1 ponto de ventania, ou 2 pontos de ventania se você só causou dano a uma criatura.", "Você causa uma quantidade de dano de ar igual a 【seus Pontos de Ventania multiplicado por 5】 em todos inimigos presentes na cena. Esse dano ignora Resistências."]
 ]
 },
 {
 "caption": "Arcanum da Espada (Sword)",
-"headers": ["Benefícios de Fusão (Merge)"],
+"headers": ["Benefícios de Fusão (Merge)", "Pulso", "Efeito de Dispensa (Dismiss)"],
 "rows": [
-["Seus ataques causam 5 de dano adicional, e todo o dano causado por seus ataques é tratado como sem tipo (portanto, não é afetado por Afinidades de dano). O dano causado por seus ataques não pode ganhar um tipo enquanto você estiver fundido com este Arcanum. Quando você realiza um ataque, pode fazer com que esse ataque ganhe a propriedade múltiplo (qualquer número de alvos). Se fizer isso, este Arcanum será automaticamente dispensado após a resolução do ataque (isso não é considerado uma dispensa voluntária)."]
+["Quando você causa dano, você causa 5 de dano extra; todo seu dano perde o tipo e não pode ganhar nenhum tipo.", "Você performa um ataque gratuito com uma arma equipada. Esse Ataque mira na defesa mágica invés da defesa.", "Uma criatura que você pode ver perde 30 de Pontos de Mente, ou 40 se você for nível 30 ou acima. Então, se essa criatura não é um Vilão e a vida atual dele for menor que a sua pontuação de Crise, a vida dela é reduzida a 0."]
 ]
 },
 {
 "caption": "Arcanum da Torre (Tower)",
-"headers": ["Benefícios de Fusão (Merge)", "Efeito de Dispensa (Dismiss)"],
+"headers": ["Benefícios de Fusão (Merge)", "Pulso", "Efeito de Dispensa (Dismiss)"],
 "rows": [
-["Escolha um tipo de dano elemental: todos os aliados ganham Resistência a ele.", "Julgamento: Escolha qualquer número de criaturas para sofrerem 30 de dano de luz. Ignora Resistências."]
+["Escolha um tipo de dano elemental(exceto luz e sombrio): todos os aliados ganham Resistência a ele(você não ganha).", "Escolha uma opção: você causa 20 de dano de luz em um inimigo a vista; ou uma criatura que estiver sendo afetado por uma ou mais magias de duração cena deixa de estar sendo afetado por essas magias", "Você causa 20 de dano de Luz em todos inimigos em cena, esse dano ignora Resistências."]
 ]
 },
 {
-"caption": "Arcanum da Roda (Wheel)",
-"headers": ["Benefícios de Fusão (Merge)", "Efeito de Dispensa (Dismiss)"],
+"caption": "Arcanum da Morte (Death)",
+"headers": ["Benefícios de Fusão (Merge)", "Pulso", "Efeito de Dispensa (Dismiss)"],
 "rows": [
-["Imune ao status Lento(Slow); Ganha +1 de Defesa.", "Parar o Tempo: Escolha qualquer número de criaturas que você possa ver: cada uma delas sofre a condição Lento(Slow). Se uma criatura escolhida dessa forma já estiver Lenta(Slow), ela realizará uma ação a menos durante seu próximo turno (mínimo de 0 ações)."]
+["Resistência a dano sombrio, todo dano que você causa ignora Resistências.", "Você causa 10 de dano Sombrio em até 2 criaturas. Esse ataca causa 5 de dano extra em humanoides", "Você causa 30 de dano Sombrio em uma criatura que possa ver; esse dano ignora Resistências e Imunidades. Então, se essa criatura está em crie e perdeu PV por causa desse dano, você recupera PV igual metade do PV perdido por ela."]
+]
+},
+{
+"caption": "Arcanum da Temperança (Prosperity)",
+"headers": ["Benefícios de Fusão (Merge)", "Pulso", "Efeito de Dispensa (Dismiss)"],
+"rows": [
+["Considere seu dado de Sabedoria 1 tamanho mais alto(máximo de d12).", "Escolha: um aliado que você veja trata o dado de Sabedoria dele como um tamanho maior(máximo de d12) até o começo do seu próximo turno; ou você performa uma magia de graça, conjurando uma magia não ofensiva com um total de custo de PM menor que 10 sem gastar PM.", "Você faz uma pergunta para o Mestre. O Mestre deve responder verdadeiramente lhe descrevendo a visão mostrada por essa Arcanum. Uma vez usado, esse efeito só pode ser usado novamente após o próximo amanhecer."]
+]
+},
+{
+"caption": "Arcanum da Fauna",
+"headers": ["Benefícios de Fusão (Merge)", "Pulso", "Efeito de Dispensa (Dismiss)"],
+"rows": [
+["Resistência a dano de Raio, e todo dano de raio causado por você ou aliados ignora Resistências. Você cosnegue se comunicar com criatura das espécies: Besta, Monstro e Planta.", "Escolha uma opção: você performa um Free Attack com uma arma empunhada; ou você performa uma ação de magia gratuitamente, conjurando uma magia ofensiva com um custo total de 20 ou menos. Você pode alterar o tipo desse ataque ou magia para Raio", "Você causa 20 de dano em todos inimigos presentes em cena. Esse dano ignora resistências; cada criatura que perdeu PV por isso fica Atordoada(Dazed)."]
+]
+},
+{
+"caption": "Arcanum da Cura",
+"headers": ["Benefícios de Fusão (Merge)", "Pulso", "Efeito de Dispensa (Dismiss)"],
+"rows": [
+["Escolha um efeito de status, enquanto fundido com essa Arcanum você e todos os aliados são imunes a ela.", "Escolha: você causa 10 de dano de luz em até 2 inimigos; ou uma criatura a vista se recupera de um efeito de status.", "Você e cada aliado presente recuperam 30 Pontos de Vida. Essa quantidade aumenta para 40 se você for nível 20 ou superior, e para 50 se você for nível 40 ou superior."]
 ]
 }
 ]
